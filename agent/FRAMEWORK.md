@@ -1,8 +1,8 @@
 # The climb agent's framework (the owner's master plan, 2026-11-01)
 
 Goal: the best placement, aiming for Master, with one fixed comp per game (agent/config.json "comp"). The master
-plan page (the owner's artifact) draws the same as this file. The player is GPT-6.1 Terra high (Sol medium on odd
-games), every role GPT-6.1 Sol high (agent/config.json).
+plan page (the owner's artifact) draws the same as this file. The player is GPT-6.1 Terra high, or Claude Opus 5.5
+medium while Codex's usage is spent; every role is Claude Opus 5.5 medium (agent/config.json).
 
 Two phases: during the game, and outside it, where independent panels hand their output to the next through files.
 
@@ -33,33 +33,37 @@ players' games are kept out of it for the Judge (agent/comps/<comp>/heldout.json
 notes, the comp's code rules (each new one goes to the Editor, after the owner's yes) and version 1 of each stage
 strategy, every point with a source code checks.
 
-**Review**, after each game (agent/climb.py review_game, agent/roles/reviewer.md):
-1. the stage report, one session per stage (Job 1): every decision of every round graded against the best one the
-   state allowed - very good to very bad, or uncertain when the record cannot tell - never by the fight result, HP or
-   the place; the packet carries the whole game in numbers and the luck measured (agent/stage_review.py); the
-   Reviewer asks the player when it has a question (agent/ask_player.py); it writes what happened and the
-   differences from strong players that mattered; it does not grade whether a strategy was followed. Code scores
-   each part out of 10 from the grades;
-2. the diff report, one session per strategy stage (Job 4): this stage against the same stage of the comp's earlier
-   games, with the version, player model and code each played, and the watches due: keep, revise, revert, or not
-   enough evidence;
-3. the summary (Job 2): what decided the place and in which stage it began, harness faults and missing information
-   with evidence;
-4. the report page for the owner (agent/model/reviews/<run>-report.html): screenshots, scores, diff verdicts, the
-   running average of places;
-5. the change review (Job 3, agent/changes.py, recorded in agent/changes.jsonl): each harness change against its
-   watch - keep, remove, monitor.
+**Review**, once per batch of five games, never between them (the owner, 2026-11-06; agent/climb.py BATCH and
+batch_after, agent/roles/reviewer.md). Inside a batch a game gets only code's packets and measures (agent/digest.py,
+agent/metrics.py, the execution grade agent/smoke.py); the stage strategies and comp notes stay as they are, so the
+batch measures them. At the batch's end:
+1. code builds each game's stage packets: every round of the stage, the whole game in numbers and the luck measured
+   (agent/stage_review.py), strong players' rounds beside ours;
+2. the stage comparison, one session per stage (Job 6): that stage of all five games side by side, each game's
+   decisions graded in Job 1's format - very good to very bad against the best one the state allowed, or uncertain
+   when the record cannot tell - never by the fight result, HP or the place, nor by whether a strategy was followed;
+   what the side-by-side view shows (the same round played differently, the same fault again). The Reviewer may ask
+   the player (agent/ask_player.py). Code checks each audit is complete and sends a stage back once;
+3. the meta review (Job 5, agent/meta_review.py): the batch together, from the comparisons - what recurs, what each
+   change did against its watch, what was luck, faults of the learning loop itself; up to six actions, each to the
+   role that owns it;
+4. then the Editor on the open requests, the decision cases asked again on the notes as they are, and the
+   Strategist.
 
-**Strategist** (agent/roles/strategist.md): one session per stage the diff reports mark revise or revert. It reads
-the review and decides: rewrite (with a watch: where, expect, risk, how, games), revert, or keep. The Judge
-(agent/judge.py stage_gate) asks the stage's recorded strong players' decisions with the current and the new text,
-three times each, graded by code against the strong player's level and gold; the new text ships only if it scores no
-lower on the games the Strategist may read and on the held-out ones. Code writes the version (agent/stages.py).
+**Strategist** (agent/roles/strategist.md): after a batch review, one session per stage that is due - a stage the
+meta review names, a stage whose decision cases fail with its current text, and every stage after an owner rule
+was added or changed. It reads the review and decides: rewrite (with a watch: where, expect, risk, how, games),
+revert, or keep. The Judge (agent/judge.py stage_gate) decides a rewrite on the stage's round cases first (below);
+when they do not decide, it asks the stage's recorded strong players' decisions with the current and the new text,
+three times each, graded by code against the strong player's level and gold, and the new text ships only if it
+scores no lower on the games the Strategist may read and on the held-out ones. Code writes the version
+(agent/stages.py).
 
-**Harness fixes** (agent/roles/harness_fixer.md): the Editor takes the review's fault list as leads, confirms each
-fault in the game's log and screenshots, fixes it at its cause with a regression test from that record, and writes
-its watch in the commit. agent/check.py must pass. Anything new - a rule, a prompt line, a new behaviour - waits for
-the owner's yes.
+**Harness fixes** (agent/roles/harness_fixer.md): inside a batch the Editor works only the owner's requests; after
+the batch review it works every open request, and again while its last session made round cases pass. It takes the
+review's fault list as leads, confirms each fault in the game's log and screenshots, fixes it at its cause, and
+writes its watch in the commit. agent/check.py must pass. Anything new - a rule, a prompt line, a new behaviour -
+waits for the owner's yes.
 
 **Domain expert feedback** (the owner's; agent/expert/, agent/expert.py), first over every other part (the owner,
 2026-11-02: "my feedback should override the reviewer as domain expert found truth"; "this should be prioritized, the
