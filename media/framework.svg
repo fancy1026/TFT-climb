@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
 <title>TFT Climb framework</title>
-<desc>During a game, a player model plans each round and the harness carries the plan out on TFT and records everything. Between games, a Reviewer grades the record; an Editor fixes harness faults, each fix landing only when its round case passes; a Strategist rewrites stage strategies, which ship only when a Judge in code scores them no lower; strong players' games, read from video, give the Judge their decisions, the Strategist a play-along and the Reviewer a comparison; a domain expert's feedback becomes rules that come first in what the player reads.</desc>
+<desc>During a game, a player model plans each round and the harness carries the plan out on TFT and records everything. Every five games, a Reviewer grades the records; an Editor fixes harness faults, each fix landing only when its round case passes; a Strategist rewrites stage strategies, which ship only when a Judge in code scores them no lower; strong players' games, read from video, give the Judge their decisions, the Strategist a play-along and the Reviewer a comparison; a domain expert's feedback becomes rules that come first in what the player reads.</desc>
 <style>
   .lane { font-size: 16px; font-weight: 700; fill: #1f2328; }
   .bt { font-size: 15px; font-weight: 700; fill: #1f2328; }
@@ -77,21 +77,20 @@
 
 <!-- record -> reviewer -->
 <line x1="1037" y1="236" x2="1037" y2="334" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
-<text x="1047" y="292" class="labg">after each game</text>
+<text x="1047" y="292" class="labg">every five games</text>
 
 <rect x="918" y="338" width="238" height="426" rx="10" fill="#eaf2fc" stroke="#2f6fbf" stroke-width="1.6"/>
 <text x="936" y="366" class="bt">Reviewer</text>
-<text x="936" y="390" class="b">One session per stage.</text>
-<text x="936" y="414" class="b">Grades every decision of</text>
-<text x="936" y="433" class="b">every round against the best</text>
-<text x="936" y="452" class="b">one the state allowed, never</text>
-<text x="936" y="471" class="b">by the fight result or place.</text>
-<text x="936" y="495" class="b">Compares the stage with the</text>
-<text x="936" y="514" class="b">same stage of earlier games,</text>
-<text x="936" y="533" class="b">the strategy each played and</text>
-<text x="936" y="552" class="b">strong players' games.</text>
-<text x="936" y="576" class="b">Lists harness faults with</text>
-<text x="936" y="595" class="b">their evidence.</text>
+<text x="936" y="390" class="b">One session per stage, the</text>
+<text x="936" y="409" class="b">five games side by side.</text>
+<text x="936" y="433" class="b">Grades every decision against</text>
+<text x="936" y="452" class="b">the best one the state</text>
+<text x="936" y="471" class="b">allowed, never by the fight</text>
+<text x="936" y="490" class="b">result or the place.</text>
+<text x="936" y="514" class="b">A meta review finds what</text>
+<text x="936" y="533" class="b">recurs and what was luck.</text>
+<text x="936" y="557" class="b">Lists harness faults with</text>
+<text x="936" y="576" class="b">their evidence.</text>
 <text x="936" y="623" class="s">Code scores each part out</text>
 <text x="936" y="641" class="s">of 10 and measures the luck.</text>
 

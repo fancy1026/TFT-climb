@@ -3,8 +3,9 @@
 A multi-agent framework that plays Teamfight Tactics Ranked and learns from its own games and from strong
 players' games. Built on [TFT Harness](https://github.com/fancy1026/tft-harness).
 
-- **Learns from its own games.** After each game a Reviewer grades every decision, a Strategist rewrites the stage
-  strategies that went wrong, and an Editor fixes the harness faults the review found.
+- **Learns from its own games.** After every five games a Reviewer grades every decision, the five games side by
+  side; a Strategist rewrites the stage strategies that went wrong, and an Editor fixes the harness faults the review
+  found.
 - **Learns from strong players.** It finds strong players' games of its comp on YouTube and Twitch and reads them
   round by round from the video. The player plays along with them, and every new strategy is tested against their
   decisions.
@@ -27,8 +28,8 @@ the harness it plays through.
 - **The player.** A language model plays every round through
   [TFT Harness](https://github.com/fancy1026/tft-harness), which reads the screen and carries out its plans. It plays
   with what the agents have learned so far: the expert's rules, the comp's notes and a strategy for each stage.
-- **Review.** After a game, a Reviewer goes through it stage by stage and judges each decision by what was best at
-  that moment, not by how the fight turned out.
+- **Review.** After every five games, a Reviewer goes through them stage by stage, the five side by side, and
+  judges each decision by what was best at that moment, not by how the fight turned out.
 - **Strategy.** When a stage goes wrong, the Strategist rewrites how to play it. A Judge lets the new version in only
   if it does at least as well on decisions already recorded.
 - **Harness fixes.** When the harness itself made the mistake, the Editor fixes it, and the fix counts only once it
@@ -36,6 +37,8 @@ the harness it plays through.
 - **Strong players.** The agents watch strong players' games of the same comp: they learn the comp from them, set
   their own play beside them, and use their decisions to judge new strategies.
 - **Guards.** Each agent can change only its own part, and games start only when you start them.
+
+Each part as a diagram: [docs/framework.md](docs/framework.md).
 
 ## Running it
 
