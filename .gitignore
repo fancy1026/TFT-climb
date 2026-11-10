@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+runs/
+data/models/**/*.onnx
+data/models/**/*.part
+data/reference/
+data/metatft_shots/
+data/overlay-state.json
+data/ocr_memo*.npz
+data/champ-library/
+data/meta/current.json
+# downloaded at install (tools/fetch_assets.py): the game's own files are not shipped
+data/sources/cdragon-tft-*.json
+data/factual-catalogue-18.json
+data/champ-icons/
+data/item-icons-overlay/
+data/item-assets/*.png
+# icons the harness learns in play stay on this machine
+data/item-icons-learned/
+
+# downloaded at install (tools/fetch_radiant.py)
+tft_player/assets/radiant-items/*.png
+
+# what the climb writes while it runs (your games, reviews and what the agents learned)
+agent/STOP
+agent/judge-cache/
+agent/model/cache/
+agent/history/

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "One knowledge change proposed for the judge",
+  "type": "object",
+  "required": ["id", "author", "file", "new_text", "why", "evidence"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[A-Za-z0-9_.-]+$"},
+    "author": {"enum": ["analyst", "proposer", "owner"]},
+    "file": {"type": "string", "pattern": "^agent/memory/[A-Za-z0-9_./-]+\\.md$", "description": "the one memory file changed"},
+    "new_text": {"type": "string", "description": "the file's whole new text"},
+    "why": {"type": "string"},
+    "evidence": {"type": "array", "items": {"type": "string"}, "minItems": 1, "description": "train case ids, game numbers, sources"},
+    "anchors": {"type": "array", "items": {"type": "string"}, "description": "test cases the current version gets right that must stay right (from verdicts, never read from test cases)"},
+    "expects": {"type": "string", "description": "which kinds of decision it should change, and how"}
+  }
+}

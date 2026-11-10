@@ -1,0 +1,56 @@
+{
+  "patch": "18.6",
+  "snapshot": "cdragon-tft-2026-11-06.json",
+  "snapshot_sha256": "fe71efd40e06ca67ee0ab86efc0d5131ddb6f1baa2b1a3419dbc7f58af53a728",
+  "source": "data/sources/patch-18.6.md",
+  "authority": "https://teamfighttactics.leagueoflegends.com/en-us/news/game-updates/teamfight-tactics-patch-18-6/",
+  "trait_variables": {
+    "Blossom": {"7": {"ADAP": 0.55}, "9": {"ADAP": 0.65}}
+  },
+  "traits": {
+    "Elderwood": "At 9 pieces, the HP bonus is 10% (previously 25%).",
+    "Sprykin": "BFF ranged AD/AP is 15/30/38% at 3/5/7 Sprykin."
+  },
+  "champions": {
+    "Kobuko": "Spell healing is 300/350/550 (AP).",
+    "Rek'Sai": "Spell healing is 10/16/24 (AP).",
+    "Murkwolf": "Empowered attack damage is 65/100/180 AD.",
+    "Malphite": "Shield is 750/925/2000 (AP); spell damage is 100/150/2000 (AP).",
+    "Nidalee": "AD form healing is 325/550/2000 (AP), with 140% third-cast bonus damage. AP form empowered attack damage is 195/295/2000 (AP), and third attack damage is 350/525/3000 (AP).",
+    "Sentinel": "Shield HP ratio is 12%."
+  },
+  "wisps": {
+    "Curio Cart": {
+      "base": "Open an item store. Emblems cost 17 gold (patch 18.6); other item prices are shown in the store.",
+      "upgraded": "Open an item store. Emblems cost 17 gold (patch 18.6); other item prices are shown in the store. Gain 1 Gold."
+    },
+    "Middle Path": {
+      "base": "Reroll your shop with all 2-star 3-cost champions. Cost: 5 gold (patch 18.6).",
+      "upgraded": "Reroll your shop with all 2-star 3-cost champions. Cost: 4 gold (patch 18.6)."
+    },
+    "Moonrise": {
+      "upgraded": "After 8 seconds, increase Lunar's effects by 175%. Offered only while Blossom is active (patch 18.6)."
+    },
+    "Solar Gift": {
+      "upgraded": "Gain a Leona, Sejuani, and Kayle. Offered only while Blossom is active (patch 18.6)."
+    }
+  },
+  "augments": {
+    "Clockwork Accelerator": "Attack Speed per proc is 12%.",
+    "Embiggen": "Bonus Pixie AD/AP is 35%.",
+    "Plot Armor": "Base Armor and Magic Resist are 10.",
+    "Shopping Spree": "Initial gold is 7.",
+    "Unrivaled": "Rengar heal share is 50%; Kha'Zix mana share is 70%.",
+    "Calculated Loss": "Gold arrives at the beginning of the next planning phase.",
+    "Slightly Magic Roll": "The HP and size bonuses now apply correctly.",
+    "Cooking Pot": "Excluded from Coronation and Spreading Roots.",
+    "Flexible": "Mutually exclusive with U.R.F.",
+    "U.R.F": "Mutually exclusive with Flexible.",
+    "Hard Commit": "Ineligible emblems are excluded from its grants.",
+    "Worth the Wait": "The in-game Augment tooltip now displays the selected champion's name.",
+    "Worth the Wait II": "The in-game Augment tooltip now displays the selected champion's name.",
+    "Clear Mind": "No longer grants XP erroneously under certain circumstances.",
+    "Cluttered Mind": "No longer grants XP erroneously under certain circumstances.",
+    "Nesting Anvils": "The component anvil and gold are granted even with a full bench."
+  }
+}

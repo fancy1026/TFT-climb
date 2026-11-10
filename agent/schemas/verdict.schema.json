@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "The judge's paired comparison of two knowledge versions on the test cases",
+  "type": "object",
+  "required": [
+    "id",
+    "base",
+    "candidate",
+    "cases",
+    "score",
+    "paired",
+    "accept",
+    "reason",
+    "when"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "proposal": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "base": {
+      "type": "string",
+      "description": "the current knowledge: a commit, or 'none'"
+    },
+    "candidate": {
+      "type": "string"
+    },
+    "model": {
+      "type": "string"
+    },
+    "cases": {
+      "type": "integer"
+    },
+    "score": {
+      "type": "object",
+      "description": "per version: total and per kind, as points out of cases"
+    },
+    "paired": {
+      "type": "object",
+      "properties": {
+        "better": {
+          "type": "integer"
+        },
+        "worse": {
+          "type": "integer"
+        },
+        "same": {
+          "type": "integer"
+        },
+        "sign_p": {
+          "type": "number"
+        }
+      }
+    },
+    "per_case": {
+      "type": "array"
+    },
+    "accept": {
+      "type": "boolean"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "when": {
+      "type": "string"
+    },
+    "provisional": {
+      "type": "boolean",
+      "description": "the test set was too small to accept anything (MIN_TEST_GAMES, MIN_TEST_CASES)"
+    },
+    "question_version": {
+      "type": "integer"
+    },
+    "samples": {
+      "type": "integer",
+      "description": "repeat samples per version, averaged (judge.SAMPLES)"
+    },
+    "shipped": {
+      "type": "boolean",
+      "description": "the proposal's change is in agent/memory: accepted by the judge, or the owner's rule"
+    },
+    "awaiting": {
+      "type": "string",
+      "description": "who must act before it ships: 'owner'"
+    },
+    "owner": {
+      "type": "string",
+      "description": "the owner's decision on an accepted change"
+    }
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A decision case: one state and the expert's choice in it",
+  "type": "object",
+  "required": [
+    "id",
+    "source",
+    "game",
+    "t",
+    "stage",
+    "kind",
+    "state",
+    "expert"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9_.-]+$"
+    },
+    "source": {
+      "enum": [
+        "vod",
+        "demo",
+        "label"
+      ],
+      "description": "a stream video, the owner's recorded game, or the owner's label of an agent state"
+    },
+    "game": {
+      "type": "string",
+      "description": "the game it comes from (the split is per game)"
+    },
+    "player": {
+      "type": "string",
+      "description": "who decided: the streamer's name, 'owner'"
+    },
+    "t": {
+      "type": "number",
+      "description": "seconds into the video or the run"
+    },
+    "stage": {
+      "type": "string",
+      "pattern": "^[1-7]-[1-7]$"
+    },
+    "kind": {
+      "enum": [
+        "tempo",
+        "augment"
+      ]
+    },
+    "state": {
+      "type": "object",
+      "required": [
+        "keyframe"
+      ],
+      "properties": {
+        "keyframe": {
+          "type": "string",
+          "description": "file name under the keyframe folder (local only)"
+        },
+        "keyframe_sha1": {
+          "type": "string"
+        },
+        "level": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "xp": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "integer"
+          }
+        },
+        "gold": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "hp": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "cards": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "description": "augment: the three cards as shown"
+        },
+        "note": {
+          "type": "string"
+        },
+        "line": {
+          "type": "string",
+          "description": "what the expert's board was built toward, from the source (video title, narration, the owner) - never inferred from their decisions"
+        }
+      }
+    },
+    "expert": {
+      "type": "object",
+      "description": "tempo: level_end and gold_end at the end of the phase; augment: pick (a card name)",
+      "properties": {
+        "level_end": {
+          "type": "integer"
+        },
+        "gold_end": {
+          "type": "integer"
+        },
+        "pick": {
+          "type": "string"
+        },
+        "reason": {
+          "type": "string",
+          "description": "their own words, when known"
+        }
+      }
+    },
+    "client": {
+      "type": "string",
+      "description": "server / language of the game client, e.g. 'CN zh' or 'NA en'"
+    },
+    "set": {
+      "type": "string",
+      "description": "the TFT set and patch the game was played on, e.g. '18 18.4b' (FRAMEWORK rule 8)"
+    }
+  }
+}

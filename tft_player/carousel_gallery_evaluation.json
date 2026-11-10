@@ -1,0 +1,1560 @@
+{
+  "labels_complete": true,
+  "offered_units": 271,
+  "labelled_units": 271,
+  "gallery_units": 150,
+  "heldout_units": 125,
+  "gallery_views": 998,
+  "gallery_carousels": [
+    "20261103-120119/2-4",
+    "20261103-120119/3-4",
+    "20261103-120119/4-4",
+    "20261103-120119/5-4",
+    "20261103-131835/2-4",
+    "20261103-131835/3-4",
+    "20261103-131835/4-4",
+    "20261103-131835/5-4",
+    "20261103-143833/2-4",
+    "20261103-143833/3-4",
+    "20261103-143833/4-4",
+    "20261103-143833/5-4",
+    "20261103-233832/2-4",
+    "20261103-233832/3-4",
+    "20261103-233832/4-4",
+    "20261103-233832/5-4"
+  ],
+  "heldout_carousels": [
+    "20261104-102852/2-4",
+    "20261104-102852/3-4",
+    "20261104-102852/4-4",
+    "20261104-102852/5-4",
+    "20261104-102852/6-4",
+    "20261104-123556/2-4",
+    "20261104-123556/3-4",
+    "20261104-123556/4-4",
+    "20261104-123556/5-4",
+    "20261104-153922/2-4",
+    "20261104-153922/3-4",
+    "20261104-153922/4-4",
+    "20261104-153922/5-4"
+  ],
+  "gallery_sha256": "cabb787fe8e10ba52bf798ef2d234ee0f0b24d84e065e6743afa42f29c2dbd36",
+  "evaluation_scope": "first_offer",
+  "feature_spec": "dinov2-small-cls/rgb-imagenet-112x126/carousel-112x98-marker+52:145-x56/v1",
+  "threshold_curve": [
+    {
+      "cutoff": 0.7,
+      "lead": 0.05,
+      "accepted": 30,
+      "correct": 27
+    },
+    {
+      "cutoff": 0.75,
+      "lead": 0.05,
+      "accepted": 26,
+      "correct": 24
+    },
+    {
+      "cutoff": 0.8,
+      "lead": 0.05,
+      "accepted": 18,
+      "correct": 17
+    },
+    {
+      "cutoff": 0.85,
+      "lead": 0.05,
+      "accepted": 3,
+      "correct": 3
+    },
+    {
+      "cutoff": 0.9,
+      "lead": 0.05,
+      "accepted": 1,
+      "correct": 1
+    }
+  ],
+  "first_offer_detections": 279,
+  "visible_missed_units": 9,
+  "heldout_detections": 120,
+  "query_manifest_sha256": "eee93abc7fb26d84721c7784c7b7e509e17c22b804be9b961f29dbc219d5d3c2",
+  "heldout_unresolved": 0,
+  "embedding_seconds": 4.206,
+  "per_champion": {
+    "Yorick": {
+      "total": 2,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_1",
+          "truth": "Yorick",
+          "champion": null,
+          "candidate": "Vi",
+          "score": 0.78354811668396,
+          "lead": 0.0038094520568847656
+        },
+        {
+          "id": "20261104-153922_3-4_2",
+          "truth": "Yorick",
+          "champion": null,
+          "candidate": "Kha'Zix",
+          "score": 0.7457152605056763,
+          "lead": 0.011388421058654785
+        }
+      ],
+      "gallery_views": 4,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Shen": {
+      "total": 2,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_2",
+          "truth": "Shen",
+          "champion": null,
+          "candidate": "Sivir",
+          "score": 0.7707329988479614,
+          "lead": 0.06330537796020508
+        },
+        {
+          "id": "20261104-102852_4-4_9",
+          "truth": "Shen",
+          "champion": null,
+          "candidate": "Warwick",
+          "score": 0.7904684543609619,
+          "lead": 0.03213047981262207
+        }
+      ],
+      "gallery_views": 4,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Hecarim": {
+      "total": 4,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_3",
+          "truth": "Hecarim",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.7514005899429321,
+          "lead": 0.0014989376068115234
+        },
+        {
+          "id": "20261104-102852_6-4_1",
+          "truth": "Hecarim",
+          "champion": null,
+          "candidate": "Krug",
+          "score": 0.7461158037185669,
+          "lead": 0.018842697143554688
+        },
+        {
+          "id": "20261104-123556_2-4_6",
+          "truth": "Hecarim",
+          "champion": null,
+          "candidate": "Hecarim",
+          "score": 0.7512774467468262,
+          "lead": 0.006978273391723633
+        },
+        {
+          "id": "20261104-153922_3-4_4",
+          "truth": "Hecarim",
+          "champion": null,
+          "candidate": "Hecarim",
+          "score": 0.7028015851974487,
+          "lead": 0.05482327938079834
+        }
+      ],
+      "gallery_views": 2,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Ivern": {
+      "total": 5,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_4",
+          "truth": "Ivern",
+          "champion": null,
+          "candidate": "Ivern",
+          "score": 0.802040696144104,
+          "lead": 0.07734405994415283
+        },
+        {
+          "id": "20261104-102852_3-4_4",
+          "truth": "Ivern",
+          "champion": null,
+          "candidate": "Lillia",
+          "score": 0.7188019156455994,
+          "lead": 0.005120813846588135
+        },
+        {
+          "id": "20261104-102852_5-4_9",
+          "truth": "Ivern",
+          "champion": null,
+          "candidate": "Rammus",
+          "score": 0.7228280901908875,
+          "lead": 0.041590988636016846
+        },
+        {
+          "id": "20261104-153922_2-4_3",
+          "truth": "Ivern",
+          "champion": null,
+          "candidate": "Rengar",
+          "score": 0.8122636675834656,
+          "lead": 0.015605390071868896
+        },
+        {
+          "id": "20261104-153922_3-4_6",
+          "truth": "Ivern",
+          "champion": null,
+          "candidate": "Ornn",
+          "score": 0.7480623126029968,
+          "lead": 0.009951353073120117
+        }
+      ],
+      "gallery_views": 16,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Rakan": {
+      "total": 2,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_5",
+          "truth": "Rakan",
+          "champion": null,
+          "candidate": "Rakan",
+          "score": 0.8118836879730225,
+          "lead": 0.11059999465942383
+        },
+        {
+          "id": "20261104-102852_4-4_7",
+          "truth": "Rakan",
+          "champion": null,
+          "candidate": "Leona",
+          "score": 0.6908624172210693,
+          "lead": 0.026551544666290283
+        }
+      ],
+      "gallery_views": 3,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Elise": {
+      "total": 3,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_6",
+          "truth": "Elise",
+          "champion": null,
+          "candidate": "Aphelios",
+          "score": 0.6492401957511902,
+          "lead": 0.0076732635498046875
+        },
+        {
+          "id": "20261104-123556_3-4_3",
+          "truth": "Elise",
+          "champion": null,
+          "candidate": "Elise",
+          "score": 0.8056333661079407,
+          "lead": 0.07097357511520386
+        },
+        {
+          "id": "20261104-153922_2-4_11",
+          "truth": "Elise",
+          "champion": null,
+          "candidate": "Xayah",
+          "score": 0.7688738107681274,
+          "lead": 0.015622854232788086
+        }
+      ],
+      "gallery_views": 40,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Sejuani": {
+      "total": 2,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_7",
+          "truth": "Sejuani",
+          "champion": null,
+          "candidate": "Sejuani",
+          "score": 0.799445390701294,
+          "lead": 0.06958991289138794
+        },
+        {
+          "id": "20261104-153922_2-4_4",
+          "truth": "Sejuani",
+          "champion": null,
+          "candidate": "Sejuani",
+          "score": 0.8051360845565796,
+          "lead": 0.05427360534667969
+        }
+      ],
+      "gallery_views": 30,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Rengar": {
+      "total": 3,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_8",
+          "truth": "Rengar",
+          "champion": null,
+          "candidate": "Murkwolf",
+          "score": 0.7827032208442688,
+          "lead": 0.03158313035964966
+        },
+        {
+          "id": "20261104-123556_2-4_3",
+          "truth": "Rengar",
+          "champion": null,
+          "candidate": "Morgana",
+          "score": 0.7911489009857178,
+          "lead": 0.0039514899253845215
+        },
+        {
+          "id": "20261104-123556_3-4_11",
+          "truth": "Rengar",
+          "champion": null,
+          "candidate": "Vi",
+          "score": 0.793761134147644,
+          "lead": 0.0465468168258667
+        }
+      ],
+      "gallery_views": 24,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Rammus": {
+      "total": 3,
+      "top1_correct": 3,
+      "predictions": [
+        {
+          "id": "20261104-102852_2-4_9",
+          "truth": "Rammus",
+          "champion": null,
+          "candidate": "Rammus",
+          "score": 0.8252077698707581,
+          "lead": 0.10768520832061768
+        },
+        {
+          "id": "20261104-102852_4-4_8",
+          "truth": "Rammus",
+          "champion": null,
+          "candidate": "Rammus",
+          "score": 0.7870702743530273,
+          "lead": 0.10331392288208008
+        },
+        {
+          "id": "20261104-123556_5-4_8",
+          "truth": "Rammus",
+          "champion": null,
+          "candidate": "Rammus",
+          "score": 0.7663443088531494,
+          "lead": 0.0023137331008911133
+        }
+      ],
+      "gallery_views": 26,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Warwick": {
+      "total": 5,
+      "top1_correct": 3,
+      "predictions": [
+        {
+          "id": "20261104-102852_3-4_1",
+          "truth": "Warwick",
+          "champion": null,
+          "candidate": "Malphite",
+          "score": 0.7706300616264343,
+          "lead": 0.002103149890899658
+        },
+        {
+          "id": "20261104-123556_2-4_9",
+          "truth": "Warwick",
+          "champion": null,
+          "candidate": "Warwick",
+          "score": 0.790170431137085,
+          "lead": 0.024055957794189453
+        },
+        {
+          "id": "20261104-123556_3-4_10",
+          "truth": "Warwick",
+          "champion": null,
+          "candidate": "Warwick",
+          "score": 0.7465248703956604,
+          "lead": 0.015627920627593994
+        },
+        {
+          "id": "20261104-153922_2-4_8",
+          "truth": "Warwick",
+          "champion": null,
+          "candidate": "Warwick",
+          "score": 0.7714982032775879,
+          "lead": 0.010782003402709961
+        },
+        {
+          "id": "20261104-153922_3-4_5",
+          "truth": "Warwick",
+          "champion": null,
+          "candidate": "Ivern",
+          "score": 0.7147303223609924,
+          "lead": 0.005233407020568848
+        }
+      ],
+      "gallery_views": 24,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Kog'Maw": {
+      "total": 2,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_3-4_2",
+          "truth": "Kog'Maw",
+          "champion": null,
+          "candidate": "Kog'Maw",
+          "score": 0.7217290997505188,
+          "lead": 0.0517541766166687
+        },
+        {
+          "id": "20261104-123556_4-4_7",
+          "truth": "Kog'Maw",
+          "champion": null,
+          "candidate": "Kennen",
+          "score": 0.628990650177002,
+          "lead": 1.5497207641601562e-06
+        }
+      ],
+      "gallery_views": 1,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Tristana": {
+      "total": 3,
+      "top1_correct": 3,
+      "predictions": [
+        {
+          "id": "20261104-102852_3-4_3",
+          "truth": "Tristana",
+          "champion": null,
+          "candidate": "Tristana",
+          "score": 0.7491991519927979,
+          "lead": 0.006971776485443115
+        },
+        {
+          "id": "20261104-102852_4-4_5",
+          "truth": "Tristana",
+          "champion": null,
+          "candidate": "Tristana",
+          "score": 0.8070358633995056,
+          "lead": 0.028579413890838623
+        },
+        {
+          "id": "20261104-153922_5-4_5",
+          "truth": "Tristana",
+          "champion": null,
+          "candidate": "Tristana",
+          "score": 0.7997393012046814,
+          "lead": 0.048692405223846436
+        }
+      ],
+      "gallery_views": 14,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Ahri": {
+      "total": 2,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_3-4_5",
+          "truth": "Ahri",
+          "champion": null,
+          "candidate": "Teemo",
+          "score": 0.7516279220581055,
+          "lead": 0.011404156684875488
+        },
+        {
+          "id": "20261104-102852_5-4_1",
+          "truth": "Ahri",
+          "champion": null,
+          "candidate": "Sentinel",
+          "score": 0.7322043180465698,
+          "lead": 0.0074350833892822266
+        }
+      ],
+      "gallery_views": 1,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Lillia": {
+      "total": 2,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-102852_3-4_6",
+          "truth": "Lillia",
+          "champion": null,
+          "candidate": "Lillia",
+          "score": 0.67738938331604,
+          "lead": 0.02219146490097046
+        },
+        {
+          "id": "20261104-102852_5-4_2",
+          "truth": "Lillia",
+          "champion": null,
+          "candidate": "Lillia",
+          "score": 0.7552869319915771,
+          "lead": 0.04230678081512451
+        }
+      ],
+      "gallery_views": 24,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Teemo": {
+      "total": 4,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_3-4_7",
+          "truth": "Teemo",
+          "champion": null,
+          "candidate": "Ashe",
+          "score": 0.7457113265991211,
+          "lead": 0.012024521827697754
+        },
+        {
+          "id": "20261104-153922_2-4_7",
+          "truth": "Teemo",
+          "champion": null,
+          "candidate": "Lillia",
+          "score": 0.7565569877624512,
+          "lead": 0.009615540504455566
+        },
+        {
+          "id": "20261104-153922_3-4_9",
+          "truth": "Teemo",
+          "champion": null,
+          "candidate": "Murkwolf",
+          "score": 0.736525297164917,
+          "lead": 0.014487385749816895
+        },
+        {
+          "id": "20261104-153922_4-4_6",
+          "truth": "Teemo",
+          "champion": null,
+          "candidate": "Kha'Zix",
+          "score": 0.7451666593551636,
+          "lead": 0.0005501508712768555
+        }
+      ],
+      "gallery_views": 12,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Fiddlesticks": {
+      "total": 3,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_3-4_8",
+          "truth": "Fiddlesticks",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.7487893104553223,
+          "lead": 0.014424920082092285
+        },
+        {
+          "id": "20261104-123556_5-4_4",
+          "truth": "Fiddlesticks",
+          "champion": null,
+          "candidate": "Fiddlesticks",
+          "score": 0.8004487752914429,
+          "lead": 0.16415250301361084
+        },
+        {
+          "id": "20261104-153922_3-4_1",
+          "truth": "Fiddlesticks",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.8045854568481445,
+          "lead": 0.0649099349975586
+        }
+      ],
+      "gallery_views": 13,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Leona": {
+      "total": 1,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_3-4_9",
+          "truth": "Leona",
+          "champion": null,
+          "candidate": "Draven",
+          "score": 0.709381103515625,
+          "lead": 0.005478799343109131
+        }
+      ],
+      "gallery_views": 11,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Master Yi": {
+      "total": 3,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_4-4_1",
+          "truth": "Master Yi",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.7680556774139404,
+          "lead": 0.0164797306060791
+        },
+        {
+          "id": "20261104-123556_4-4_2",
+          "truth": "Master Yi",
+          "champion": null,
+          "candidate": "Karma",
+          "score": 0.7933933138847351,
+          "lead": 0.005347490310668945
+        },
+        {
+          "id": "20261104-123556_4-4_4",
+          "truth": "Master Yi",
+          "champion": null,
+          "candidate": "Yunara",
+          "score": 0.8108569979667664,
+          "lead": 0.007050454616546631
+        }
+      ],
+      "gallery_views": 24,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Vi": {
+      "total": 5,
+      "top1_correct": 3,
+      "predictions": [
+        {
+          "id": "20261104-102852_4-4_2",
+          "truth": "Vi",
+          "champion": null,
+          "candidate": "Ashe",
+          "score": 0.770075798034668,
+          "lead": 0.045320749282836914
+        },
+        {
+          "id": "20261104-102852_5-4_6",
+          "truth": "Vi",
+          "champion": null,
+          "candidate": "Vi",
+          "score": 0.7675879597663879,
+          "lead": 0.0067781805992126465
+        },
+        {
+          "id": "20261104-102852_6-4_5",
+          "truth": "Vi",
+          "champion": null,
+          "candidate": "Vi",
+          "score": 0.8405473232269287,
+          "lead": 0.04654508829116821
+        },
+        {
+          "id": "20261104-123556_2-4_5",
+          "truth": "Vi",
+          "champion": null,
+          "candidate": "Gnar",
+          "score": 0.7687152028083801,
+          "lead": 0.008428990840911865
+        },
+        {
+          "id": "20261104-153922_4-4_4",
+          "truth": "Vi",
+          "champion": null,
+          "candidate": "Vi",
+          "score": 0.7927753329277039,
+          "lead": 0.033502280712127686
+        }
+      ],
+      "gallery_views": 24,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Ashe": {
+      "total": 3,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-102852_4-4_3",
+          "truth": "Ashe",
+          "champion": null,
+          "candidate": "Ashe",
+          "score": 0.7762016654014587,
+          "lead": 0.05424928665161133
+        },
+        {
+          "id": "20261104-123556_4-4_1",
+          "truth": "Ashe",
+          "champion": null,
+          "candidate": "Leona",
+          "score": 0.801050066947937,
+          "lead": 0.02742946147918701
+        },
+        {
+          "id": "20261104-153922_4-4_2",
+          "truth": "Ashe",
+          "champion": null,
+          "candidate": "Ashe",
+          "score": 0.8282554149627686,
+          "lead": 0.10558414459228516
+        }
+      ],
+      "gallery_views": 55,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Gnar": {
+      "total": 4,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_4-4_4",
+          "truth": "Gnar",
+          "champion": null,
+          "candidate": "Master Yi",
+          "score": 0.7719511985778809,
+          "lead": 0.001316666603088379
+        },
+        {
+          "id": "20261104-102852_5-4_4",
+          "truth": "Gnar",
+          "champion": null,
+          "candidate": "Ashe",
+          "score": 0.7208939790725708,
+          "lead": 0.004022419452667236
+        },
+        {
+          "id": "20261104-123556_5-4_1",
+          "truth": "Gnar",
+          "champion": null,
+          "candidate": "Gnar",
+          "score": 0.8214864730834961,
+          "lead": 0.03258705139160156
+        },
+        {
+          "id": "20261104-153922_5-4_1",
+          "truth": "Gnar",
+          "champion": null,
+          "candidate": "Gromp",
+          "score": 0.7228959798812866,
+          "lead": 0.01378786563873291
+        }
+      ],
+      "gallery_views": 35,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Ezreal": {
+      "total": 2,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_4-4_6",
+          "truth": "Ezreal",
+          "champion": null,
+          "candidate": "Aphelios",
+          "score": 0.7613815069198608,
+          "lead": 0.023865699768066406
+        },
+        {
+          "id": "20261104-102852_6-4_3",
+          "truth": "Ezreal",
+          "champion": null,
+          "candidate": "Aphelios",
+          "score": 0.8483123779296875,
+          "lead": 0.02302086353302002
+        }
+      ],
+      "gallery_views": 1,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Taric": {
+      "total": 3,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-102852_4-4_10",
+          "truth": "Taric",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.7283877730369568,
+          "lead": 0.02969270944595337
+        },
+        {
+          "id": "20261104-102852_5-4_8",
+          "truth": "Taric",
+          "champion": null,
+          "candidate": "Ivern",
+          "score": 0.6484272480010986,
+          "lead": 0.011199355125427246
+        },
+        {
+          "id": "20261104-123556_5-4_missed_1",
+          "truth": "Taric",
+          "champion": null,
+          "candidate": null,
+          "score": 0.0,
+          "lead": 0.0,
+          "detected": false
+        }
+      ],
+      "gallery_views": 0,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Alune": {
+      "total": 3,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_4-4_11",
+          "truth": "Alune",
+          "champion": null,
+          "candidate": "Vi",
+          "score": 0.7034164667129517,
+          "lead": 0.004454851150512695
+        },
+        {
+          "id": "20261104-102852_6-4_2",
+          "truth": "Alune",
+          "champion": null,
+          "candidate": "Alune",
+          "score": 0.7965605854988098,
+          "lead": 0.04888218641281128
+        },
+        {
+          "id": "20261104-153922_5-4_missed_3",
+          "truth": "Alune",
+          "champion": null,
+          "candidate": null,
+          "score": 0.0,
+          "lead": 0.0,
+          "detected": false
+        }
+      ],
+      "gallery_views": 12,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Sivir": {
+      "total": 1,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_5-4_3",
+          "truth": "Sivir",
+          "champion": null,
+          "candidate": "Sivir",
+          "score": 0.7904065847396851,
+          "lead": 0.058286070823669434
+        }
+      ],
+      "gallery_views": 15,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Kennen": {
+      "total": 6,
+      "top1_correct": 3,
+      "predictions": [
+        {
+          "id": "20261104-102852_5-4_5",
+          "truth": "Kennen",
+          "champion": null,
+          "candidate": "Kennen",
+          "score": 0.8245632648468018,
+          "lead": 0.013781607151031494
+        },
+        {
+          "id": "20261104-123556_3-4_6",
+          "truth": "Kennen",
+          "champion": null,
+          "candidate": "Murkwolf",
+          "score": 0.7130417823791504,
+          "lead": 0.005292236804962158
+        },
+        {
+          "id": "20261104-123556_4-4_9",
+          "truth": "Kennen",
+          "champion": null,
+          "candidate": "Gnar",
+          "score": 0.742557168006897,
+          "lead": 0.011910855770111084
+        },
+        {
+          "id": "20261104-123556_5-4_6",
+          "truth": "Kennen",
+          "champion": null,
+          "candidate": "Kennen",
+          "score": 0.7718517780303955,
+          "lead": 0.04141998291015625
+        },
+        {
+          "id": "20261104-153922_3-4_3",
+          "truth": "Kennen",
+          "champion": null,
+          "candidate": "Amumu",
+          "score": 0.7273725271224976,
+          "lead": 0.004809677600860596
+        },
+        {
+          "id": "20261104-153922_4-4_8",
+          "truth": "Kennen",
+          "champion": null,
+          "candidate": "Kennen",
+          "score": 0.7598557472229004,
+          "lead": 0.0344243049621582
+        }
+      ],
+      "gallery_views": 24,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Azir": {
+      "total": 4,
+      "top1_correct": 4,
+      "predictions": [
+        {
+          "id": "20261104-102852_5-4_7",
+          "truth": "Azir",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.8054558634757996,
+          "lead": 0.08680254220962524
+        },
+        {
+          "id": "20261104-123556_4-4_3",
+          "truth": "Azir",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.8213838338851929,
+          "lead": 0.0750342607498169
+        },
+        {
+          "id": "20261104-153922_3-4_8",
+          "truth": "Azir",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.7709453701972961,
+          "lead": 0.014498412609100342
+        },
+        {
+          "id": "20261104-153922_5-4_6",
+          "truth": "Azir",
+          "champion": null,
+          "candidate": "Azir",
+          "score": 0.6786928176879883,
+          "lead": 0.021676719188690186
+        }
+      ],
+      "gallery_views": 42,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Malphite": {
+      "total": 3,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-102852_6-4_4",
+          "truth": "Malphite",
+          "champion": null,
+          "candidate": "Mama Beak",
+          "score": 0.7316290140151978,
+          "lead": 0.01143503189086914
+        },
+        {
+          "id": "20261104-123556_4-4_8",
+          "truth": "Malphite",
+          "champion": null,
+          "candidate": "Malphite",
+          "score": 0.8673465251922607,
+          "lead": 0.08232355117797852
+        },
+        {
+          "id": "20261104-153922_4-4_missed_1",
+          "truth": "Malphite",
+          "champion": null,
+          "candidate": null,
+          "score": 0.0,
+          "lead": 0.0,
+          "detected": false
+        }
+      ],
+      "gallery_views": 42,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Maokai": {
+      "total": 2,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-102852_6-4_6",
+          "truth": "Maokai",
+          "champion": null,
+          "candidate": "Maokai",
+          "score": 0.808116614818573,
+          "lead": 0.08290714025497437
+        },
+        {
+          "id": "20261104-153922_5-4_4",
+          "truth": "Maokai",
+          "champion": null,
+          "candidate": "Maokai",
+          "score": 0.7005106210708618,
+          "lead": 0.046653926372528076
+        }
+      ],
+      "gallery_views": 17,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Morgana": {
+      "total": 2,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-102852_6-4_7",
+          "truth": "Morgana",
+          "champion": null,
+          "candidate": "Morgana",
+          "score": 0.8201786875724792,
+          "lead": 0.05197638273239136
+        },
+        {
+          "id": "20261104-153922_4-4_3",
+          "truth": "Morgana",
+          "champion": null,
+          "candidate": "Morgana",
+          "score": 0.754663348197937,
+          "lead": 0.02347564697265625
+        }
+      ],
+      "gallery_views": 13,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Alistar": {
+      "total": 4,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-123556_2-4_1",
+          "truth": "Alistar",
+          "champion": null,
+          "candidate": "Alistar",
+          "score": 0.7907342314720154,
+          "lead": 0.04211801290512085
+        },
+        {
+          "id": "20261104-123556_3-4_8",
+          "truth": "Alistar",
+          "champion": null,
+          "candidate": "Alistar",
+          "score": 0.6595176458358765,
+          "lead": 0.007504522800445557
+        },
+        {
+          "id": "20261104-153922_2-4_12",
+          "truth": "Alistar",
+          "champion": null,
+          "candidate": "Sejuani",
+          "score": 0.7869112491607666,
+          "lead": 0.015082001686096191
+        },
+        {
+          "id": "20261104-153922_4-4_7",
+          "truth": "Alistar",
+          "champion": null,
+          "candidate": "Malphite",
+          "score": 0.7673918008804321,
+          "lead": 0.019118309020996094
+        }
+      ],
+      "gallery_views": 22,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Rek'Sai": {
+      "total": 1,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_2-4_2",
+          "truth": "Rek'Sai",
+          "champion": null,
+          "candidate": "Alistar",
+          "score": 0.7383539080619812,
+          "lead": 0.015501797199249268
+        }
+      ],
+      "gallery_views": 1,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Yunara": {
+      "total": 2,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-123556_2-4_4",
+          "truth": "Yunara",
+          "champion": null,
+          "candidate": "Leona",
+          "score": 0.7054941654205322,
+          "lead": 0.06849300861358643
+        },
+        {
+          "id": "20261104-153922_2-4_13",
+          "truth": "Yunara",
+          "champion": null,
+          "candidate": "Yunara",
+          "score": 0.7707341909408569,
+          "lead": 0.017497897148132324
+        }
+      ],
+      "gallery_views": 12,
+      "accepted": 0,
+      "correct": 0
+    },
+    "LeBlanc": {
+      "total": 2,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_2-4_7",
+          "truth": "LeBlanc",
+          "champion": null,
+          "candidate": "Kha'Zix",
+          "score": 0.7892662286758423,
+          "lead": 0.04637563228607178
+        },
+        {
+          "id": "20261104-153922_2-4_9",
+          "truth": "LeBlanc",
+          "champion": null,
+          "candidate": "Kha'Zix",
+          "score": 0.802536129951477,
+          "lead": 0.00019919872283935547
+        }
+      ],
+      "gallery_views": 4,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Mama Beak": {
+      "total": 1,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-123556_2-4_8",
+          "truth": "Mama Beak",
+          "champion": null,
+          "candidate": "Mama Beak",
+          "score": 0.858167290687561,
+          "lead": 0.16375893354415894
+        }
+      ],
+      "gallery_views": 13,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Soraka": {
+      "total": 1,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_3-4_1",
+          "truth": "Soraka",
+          "champion": null,
+          "candidate": "Murkwolf",
+          "score": 0.7782856225967407,
+          "lead": 9.995698928833008e-05
+        }
+      ],
+      "gallery_views": 0,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Pebbles": {
+      "total": 2,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_3-4_2",
+          "truth": "Pebbles",
+          "champion": null,
+          "candidate": "Elise",
+          "score": 0.7579655647277832,
+          "lead": 0.006944596767425537
+        },
+        {
+          "id": "20261104-123556_4-4_5",
+          "truth": "Pebbles",
+          "champion": null,
+          "candidate": "Murkwolf",
+          "score": 0.7094313502311707,
+          "lead": 0.0007354617118835449
+        }
+      ],
+      "gallery_views": 10,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Camille": {
+      "total": 2,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_3-4_4",
+          "truth": "Camille",
+          "champion": null,
+          "candidate": "Gnar",
+          "score": 0.7975768446922302,
+          "lead": 0.00135880708694458
+        },
+        {
+          "id": "20261104-153922_2-4_6",
+          "truth": "Camille",
+          "champion": null,
+          "candidate": "Caitlyn",
+          "score": 0.7426882982254028,
+          "lead": 0.0009927153587341309
+        }
+      ],
+      "gallery_views": 0,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Cassiopeia": {
+      "total": 1,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-123556_3-4_5",
+          "truth": "Cassiopeia",
+          "champion": null,
+          "candidate": "Cassiopeia",
+          "score": 0.7327725887298584,
+          "lead": 0.08441352844238281
+        }
+      ],
+      "gallery_views": 6,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Nidalee": {
+      "total": 3,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_3-4_7",
+          "truth": "Nidalee",
+          "champion": null,
+          "candidate": "Karma",
+          "score": 0.7855606079101562,
+          "lead": 0.0009732842445373535
+        },
+        {
+          "id": "20261104-123556_5-4_5",
+          "truth": "Nidalee",
+          "champion": null,
+          "candidate": "Sivir",
+          "score": 0.7439076900482178,
+          "lead": 0.0022638440132141113
+        },
+        {
+          "id": "20261104-153922_5-4_missed_1",
+          "truth": "Nidalee",
+          "champion": null,
+          "candidate": null,
+          "score": 0.0,
+          "lead": 0.0,
+          "detected": false
+        }
+      ],
+      "gallery_views": 0,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Kha'Zix": {
+      "total": 1,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_3-4_9",
+          "truth": "Kha'Zix",
+          "champion": null,
+          "candidate": "Murkwolf",
+          "score": 0.7813048362731934,
+          "lead": 0.01623249053955078
+        }
+      ],
+      "gallery_views": 57,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Gromp": {
+      "total": 3,
+      "top1_correct": 3,
+      "predictions": [
+        {
+          "id": "20261104-123556_4-4_6",
+          "truth": "Gromp",
+          "champion": null,
+          "candidate": "Gromp",
+          "score": 0.8124853372573853,
+          "lead": 0.09298551082611084
+        },
+        {
+          "id": "20261104-153922_2-4_10",
+          "truth": "Gromp",
+          "champion": null,
+          "candidate": "Gromp",
+          "score": 0.7822144031524658,
+          "lead": 0.059723496437072754
+        },
+        {
+          "id": "20261104-153922_3-4_10",
+          "truth": "Gromp",
+          "champion": null,
+          "candidate": "Gromp",
+          "score": 0.7941428422927856,
+          "lead": 0.08361268043518066
+        }
+      ],
+      "gallery_views": 33,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Karma": {
+      "total": 2,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_5-4_2",
+          "truth": "Karma",
+          "champion": null,
+          "candidate": "Gnar",
+          "score": 0.7902728319168091,
+          "lead": 0.0012557506561279297
+        },
+        {
+          "id": "20261104-153922_3-4_11",
+          "truth": "Karma",
+          "champion": null,
+          "candidate": "Elise",
+          "score": 0.7693413496017456,
+          "lead": 0.006349921226501465
+        }
+      ],
+      "gallery_views": 5,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Brambleback": {
+      "total": 1,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-123556_5-4_3",
+          "truth": "Brambleback",
+          "champion": null,
+          "candidate": "Brambleback",
+          "score": 0.7446978092193604,
+          "lead": 0.012906908988952637
+        }
+      ],
+      "gallery_views": 2,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Zyra": {
+      "total": 1,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-123556_5-4_7",
+          "truth": "Zyra",
+          "champion": null,
+          "candidate": "Lillia",
+          "score": 0.7560474872589111,
+          "lead": 0.0015131235122680664
+        }
+      ],
+      "gallery_views": 0,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Scuttlecrab": {
+      "total": 1,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-153922_2-4_1",
+          "truth": "Scuttlecrab",
+          "champion": null,
+          "candidate": "Krug",
+          "score": 0.7751041650772095,
+          "lead": 0.002290964126586914
+        }
+      ],
+      "gallery_views": 23,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Murkwolf": {
+      "total": 2,
+      "top1_correct": 1,
+      "predictions": [
+        {
+          "id": "20261104-153922_2-4_2",
+          "truth": "Murkwolf",
+          "champion": null,
+          "candidate": "Krug",
+          "score": 0.7971041202545166,
+          "lead": 0.019838452339172363
+        },
+        {
+          "id": "20261104-153922_4-4_5",
+          "truth": "Murkwolf",
+          "champion": null,
+          "candidate": "Murkwolf",
+          "score": 0.8362943530082703,
+          "lead": 0.05729705095291138
+        }
+      ],
+      "gallery_views": 43,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Varus": {
+      "total": 1,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-153922_2-4_5",
+          "truth": "Varus",
+          "champion": null,
+          "candidate": "Murkwolf",
+          "score": 0.78508460521698,
+          "lead": 0.012307465076446533
+        }
+      ],
+      "gallery_views": 2,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Aphelios": {
+      "total": 2,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-153922_3-4_7",
+          "truth": "Aphelios",
+          "champion": null,
+          "candidate": "Aphelios",
+          "score": 0.9051326513290405,
+          "lead": 0.13239407539367676
+        },
+        {
+          "id": "20261104-153922_5-4_3",
+          "truth": "Aphelios",
+          "champion": null,
+          "candidate": "Aphelios",
+          "score": 0.7929535508155823,
+          "lead": 0.05037730932235718
+        }
+      ],
+      "gallery_views": 23,
+      "cutoff": 0.9,
+      "lead": 0.05,
+      "accepted": 1,
+      "correct": 1
+    },
+    "Sentinel": {
+      "total": 2,
+      "top1_correct": 2,
+      "predictions": [
+        {
+          "id": "20261104-153922_4-4_1",
+          "truth": "Sentinel",
+          "champion": null,
+          "candidate": "Sentinel",
+          "score": 0.847100019454956,
+          "lead": 0.05934619903564453
+        },
+        {
+          "id": "20261104-153922_5-4_2",
+          "truth": "Sentinel",
+          "champion": null,
+          "candidate": "Sentinel",
+          "score": 0.753933310508728,
+          "lead": 0.018710553646087646
+        }
+      ],
+      "gallery_views": 25,
+      "accepted": 0,
+      "correct": 0
+    },
+    "Diana": {
+      "total": 1,
+      "top1_correct": 0,
+      "predictions": [
+        {
+          "id": "20261104-153922_5-4_missed_2",
+          "truth": "Diana",
+          "champion": null,
+          "candidate": null,
+          "score": 0.0,
+          "lead": 0.0,
+          "detected": false
+        }
+      ],
+      "gallery_views": 32,
+      "accepted": 0,
+      "correct": 0
+    }
+  },
+  "champions": {
+    "Aphelios": {
+      "cutoff": 0.9,
+      "lead": 0.05,
+      "accepted": 1,
+      "correct": 1
+    }
+  },
+  "enabled": true,
+  "reason": "Fixed cosine .90 / distinct-champion lead .05; only names with zero held-out errors qualify. Incomplete ground truth always disables deployment."
+}

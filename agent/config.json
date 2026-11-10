@@ -1,0 +1,12 @@
+{
+ "comp": "Riftbeast Brambleback",
+ "model": "codex:gpt-6.1-terra",
+ "effort": "high",
+ "queue": "ranked",
+ "coach_model": "claude:claude-opus-5-5",
+ "coach_effort": "medium",
+ "strategy": "model",
+ "fallback_model": "claude:claude-opus-5-5",
+ "fallback_effort": "medium",
+ "wait_for_codex": false
+}

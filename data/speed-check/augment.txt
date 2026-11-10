@@ -1,0 +1,180 @@
+NEW CONVERSATION FOR STAGE 2 - each stage of this game is played in a new conversation, to keep messages short. The earlier stages are not repeated here; this is what you need from them.
+
+Target comp for this game: Lunar Aphelios Nidalee (426004).
+
+The comp's MetaTFT page (tabs Options & Quick Start, Units & Items, Pro Augments and Tips) as text:
+
+1. Target final board, positions (row 0 = back row, row 3 = front row; columns 0-6 left to right):
+- Amumu: row 3, column 3
+- Sentinel: row 3, column 4
+- Vi: row 2, column 2
+- Diana: row 2, column 3
+- Nidalee: row 1, column 0
+- Aphelios: row 0, column 0
+- Kog'Maw: row 0, column 1
+- Varus: row 0, column 6
+
+Traits of the target final board (count on that board, badge colour; effects from the game data):
+- (bronze) Adaptor 2: Innate: Adaptor abilities change depending on if their Attack Damage or Ability Power is higher. Adaptors gain Ability Power or Attack Damage, depending on which is higher. | levels: (2) 25% OR; (3) 35% OR; (4) 50% OR | now: 2, next: 3
+- (bronze) Inferno 2: Inferno damage Burns and Wounds enemies for 3 seconds. Inferno Burns stack with other Burns. | levels: (2) 1% Burn, 33% Wound; (3) After combat, 1 of your shop slots without an Inferno champion ignites, rolling a champion one tier higher; (5) Ignite 2 shop slots, 3% Burn; (7) Ignite 4 shop slots, 4% Burn | now: 2, next: 3
+- (bronze) Invoker 2: Your team gains Mana Regen, increased for Invokers. | levels: (2) 1 ManaRegen | 3 ManaRegen; (3) 1 ManaRegen | 4 ManaRegen; (4) 2 ManaRegen | 6 ManaRegen; (5) 2 ManaRegen | 8 ManaRegen | now: 2, next: 3
+- (bronze) Juggernaut 2: Your team gains Durability. Juggernauts gain more. | levels: (2) 4% DR or 20% DR; (4) 6% DR or 33% DR; (6) 8% DR or 42% DR | now: 2, next: 4
+- (bronze) Lunar 2: Lunar champions and adjacent allies gain Attack Speed and Ability Power. Lunar champions gain 100% more. | levels: (2) 7% AS, 7% AP; (3) 12% AS, 10% AP; (4) 16% AS, 14% AP; (5) 20% AS, 18% AP | now: 2, next: 3
+- (bronze) Primal 2: Choose one of four Primal Blessings. | levels: (2); (4) | now: 2, next: 4
+- (bronze) Rapidfire 2: Your team gains 10% Attack Speed. Rapidfire champions gain more on every attack, up to 10 stacks. | levels: (2) +3% AS per Attack; (3) +5% AS per Attack; (4) +8% AS per Attack; (5) +12% AS per Attack | now: 2, next: 3
+- (bronze) Vanguard 2: At Combat Start and after dropping below 50% Health, Vanguards gain a max Health Shield for 10 seconds. | levels: (2) 18% max Health; (4) 30% max Health; (6) 40% max Health. Gain 5% Durability while Shielded. | now: 2, next: 4
+- (unique) Caustic 1: Caustic damage 30% Shreds and Sunders enemies for 4 seconds. Shred: Reduce Magic Resist Sunder: Reduce Armor | now: 1, top level
+
+2. Levelling tempo: Fast 8
+Levelling (stage: level): 2-5: 5, 3-2: 6, 3-6: 7, 4-2: 8 (32.5 rolls), 6-1: 9 (11.9 rolls)
+
+3. MetaTFT carousel priority (MetaTFT's order; xN = the count MetaTFT lists): B.F. Sword x4, Giant's Belt x3, Chain Vest x3, Recurve Bow x3, Negatron Cloak x3, Sparring Gloves x2, Tear Of The Goddess x2, Needlessly Large Rod x2, Frying Pan, Spatula
+
+4. Unit play rate (avg place, played in % of games):
+- Aphelios: avg 4.21, 99.5%
+- Diana: avg 4.22, 97.4%
+- Nidalee: avg 4.21, 97.1%
+- Amumu: avg 4.19, 96.1%
+- Vi: avg 4.23, 95.7%
+- Sentinel: avg 4.18, 95.1%
+- Kog'Maw: avg 4.21, 92.2%
+- Varus: avg 4.19, 88.7%
+- Alune: avg 3.33, 11.0%
+- Lux: avg 3.30, 7.8%
+- Brambleback: avg 3.37, 7.3%
+
+5. Item play rate (avg place, played in % of games):
+- Infinity Edge: avg 4.08, 107.7%
+- Guinsoo's Rageblade: avg 4.22, 91.4%
+- Gargoyle Stoneplate: avg 4.11, 85.2%
+- Kraken's Fury: avg 4.11, 65.1%
+- Protector's Vow: avg 3.99, 64.0%
+- Warmog's Armor: avg 4.02, 61.2%
+- Sterak's Gage: avg 4.02, 60.0%
+- Spear of Shojin: avg 4.13, 56.0%
+- Spirit Visage: avg 4.07, 46.1%
+- Deathblade: avg 4.08, 39.5%
+
+6. Units + items (avg place, share of the unit's games):
+- Aphelios with Guinsoo's Rageblade: avg 4.22, 80.8%
+- Nidalee with Infinity Edge: avg 3.99, 65.8%
+- Aphelios with Kraken's Fury: avg 3.92, 62.8%
+- Nidalee with Sterak's Gage: avg 3.76, 53.8%
+- Amumu with Gargoyle Stoneplate: avg 3.89, 51.9%
+- Sentinel with Protector's Vow: avg 3.57, 48.9%
+- Nidalee with Spear of Shojin: avg 4.03, 46.8%
+- Aphelios with Infinity Edge: avg 3.97, 37.4%
+- Amumu with Warmog's Armor: avg 3.66, 35.3%
+- Aphelios with Deathblade: avg 3.77, 29.2%
+
+7. Full builds (avg place, share of the unit's games):
+- Nidalee: Infinity Edge + Spear of Shojin + Sterak's Gage: avg 3.93, 19.2%
+- Aphelios: Guinsoo's Rageblade + Infinity Edge + Kraken's Fury: avg 3.95, 13.2%
+- Aphelios: Deathblade + Guinsoo's Rageblade + Kraken's Fury: avg 3.88, 9.5%
+- Vi: Thief's Gloves (other slots empty): avg 3.88, 6.5%
+- Diana: Thief's Gloves (other slots empty): avg 3.81, 6.4%
+- Aphelios: Giant Slayer + Guinsoo's Rageblade + Kraken's Fury: avg 3.87, 5.2%
+- Amumu: Gargoyle Stoneplate + Spirit Visage + Warmog's Armor: avg 3.71, 5.0%
+- Sentinel: Thief's Gloves (other slots empty): avg 3.92, 4.7%
+- Sentinel: Protector's Vow (other slots empty): avg 4.38, 3.6%
+- Amumu: Thief's Gloves (other slots empty): avg 3.91, 3.4%
+
+Recipes of the completed items in 5-7 (game data):
+- Deathblade = B.F. Sword + B.F. Sword
+- Gargoyle Stoneplate = Chain Vest + Negatron Cloak
+- Giant Slayer = B.F. Sword + Recurve Bow
+- Guinsoo's Rageblade = Needlessly Large Rod + Recurve Bow
+- Infinity Edge = B.F. Sword + Sparring Gloves
+- Kraken's Fury = Negatron Cloak + Recurve Bow
+- Protector's Vow = Chain Vest + Tear of the Goddess
+- Spear of Shojin = B.F. Sword + Tear of the Goddess
+- Spirit Visage = Giant's Belt + Tear of the Goddess
+- Sterak's Gage = B.F. Sword + Giant's Belt
+- Thief's Gloves = Sparring Gloves + Sparring Gloves
+- Warmog's Armor = Giant's Belt + Giant's Belt
+
+8. MetaTFT pro augment tier list for this comp:
+APHELIOS > Lvl 8 push - Sologesang:
+- S: Band of Thieves, Champ Delivery+, Champ Delivery++, Component Buffet, Feeling Lucky, Future Focused, Glass Cannon I, Item Grab Bag I, Latent Forge, Partial Ascension, Patience Is A Virtue, Residual Magic, Residual Magic +, Residual Magic ++, Rolling For Days, Silver Destiny++, Slice of Life, Slightly Magic Roll, Small Grab Bag, Wisp Rebate, Wisp Rebate+, Big Grab Bag, Booster Pack+, Cybernetic Implants, Epic Rolldown, Exclusive Customization, Gain 21 Gold, Magic Roll, Salvage Bin, Swordsmith, Beast Within, Beast Within+, Bronze For Life II, Stand United, Belt Overflow, Buried Treasures III, Golden Gamble, Golden Gamble+, Golden Gamble++, Nesting Anvils, Nesting Anvils+, Shopping Spree, Sword Overflow, Bronze For Life I
+- A: Backup Bows, Caretaker's Ally, Carve a Path, Champ Delivery, Cognitive Tax+, Expedition, Find Your Center, Flowing Tears, Focused Fire, Good For Something I, Iron Assets, Kick Start, Missed Connections, Pandora's Items I, Silver Destiny, Silver Destiny+, Silver Spoon, Twin Guardians, Advanced Loan, Advanced Loan+, Ascension, Booster Pack, Booster Pack++, Caretaker's Favor, Cluttered Mind, Duo Queue, Epoch, Epoch+, Explosive Growth, Explosive Growth+, Money Hungry, Money Hungry+, Replication, Portable Forge, Salvage Bin+, Slammin', Patient Study, Slammin'+, Trade Sector+, Call To Chaos, Forged In Strength, Living Forge, Min-Max, Money Monsoon, Prismatic Destiny, Prismatic Destiny+, Retribution, Sweet Treats
+- B: Bodyguard Training, Cognitive Overload, Trade Sector
+
+9. Pro tips (text from the MetaTFT page):
+APHELIOS > Lvl 8 push - Sologesang:
+  - PRIMAL: Attack Speed > Execute > Gain Components only if you hit Primal stage 2 or 3 and are winstreaking;
+  - Itemisation: Nidalee2 > Aphelios2 > Nidalee1;
+  - try to prioritise BF for Nidalee Items -> Deathblade on Aphelios if you need it for winstreak or hit Aphelios2 early;
+
+Your trait choices (made in your preparation): {"Primal": ["Blessing of the Tiger", "Blessing of the Bear"]}
+Your game_strategy as it stands (pinned on screen): Lunar Aphelios + Nidalee, fast 8: lv5 at 2-5, 6 at 3-2, 7 at 3-6, then roll at 4-2 for Aphelios 2, Nidalee 2 and a 2-star frontline (Amumu, Sentinel, Vi, Diana). Keep strong boards early and keep interest. B.F. Swords go to Nidalee first (Infinity Edge, Sterak's, Shojin), then Aphelios (Guinsoo, Kraken, Deathblade), then Amumu (Stoneplate, Warmog). Pick econ or item augments. Primal: Tiger, then Bear.
+Your notes in your last reply: We own two Akalis: one on the board and one in bench slot 1. The 'missing' Akali (id 9) is probably the same unit as id 6. Two Rakans sit on the bench.
+
+The last game state you were sent (before this question):
+STATE
+Stage 1-4. COMBAT is running (board locked).
+HP 100. HP change per round (lost a fight when it drops): 1-4: 100->100
+Gold 1, level 3, xp (0, 6).
+Board (3/3 team slots used):
+  [id 1] Varus * (1g ranged, Inferno/Rapidfire) at hex (0,4) items [Spear of Shojin]
+  [id 4] Akali * (1g melee, Inferno/Adaptor/Ravager) at hex (3,3) no items
+  [id 5] Xayah * (1g ranged, Elderwood/Fae/Rapidfire) at hex (0,1) no items
+Target final board hexes (MetaTFT, row,col): Amumu (3,3), Sentinel (3,4), Vi (2,2), Diana (2,3), Nidalee (1,0), Aphelios (0,0), Kog'Maw (0,1), Varus (0,6)
+Bench (5/9 units):
+  [id 2] Karma * (1g ranged, Blossom/Spellweaver) at bench slot 0 no items
+  [id 6] Akali * (1g melee, Inferno/Adaptor/Ravager) at bench slot 1 no items
+  [id 3] Rek'Sai * (1g melee, Blackthorn/Brawler) at bench slot 2 no items
+  [id 7] Rakan * (1g melee, Fae/Juggernaut/Vanguard) at bench slot 4 no items
+  [id 8] Rakan * (1g melee, Fae/Juggernaut/Vanguard) at bench slot 5 no items [UNVERIFIED: named by the model from the screenshot]
+Not located this round (dropped from the records if still not found next round):
+  [id 9] Akali * (1g melee, Inferno/Adaptor/Ravager) at bench slot 6 items not read yet [MISSING: not seen at bench slot 6 since 1-4]
+Active traits on board: Rapidfire 2/3 (active), Inferno 2/3 (active), Ravager 1/2, Adaptor 1/2, Fae 1/2, Elderwood 1/3
+Shop:
+  slot 0: empty
+  slot 1: Pebbles (1g, Riftbeast/Invoker)
+  slot 2: Pebbles (1g, Riftbeast/Invoker)
+  slot 3: Gromp (2g, Riftbeast/Adaptor)
+  slot 4: Warwick (2g, Blackthorn/Ravager)
+Wisp in shop: no
+Item bench: slot 0: Item Remover [uses not read], slot 1: Lesser Champion Duplicator [Use on a 3-cost champion or less to create a 1-star copy on your bench. [Consumable - This item disappears when used.]], slot 2: B.F. Sword
+Streak: 0 loss
+Shop odds by cost 1-5: 75% / 25% / 0% / 0% / 0%
+Augments taken: none
+Wisps bought this round: 0
+Standing orders (all game; change them in any reply with auto_buy / auto_sell / item_final): Auto-buy: Amumu to 2* (3 more to buy), Aphelios to 2* (3 more to buy), Diana to 2* (3 more to buy), Kog'Maw to 2* (3 more to buy), Nidalee to 2* (3 more to buy), Sentinel to 2* (3 more to buy), Varus to 2* (2 more to buy), Vi to 2* (3 more to buy). Auto-sell: off. Item final holders: Spear of Shojin (holder: unit 1, final holder: Nidalee).
+Your game_strategy, pinned on screen - send it again when it changes, and rewrite it at every combat start: Lunar Aphelios + Nidalee, fast 8: lv5 at 2-5, 6 at 3-2, 7 at 3-6, then roll at 4-2 for Aphelios 2, Nidalee 2 and a 2-star frontline (Amumu, Sentinel, Vi, Diana). Keep strong boards early and keep interest. B.F. Swords go to Nidalee first (Infinity Edge, Sterak's, Shojin), then Aphelios (Guinsoo, Kraken, Deathblade), then Amumu (Stoneplate, Warmog). Pick econ or item augments. Primal: Tiger, then Bear.
+
+The reference files are in your working directory as before (README.md first).
+
+=== THE QUESTION ===
+DECISION: augment, stage 2-1 (~48s left).
+The attached screenshot shows the augment choice: three cards, 0 = left, 1 = middle, 2 = right. Read the cards from the screenshot.
+
+Target final board of Lunar Aphelios Nidalee (MetaTFT): Aphelios, Diana, Varus, Amumu, Kog'Maw, Nidalee, Sentinel, Vi; its traits: Lunar 2, Rapidfire 2, Vanguard 2, Inferno 2, Juggernaut 2, Adaptor 2, Invoker 2, Primal 2, Ravager 1, Caustic 1, Riftbeast 1.
+Choose the ONE card you keep. The other two are then rerolled (free) and you choose again from the new three.
+
+Before deciding, explain every card on the screen, using the numbers printed on the card:
+COMBAT: the exact bonuses on your current board and on the target final board.
+ECONOMY: what it gives now and later.
+VERDICT: one short sentence - why you take this card, or why not (shown on screen under the card).
+Write "none" for a part where the card gives nothing.
+
+Example of the format, from an earlier game (its board and gold are not yours):
+
+Card 1 (middle): Bronze For Life II - "Your team gains 2.5% Damage Amp and 3 Armor and Magic Resist for each Bronze-tier trait."
+COMBAT:
+  Current board: +12.5% Damage Amp, +15 Armor and MR on all 7 units.
+  Target final board: +15% Damage Amp, +18 Armor and MR on all 7 units.
+ECONOMY: none.
+VERDICT: not taken - Invested++ gives more in that game.
+
+Card 0 (left): Invested++ - "Gain 45 gold. At the start of each round, gain 1 Shop reroll for every 10 gold above 50 (max 80 gold)."
+COMBAT: none.
+ECONOMY:
+  Now: +45 gold (16 -> 61).
+  Later: +4 interest a round, and 1-3 free rerolls a round while holding 60-80 gold.
+VERDICT: taken - 45 gold now and free rerolls while holding 60+.
+
+Then end your reply with one JSON object:
+{"keep": <0-2>, "name": "<the kept card's name as shown>", "why": "<one sentence>"}
+
+The attached image is the live game screen right now.

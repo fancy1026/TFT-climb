@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<title>TFT Climb framework</title>
+<desc>During a game, a player model plans each round and the harness carries the plan out on TFT and records everything. Between games, a Reviewer grades the record; an Editor fixes harness faults, each fix landing only when its round case passes; a Strategist rewrites stage strategies, which ship only when a Judge in code scores them no lower; strong players' games, read from video, give the Judge their decisions, the Strategist a play-along and the Reviewer a comparison; a domain expert's feedback becomes rules that come first in what the player reads.</desc>
+<style>
+  .lane { font-size: 16px; font-weight: 700; fill: #1f2328; }
+  .bt { font-size: 15px; font-weight: 700; fill: #1f2328; }
+  .b  { font-size: 13px; fill: #1f2328; }
+  .s  { font-size: 12.5px; fill: #59636e; }
+  .lab { font-size: 12.5px; fill: #59636e; }
+  .labg { font-size: 12.5px; fill: #2a8550; font-weight: 600; }
+  .labb { font-size: 12.5px; fill: #2f6fbf; font-weight: 600; }
+  .halo { paint-order: stroke; stroke: #ffffff; stroke-width: 5px; stroke-linejoin: round; }
+  .key { font-size: 12.5px; fill: #59636e; }
+</style>
+<defs>
+  <marker id="ab" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2f6fbf"/></marker>
+  <marker id="ao" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#cf6f12"/></marker>
+  <marker id="ag" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2a8550"/></marker>
+</defs>
+<rect width="1200" height="800" fill="#ffffff"/>
+
+<!-- key -->
+<rect x="760" y="20" width="16" height="16" rx="3" fill="#eaf2fc" stroke="#2f6fbf" stroke-width="1.4"/>
+<text x="782" y="33" class="key">language model</text>
+<rect x="900" y="20" width="16" height="16" rx="3" fill="#f5f6f8" stroke="#8c959f" stroke-width="1.4"/>
+<text x="922" y="33" class="key">code</text>
+<rect x="980" y="20" width="16" height="16" rx="3" fill="#fdf1e4" stroke="#cf6f12" stroke-width="1.4"/>
+<text x="1002" y="33" class="key">people</text>
+<rect x="1066" y="20" width="16" height="16" rx="3" fill="#1a2332" stroke="#2c3a50" stroke-width="1.4"/>
+<text x="1088" y="33" class="key">the game</text>
+
+<!-- lane 1: during a game -->
+<text x="24" y="33" class="lane">During a game</text>
+<rect x="24" y="48" width="1152" height="214" rx="12" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.2"/>
+
+<rect x="44" y="82" width="256" height="152" rx="10" fill="#eaf2fc" stroke="#2f6fbf" stroke-width="1.6"/>
+<text x="62" y="110" class="bt">Player</text>
+<text x="62" y="134" class="b">Asked at each planning phase</text>
+<text x="62" y="153" class="b">and at every timed choice</text>
+<text x="62" y="172" class="b">(augment, Wisp, carousel);</text>
+<text x="62" y="191" class="b">answers with the round's plan:</text>
+<text x="62" y="210" class="s">buys, sells, levels, rolls, board, items</text>
+
+<rect x="368" y="82" width="290" height="152" rx="10" fill="#f5f6f8" stroke="#8c959f" stroke-width="1.6"/>
+<text x="386" y="110" class="bt">Harness</text>
+<text x="386" y="134" class="b">Reads the game from the screen,</text>
+<text x="386" y="153" class="b">tracks every unit, carries out</text>
+<text x="386" y="172" class="b">one step at a time and checks it;</text>
+<text x="386" y="191" class="b">enforces the comp's code rules</text>
+<text x="386" y="210" class="s">built on TFT Harness</text>
+
+<rect x="724" y="96" width="128" height="124" rx="10" fill="#1a2332" stroke="#2c3a50" stroke-width="1.6"/>
+<text x="788" y="164" class="bt" text-anchor="middle" fill="#ffffff" style="fill:#ffffff">TFT</text>
+<text x="788" y="186" class="s" text-anchor="middle" style="fill:#aab6c8">Ranked</text>
+
+<rect x="918" y="82" width="238" height="152" rx="10" fill="#f5f6f8" stroke="#8c959f" stroke-width="1.6"/>
+<text x="936" y="110" class="bt">Game record</text>
+<text x="936" y="134" class="b">Every prompt and answer,</text>
+<text x="936" y="153" class="b">each step and its check,</text>
+<text x="936" y="172" class="b">screenshots, the place</text>
+<text x="936" y="191" class="b">and the LP</text>
+
+<!-- in-game arrows -->
+<line x1="302" y1="132" x2="364" y2="132" stroke="#2f6fbf" stroke-width="2" marker-end="url(#ab)"/>
+<text x="333" y="124" class="labb" text-anchor="middle">plan</text>
+<line x1="366" y1="184" x2="304" y2="184" stroke="#2f6fbf" stroke-width="2" marker-end="url(#ab)"/>
+<text x="333" y="204" class="labb" text-anchor="middle">state</text>
+<line x1="660" y1="132" x2="720" y2="132" stroke="#2f6fbf" stroke-width="2" marker-end="url(#ab)"/>
+<text x="691" y="124" class="labb" text-anchor="middle">input</text>
+<line x1="722" y1="184" x2="662" y2="184" stroke="#2f6fbf" stroke-width="2" marker-end="url(#ab)"/>
+<text x="691" y="204" class="labb" text-anchor="middle">screen</text>
+<path d="M 513 82 L 513 64 L 1037 64 L 1037 78" fill="none" stroke="#2f6fbf" stroke-width="2" marker-end="url(#ab)"/>
+
+<!-- lane 2: between games -->
+<text x="24" y="303" class="lane">Between games</text>
+<rect x="24" y="318" width="1152" height="462" rx="12" fill="#fbfcfd" stroke="#d0d7de" stroke-width="1.2"/>
+
+<!-- record -> reviewer -->
+<line x1="1037" y1="236" x2="1037" y2="334" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
+<text x="1047" y="292" class="labg">after each game</text>
+
+<rect x="918" y="338" width="238" height="426" rx="10" fill="#eaf2fc" stroke="#2f6fbf" stroke-width="1.6"/>
+<text x="936" y="366" class="bt">Reviewer</text>
+<text x="936" y="390" class="b">One session per stage.</text>
+<text x="936" y="414" class="b">Grades every decision of</text>
+<text x="936" y="433" class="b">every round against the best</text>
+<text x="936" y="452" class="b">one the state allowed, never</text>
+<text x="936" y="471" class="b">by the fight result or place.</text>
+<text x="936" y="495" class="b">Compares the stage with the</text>
+<text x="936" y="514" class="b">same stage of earlier games,</text>
+<text x="936" y="533" class="b">the strategy each played and</text>
+<text x="936" y="552" class="b">strong players' games.</text>
+<text x="936" y="576" class="b">Lists harness faults with</text>
+<text x="936" y="595" class="b">their evidence.</text>
+<text x="936" y="623" class="s">Code scores each part out</text>
+<text x="936" y="641" class="s">of 10 and measures the luck.</text>
+
+<!-- row 1: editor -> round cases -> harness -->
+<rect x="660" y="340" width="212" height="112" rx="10" fill="#eaf2fc" stroke="#2f6fbf" stroke-width="1.6"/>
+<text x="678" y="368" class="bt">Editor</text>
+<text x="678" y="392" class="b">Confirms each fault in</text>
+<text x="678" y="411" class="b">the record and fixes it</text>
+<text x="678" y="430" class="b">at its cause</text>
+<line x1="916" y1="396" x2="876" y2="396" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
+<text x="896" y="386" class="labg halo" text-anchor="middle">faults</text>
+
+<rect x="380" y="340" width="236" height="112" rx="10" fill="#f5f6f8" stroke="#8c959f" stroke-width="1.6"/>
+<text x="398" y="368" class="bt">Round cases</text>
+<text x="398" y="392" class="b">The round's recorded question</text>
+<text x="398" y="411" class="b">and a check; the fix lands only</text>
+<text x="398" y="430" class="b">if its case flips, none breaks</text>
+<line x1="658" y1="396" x2="620" y2="396" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
+<line x1="498" y1="338" x2="498" y2="238" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
+<text x="508" y="292" class="labg">harness fix</text>
+
+<!-- row 2: strategist -> judge -> what the player reads -->
+<rect x="660" y="482" width="212" height="112" rx="10" fill="#eaf2fc" stroke="#2f6fbf" stroke-width="1.6"/>
+<text x="678" y="510" class="bt">Strategist</text>
+<text x="678" y="534" class="b">Rewrites or reverts the</text>
+<text x="678" y="553" class="b">stage strategy the review</text>
+<text x="678" y="572" class="b">marked, with a watch</text>
+<line x1="916" y1="538" x2="876" y2="538" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
+<text x="896" y="528" class="labg halo" text-anchor="middle">stages</text>
+
+<rect x="380" y="482" width="236" height="112" rx="10" fill="#f5f6f8" stroke="#8c959f" stroke-width="1.6"/>
+<text x="398" y="510" class="bt">Judge</text>
+<text x="398" y="534" class="b">Asks recorded rounds and strong</text>
+<text x="398" y="553" class="b">players' decisions again, held-</text>
+<text x="398" y="572" class="b">out games included: no worse?</text>
+<line x1="658" y1="538" x2="620" y2="538" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
+
+<rect x="44" y="482" width="274" height="190" rx="10" fill="#f5f6f8" stroke="#8c959f" stroke-width="1.6"/>
+<text x="62" y="510" class="bt">What the player reads</text>
+<text x="62" y="534" class="b">1. the expert's rules, first</text>
+<text x="62" y="556" class="b">2. the comp's notes and its</text>
+<text x="80" y="575" class="b">code rules</text>
+<text x="62" y="597" class="b">3. the stage's strategy</text>
+<text x="80" y="616" class="b">(every version kept)</text>
+<text x="62" y="638" class="b">4. its own plan for the game</text>
+<text x="62" y="660" class="s">plus the round's state as text</text>
+<line x1="378" y1="538" x2="322" y2="538" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
+<text x="350" y="528" class="labg halo" text-anchor="middle">ships</text>
+<line x1="172" y1="480" x2="172" y2="238" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
+<text x="182" y="360" class="labg">next game</text>
+
+<!-- row 3: strong players' games -->
+<rect x="380" y="624" width="492" height="140" rx="10" fill="#fdf1e4" stroke="#cf6f12" stroke-width="1.6"/>
+<text x="398" y="652" class="bt">Strong players' games</text>
+<text x="398" y="676" class="b">Found on YouTube and Twitch for the comp and read round by round</text>
+<text x="398" y="695" class="b">from the video: gold, level, shops, rerolls, buys, the board, their</text>
+<text x="398" y="714" class="b">words. The player plays along with them; a comp coach writes the</text>
+<text x="398" y="733" class="b">comp's notes from them; about a quarter are held out for the Judge.</text>
+<line x1="498" y1="622" x2="498" y2="598" stroke="#cf6f12" stroke-width="2" marker-end="url(#ao)"/>
+<text x="508" y="615" class="lab" style="fill:#cf6f12;font-weight:600">their decisions</text>
+<line x1="766" y1="622" x2="766" y2="598" stroke="#cf6f12" stroke-width="2" marker-end="url(#ao)"/>
+<text x="776" y="615" class="lab" style="fill:#cf6f12;font-weight:600">play-along</text>
+<line x1="874" y1="700" x2="914" y2="700" stroke="#cf6f12" stroke-width="2" marker-end="url(#ao)"/>
+<line x1="378" y1="652" x2="322" y2="652" stroke="#cf6f12" stroke-width="2" marker-end="url(#ao)"/>
+<text x="350" y="642" class="lab halo" text-anchor="middle" style="fill:#cf6f12;font-weight:600">notes</text>
+
+<!-- row 4: the expert -->
+<rect x="44" y="700" width="274" height="64" rx="10" fill="#fdf1e4" stroke="#cf6f12" stroke-width="1.6"/>
+<text x="62" y="726" class="bt">Domain expert</text>
+<text x="62" y="748" class="b">Feedback on watched games</text>
+<line x1="120" y1="698" x2="120" y2="676" stroke="#cf6f12" stroke-width="2" marker-end="url(#ao)"/>
+<text x="132" y="692" class="lab" style="fill:#cf6f12;font-weight:600">rules; agents disagree only with reasons</text>
+</svg>

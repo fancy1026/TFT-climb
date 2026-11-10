@@ -1,0 +1,347 @@
+{
+  "source": "data\\sources\\cdragon-tft-2026-10-21.json",
+  "items": [
+    {
+      "name": "Radiant Adaptive Helm",
+      "api_name": "DA_AdaptiveHelm_Radiant",
+      "file": "tft5_item_adaptivehelmradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_adaptivehelmradiant.png",
+      "sha256": "2a5db189cf06746794c50917409f400761b136d4cbb6350e63c7674085fdd964",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Archangel's Staff",
+      "api_name": "DA_ArchangelsStaffRadiant",
+      "file": "tft5_item_archangelsstaffradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_archangelsstaffradiant.png",
+      "sha256": "ef2265f5693e7cd797f76944488cff6c3d604f136c435809398e14c874cc7c07",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Blast Potion",
+      "api_name": "DA_BlastPotion18_Radiant",
+      "file": "tft18_blastpotion.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft18/tft18_blastpotion.png",
+      "sha256": "0af71ed0a0193e13278775e1e1b90822de343a52b0fb056828b0db97b00ddfc7",
+      "shared_with": [
+        "Blast Potion"
+      ]
+    },
+    {
+      "name": "Radiant Bloodthirster",
+      "api_name": "DA_BloodthirsterRadiant",
+      "file": "tft5_item_bloodthirsterradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bloodthirsterradiant.png",
+      "sha256": "4e3f4e3758672ec7decf0ffee5cf4d50e4daa73901d7b05c868d02b07bb3033d",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Blue Buff",
+      "api_name": "DA_BlueBuffRadiant",
+      "file": "tft5_item_bluebuffradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bluebuffradiant.png",
+      "sha256": "f9c9f12c62f25faa4ee13cba58a762ad289b60d62091ed4df516fa66883aa6bc",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Bramble Vest",
+      "api_name": "DA_BrambleVestRadiant",
+      "file": "tft5_item_bramblevestradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_bramblevestradiant.png",
+      "sha256": "bbf7ac21704e0ca1480e516c7b13f8c9145c7d32da3d815148a21618fbae4a58",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Crownguard",
+      "api_name": "DA_CrownguardRadiant",
+      "file": "tft5_item_crownguardradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_crownguardradiant.png",
+      "sha256": "7e9dbe931bf6578b68474ddba0f637cfd176b5ba6584557307ad5862a228a3dd",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Deathblade",
+      "api_name": "DA_DeathbladeRadiant",
+      "file": "tft5_item_deathbladeradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_deathbladeradiant.png",
+      "sha256": "072c4adbc527966aa995ffc0941dc7df9317e8e17f70d4adc9764d943a31c7b3",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Dragon's Claw",
+      "api_name": "DA_DragonsClawRadiant",
+      "file": "tft5_item_dragonsclawradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_dragonsclawradiant.png",
+      "sha256": "c252481e86992e650f371edb01ffe2be73266c6fd2487adccb873f2cd69e584e",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Edge of Night",
+      "api_name": "DA_EdgeOfNightRadiant",
+      "file": "tft5_item_guardianangelradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_guardianangelradiant.png",
+      "sha256": "5435c3066bdfb4c23c357774ecd4449b32d85fa8fa3e803550dd260014e46182",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Evenshroud",
+      "api_name": "DA_EvenshroudRadiant",
+      "file": "tft5_item_spectralgauntletradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_spectralgauntletradiant.png",
+      "sha256": "6a83413a931788142ea138bbe57490ee8d381e2347ac4855bff82f6034da1a99",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Gargoyle Stoneplate",
+      "api_name": "DA_GargoyleStoneplate_Radiant",
+      "file": "tft5_item_gargoylestoneplateradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_gargoylestoneplateradiant.png",
+      "sha256": "da528b70ce53b61667d0a8d6aa3af737cf2af7426b4d43fc6b8dd884a146c8f6",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Giant Slayer",
+      "api_name": "DA_GiantSlayer_Radiant",
+      "file": "tft5_item_giantslayerradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_giantslayerradiant.png",
+      "sha256": "64e167c4a07879dbb959888dd9519a68513cf11f21b14f5644f8f57c77cec1c4",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Guinsoo's Rageblade",
+      "api_name": "DA_GuinsoosRagebladeRadiant",
+      "file": "tft5_item_guinsoosragebladeradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_guinsoosragebladeradiant.png",
+      "sha256": "e0c53cdd369e7afe666eb7c83cebe044dd71ba085f7e44ffb0cfe45cca9e4354",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Hand of Justice",
+      "api_name": "DA_HandOfJusticeRadiant",
+      "file": "tft5_item_handofjusticeradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_handofjusticeradiant.png",
+      "sha256": "dcaa325345adf84636a20406468eee464784a8c2029def4188a5714e70e656ea",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Health Potion",
+      "api_name": "DA_HealthPotion18_Radiant",
+      "file": "tft18_healthpotion.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft18/tft18_healthpotion.png",
+      "sha256": "a11d140efeddaedb29f160c26b0357feb0707c7464953ac0d81dc1fa333e834b",
+      "shared_with": [
+        "Health Potion"
+      ]
+    },
+    {
+      "name": "Radiant Hextech Gunblade",
+      "api_name": "DA_HextechGunbladeRadiant",
+      "file": "tft5_item_hextechgunbladeradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_hextechgunbladeradiant.png",
+      "sha256": "b662a15607550d3d2ea45fbc704c812fde17ea74c8da9d175d685d269390566d",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Infinity Edge",
+      "api_name": "DA_InfinityEdgeRadiant",
+      "file": "tft5_item_infinityedgeradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_infinityedgeradiant.png",
+      "sha256": "568dbf32e9cad10f6648aef06b2c8041818b59c443a4472ee111ecda619d2b70",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Ionic Spark",
+      "api_name": "DA_IonicSparkRadiant",
+      "file": "tft5_item_ionicsparkradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_ionicsparkradiant.png",
+      "sha256": "9cc81884410b14b6441448f416db35b693dcc06cb627bebe56c469dc4925c744",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Item",
+      "api_name": "TFT_Assist_RandomRadiantItem",
+      "file": "doubleup_assistarmory_randomitem_radiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/particles/tft/item_icons/pairs/doubleup_assistarmory_randomitem_radiant.png",
+      "sha256": "d5a1981d8956dfd6477e5dfcb1203202e87a640e24c76f691cca650993ff5892",
+      "shared_with": [
+        "12 radiant items",
+        "2 Radiant Items",
+        "3 Radiant Items"
+      ]
+    },
+    {
+      "name": "Radiant Jeweled Gauntlet",
+      "api_name": "DA_JeweledGauntletRadiant",
+      "file": "tft5_item_jeweledgauntletradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_jeweledgauntletradiant.png",
+      "sha256": "28f717ea72d7d390c3a15dc187c0c42a3ae5501d7b2db57f292292214d008609",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Kraken's Fury",
+      "api_name": "DA_KrakensFury_Radiant",
+      "file": "tft_item_krakenslayerradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_krakenslayerradiant.png",
+      "sha256": "53c8df043a124346648867823f855c763115569ab8f064864a497a870abbd1bc",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Last Whisper",
+      "api_name": "DA_LastWhisperRadiant",
+      "file": "tft5_item_lastwhisperradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_lastwhisperradiant.png",
+      "sha256": "da6c6c432f441102cdc2341968e6bd418782c2ff5f18b570e86bd028896fd464",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Lucky Item Chest",
+      "api_name": "DA_RadiantLuckyItemChest",
+      "file": "tft_consumable_luckyitemchest.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_consumable_luckyitemchest.png",
+      "sha256": "4875902e4279fa7da1a79886420f2cbf361bf1778a3a327fb8cfd4f6c54bc172",
+      "shared_with": [
+        "Lucky Item Chest"
+      ]
+    },
+    {
+      "name": "Radiant Mana Potion",
+      "api_name": "DA_ManaPotion18_Radiant",
+      "file": "tft18_manapotion.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/tft18/tft18_manapotion.png",
+      "sha256": "c0c4d7ab2b3ca392b952a1ab53c9151b0f8edced925ffd66bc41eb7088840f51",
+      "shared_with": [
+        "Mana Potion"
+      ]
+    },
+    {
+      "name": "Radiant Morellonomicon",
+      "api_name": "DA_MorellonomiconRadiant",
+      "file": "tft5_item_morellonomiconradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_morellonomiconradiant.png",
+      "sha256": "9478f0af9db7442fef56d79b43f95b68b879d69204d9fc61dd345b44e81bd5c3",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Nashor's Tooth",
+      "api_name": "DA_NashorsToothRadiant",
+      "file": "tft5_item_leviathanradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_leviathanradiant.png",
+      "sha256": "a134d0c1371f68d036e08fab4745cd33625b81c6ab2081333257061e8dfe392b",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Protector's Vow",
+      "api_name": "DA_ProtectorsVowRadiant",
+      "file": "tft5_item_frozenheartradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_frozenheartradiant.png",
+      "sha256": "8f44071302b42a6c3b0c2dd724022a95551e606681c4f3b9c6db37ec57468bb9",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Quicksilver",
+      "api_name": "DA_QuicksilverRadiant",
+      "file": "tft5_item_quicksilverradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_quicksilverradiant.png",
+      "sha256": "cdad71a679b5fbc80743e63da9422df4e7df545364aaa7c437064e08bfb650c8",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Rabadon's Deathcap",
+      "api_name": "DA_RabadonsDeathcap_Radiant",
+      "file": "tft5_item_rabadonsdeathcapradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_rabadonsdeathcapradiant.png",
+      "sha256": "a2a9ba77fb2dfb1e4c7062edaec29c940ba5da18423a3f89d654a73f6e895265",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Red Buff",
+      "api_name": "DA_RedBuffRadiant",
+      "file": "tft5_item_rapidfirecannonradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_rapidfirecannonradiant.png",
+      "sha256": "269b8e8d5a8468f13500ba3d15dc648ec79450bf0dad4a6a53c81d4e0d616cc5",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Spear of Shojin",
+      "api_name": "DA_SpearOfShojinRadiant",
+      "file": "tft5_item_spearofshojinradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_spearofshojinradiant.png",
+      "sha256": "1f135b8ee07d15aff9486d17ea063b21a6546453156d2c3ab77e74bbcd228402",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Spirit Visage",
+      "api_name": "DA_SpiritVisage_Radiant",
+      "file": "tft_item_spiritvisagerr.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft_item_spiritvisagerr.png",
+      "sha256": "6bc05f008408be7f4d4057d8eea273b70759d7c8b295de414a789027d8d9dc8c",
+      "shared_with": [
+        "Spirit Visage"
+      ]
+    },
+    {
+      "name": "Radiant Steadfast Heart",
+      "api_name": "DA_SteadfastHeartRadiant",
+      "file": "tft5_item_nightharvesterradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_nightharvesterradiant.png",
+      "sha256": "ec7c30ea9a6c3274a6085915ec04387d2a6d330864193f6699cd17a940e9a0dc",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Sterak's Gage",
+      "api_name": "DA_SteraksGageRadiant",
+      "file": "tft5_item_steraksgageradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_steraksgageradiant.png",
+      "sha256": "1687be3fd6c177de514d570d7f40d15fa49537f9f06e521c665f96c9f034561a",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Striker's Flail",
+      "api_name": "DA_StrikersFlailRadiant",
+      "file": "tft5_item_trapclawradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_trapclawradiant.png",
+      "sha256": "bc360ed80f1720e742caec5a4bcbc64b4f39a1077acc765128a3aba060cbf8a7",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Sunfire Cape",
+      "api_name": "DA_SunfireCape_Radiant",
+      "file": "tft5_item_sunfirecaperadiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_sunfirecaperadiant.png",
+      "sha256": "1dec5c1cfd263570babdde89d1c7bae8b9c1088776ad06f1fd098342ab889175",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Thief's Gloves",
+      "api_name": "DA_ThiefsGlovesRadiant",
+      "file": "tft5_item_thiefsglovesradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_thiefsglovesradiant.png",
+      "sha256": "648d4b75f8ca19203c375a68febceae520cef51ad9ed21dd1071c77f91cfca7a",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Titan's Resolve",
+      "api_name": "DA_TitansResolve_Radiant",
+      "file": "tft5_item_titansresolveradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_titansresolveradiant.png",
+      "sha256": "10af867f4113666dad1577ccbb8936ac2a8ec20c7fa4e47225cd18a920fd704e",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Void Staff",
+      "api_name": "DA_VoidStaffRadiant",
+      "file": "tft5_item_voidstaffradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_voidstaffradiant.png",
+      "sha256": "cce487af9653bb3a9792252164757131299f61a57634f5e53c3129a58208b91d",
+      "shared_with": []
+    },
+    {
+      "name": "Radiant Warmog's Armor",
+      "api_name": "DA_WarmogsArmorRadiant",
+      "file": "tft5_item_warmogsarmorradiant.png",
+      "url": "https://raw.communitydragon.org/latest/game/assets/maps/tft/icons/items/hexcore/tft5_item_warmogsarmorradiant.png",
+      "sha256": "f7d98c3dd8251cc9b63d7ad2948b5b2dbc3f8ec09ebe2b4b953efc5b157d8bfc",
+      "shared_with": []
+    }
+  ]
+}
