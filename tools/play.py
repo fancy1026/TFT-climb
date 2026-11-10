@@ -14,7 +14,7 @@ OpenAI or OpenRouter, told apart by the key - asked for the first time and kept 
 or the ChatGPT subscription (the Codex app or Codex CLI, logged in).
 The chosen comp is shown (units, items, levels) for confirmation, then its MetaTFT page is read into the
 comp's prompt file (data/metatft_shots/<comp>/brief.txt, with the page screenshots) before the game starts.
-Options after the choice go to play_comp.py / play_match.py: --games 3, --ranked, --no-screenshots ...
+Options after the choice go to play_comp.py / play_match.py: --games 3, --until 4-1, --record ...
 """
 import os
 import runpy

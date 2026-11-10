@@ -59,11 +59,19 @@ MIN_GAME_S = 15 * 60                     # shorter is a guide or a clip, not a f
 MIN_STAGED_READS = 100                   # frames with a stage read: fewer is no game read (a full game has ~1000)
 
 
+
+def yt_dlp():
+    """yt-dlp: on PATH, else the one requirements.txt put beside this Python (.venv/Scripts, which is not on PATH
+    when the climb runs as .venv/Scripts/python - a fresh install found none)."""
+    return shutil.which('yt-dlp') or next((str(p) for p in (Path(sys.executable).with_name('yt-dlp.exe'),
+                                                              Path(sys.executable).with_name('yt-dlp')) if p.exists()), None)
+
+
 def search_youtube(query, n=12):
     """Full-length videos for a query on YouTube (yt-dlp search, no login): [{"url", "id", "duration", "channel",
     "title"}], also merged into agent/sources/videos.jsonl. A strong player's game of the comp, for the reflection
     (the owner, 2026-10-29: "learn from how others play the same comp via videos")."""
-    exe = shutil.which('yt-dlp')
+    exe = yt_dlp()
     if not exe:
         return []
     r = subprocess.run([exe, '--flat-playlist', '--print', '%(id)s\t%(duration)s\t%(channel)s\t%(title)s',
@@ -103,7 +111,7 @@ def url_folder(url):
 
 def download(url, folder, section=None):
     """yt-dlp, at up to 1080p, into folder/game.mp4 (with English captions where the site has them)."""
-    exe = shutil.which('yt-dlp')
+    exe = yt_dlp()
     if not exe:
         return False, 'yt-dlp is not installed'
     import imageio_ffmpeg

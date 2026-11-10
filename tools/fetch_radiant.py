@@ -1,7 +1,7 @@
 """The Radiant item icons the item reader needs, downloaded at install instead of shipped in the repository: the
 list (names and addresses on CommunityDragon) is tft_player/assets/radiant-items/catalogue.json.
 
-    python tools/fetch_radiant.py          (install.bat runs it; files already there are kept)
+    python tools/fetch_radiant.py          (install.bat runs it before fetch_assets.py; files already there are kept)
 """
 import json
 import urllib.request

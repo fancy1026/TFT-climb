@@ -1,0 +1,59 @@
+{
+ "games": 31,
+ "levels": {
+  "7": 2,
+  "8": 20,
+  "9": 8,
+  "10": 1
+ },
+ "level8_games": 29,
+ "level8": {
+  "Murkwolf": 29,
+  "Krug": 29,
+  "Pebbles": 29,
+  "Brambleback": 25,
+  "Scuttlecrab": 24,
+  "Sentinel": 23,
+  "Cinderling": 20,
+  "Mama Beak": 14,
+  "Gromp": 10,
+  "Sett": 10,
+  "Taric": 5,
+  "Elder Dragon": 3,
+  "Gnar": 2,
+  "Rakan": 2,
+  "Diana": 1,
+  "Teemo": 1,
+  "Ashe": 1,
+  "Caitlyn": 1,
+  "Hecarim": 1,
+  "Shen": 1
+ },
+ "fives": {
+  "Elder Dragon": [
+   13,
+   4
+  ],
+  "Taric": [
+   11,
+   1
+  ],
+  "Gnar": [
+   10,
+   1
+  ],
+  "Lux": [
+   1,
+   0
+  ],
+  "Ashe": [
+   1,
+   0
+  ],
+  "Ivern": [
+   1,
+   0
+  ]
+ },
+ "records": 56
+}

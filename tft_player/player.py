@@ -3,7 +3,9 @@
     capture (continuous) -> read HUD + occupancy -> update roster
       -> brain.decide -> one input -> repeat
 
-Started by tools/play.py. Stop: F8 at any time.
+Run live:   python -m tft_player.player --until 3-7
+Dry run:    python -m tft_player.player --dry-run   (reads + decides, no input)
+Stop:       F8 at any time.
 """
 from __future__ import annotations
 
@@ -405,7 +407,8 @@ class Player:
         self.hp_at_round = None
         self.roster = Roster()
         self.brain = Brain()
-        self.pilot = None
+        from tft_player.pilot import pilot_from_env
+        self.pilot = pilot_from_env()    # TFT_PILOT (tools/play_pilot.py): one comp, played by rules
         if self.pilot:
             self.brain = self.pilot
             print(f'pilot: {self.pilot.comp.name} -> {", ".join(self.pilot.final)}')
@@ -5943,7 +5946,7 @@ class Player:
         pv = st.get('pivot')
         if not (self.forced and isinstance(pv, dict) and pv.get('to')):
             return
-        if not self.committed:                                           # the chosen comp is played all game
+        if not (os.environ.get('TFT_ALLOW_PIVOT') or self.committed):    # the chosen comp is played all game
             # (a flex game chose its comp itself: it may change it)
             if stage not in self.pivoted:
                 self.pivoted.add(stage)
@@ -13585,3 +13588,34 @@ def bench_choice_open(frame):
     return bool(bench.choice_cards(frame))
 
 
+def main():
+    import sys
+    sys.stdout.reconfigure(encoding='utf-8', errors='replace')
+    from tft_player.game import Capture, Input, Stopped, find_client
+    ap = argparse.ArgumentParser()
+    ap.add_argument('--until', help='stop after this stage, e.g. 3-7')
+    ap.add_argument('--dry-run', action='store_true')
+    args = ap.parse_args()
+    client = find_client()
+    if not client:
+        raise SystemExit('TFT client window not found')
+    print(f'TFT client {client.width}x{client.height} at {client.left},{client.top}')
+    cap = Capture(client)
+    time.sleep(0.3)
+    run_dir = RUNS / time.strftime('%Y%m%d-%H%M%S')
+    p = Player(cap, Input(client, dry_run=args.dry_run), run_dir, args.until)
+    try:
+        p.run()
+    except Stopped as e:
+        print('stopped:', e)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        p.stop_recording()
+        cap.close()
+        print('latency:', p.latency_report())
+        print('log:', run_dir)
+
+
+if __name__ == '__main__':
+    main()

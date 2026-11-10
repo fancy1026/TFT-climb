@@ -19,10 +19,12 @@ data/item-assets/*.png
 # icons the harness learns in play stay on this machine
 data/item-icons-learned/
 
-# downloaded at install (tools/fetch_radiant.py)
+# downloaded at install (tools/fetch_radiant.py, tools/fetch_meta.py, tools/fetch_unit_items.py, build_reference)
 tft_player/assets/radiant-items/*.png
+data/meta/
+data/emblems-*.json
 
-# what the climb writes while it runs (your games, reviews and what the agents learned)
+# made while the climb runs and kept on this machine
 agent/STOP
 agent/judge-cache/
 agent/model/cache/

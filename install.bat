@@ -7,8 +7,8 @@ if not exist .venv py -3.11 -m venv .venv || exit /b 1
 .venv\Scripts\python -m pip install -r requirements.txt || exit /b 1
 .venv\Scripts\python tools\get_model.py || exit /b 1
 echo Game data and icons ...
-.venv\Scripts\python tools\fetch_assets.py || exit /b 1
 .venv\Scripts\python tools\fetch_radiant.py || exit /b 1
+.venv\Scripts\python tools\fetch_assets.py || exit /b 1
 echo MetaTFT data and reference files ...
 .venv\Scripts\python tools\fetch_meta.py || exit /b 1
 .venv\Scripts\python tools\fetch_unit_items.py || exit /b 1

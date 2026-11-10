@@ -1,0 +1,167 @@
+[
+ {
+  "id": "riftbeast-carry-fielded",
+  "rule": "At the end of every planning phase (and of a combat-time update), if a Brambleback is owned and none is fielded, the executor fields the highest-star Brambleback in place of a fielded Riftbeast of cost 1-2 that turns on no other active trait tier - Cinderling, then Scuttlecrab, then Gromp, an itemless one first - so the Riftbeast count stays the same (a champion counts once; Brambleback is a Riftbeast). It never swaps out Pebbles (the Alpha Mark / Jeweled Gauntlet holder), Krug, Murkwolf (Ravager 2 with Brambleback), Sentinel, Taric or Elder Dragon, never fields a second Brambleback, and never takes the board below Riftbeast 7 (the existing drop_breakpoint guard). \"bench_carry\": true in execution_plan skips it for that plan. The swap is reported in the next state as 'comp rule: Brambleback fielded for <unit>'.",
+  "why": "Brambleback is the comp's carry and a Riftbeast, so swapping him for a 1-2-cost Riftbeast keeps Riftbeast 7 and adds Ravager 2 with Murkwolf (bonus damage and omnivamp on both): the board gains a tier and a 4-cost body, and loses only a 1-2-cost unit's stars. Game 40 left him on the bench for five rounds, 4-5 to 5-2, 'until he is 2-star', while Scuttlecrab 2* (Juggernaut 1, inactive) or Gromp (no tier) held the slot; the player's reason did not hold (the Reviewer graded all five bad, cause reasoning). Strong players field him at 1 star the round they buy him: Borislavs 4-1 (Riftbeast 7 + Ravager 2, Brambleback 1*), Daniel 4-5 (Ravager 2 added), Mattou from 3-1. The comp notes now field him on the replayed 4-5 and 4-6 questions, so this rule is the floor under that judgement, not the only fix.",
+  "sources": [
+   {
+    "game": "20261029-070238",
+    "round": "4-5",
+    "evidence": "Brambleback 1* bought and benched 'until he is 2-star' while Scuttlecrab 2* fought with Juggernaut 1 inactive; the swap keeps Riftbeast 7 and adds Ravager 2"
+   },
+   {
+    "game": "20261029-070238",
+    "round": "4-6",
+    "evidence": "Brambleback 1* benched again; Gromp (no tier) held Guinsoo's Rageblade and Edge of Night; Ravager 2 off"
+   },
+   {
+    "game": "20261029-070238",
+    "round": "4-7",
+    "evidence": "the same board: Brambleback benched, Gromp fielded with the carry items"
+   },
+   {
+    "game": "20261029-070238",
+    "round": "5-1",
+    "evidence": "Brambleback benched for the fifth player fight in a row; the Item Remover (5 uses) was held"
+   },
+   {
+    "game": "vod-yt-uGe9tKj0b_I",
+    "round": "4-1",
+    "evidence": "Borislavs fielded Riftbeast 7 + Ravager 2 with Brambleback 1-star the round after the level-7 spike"
+   },
+   {
+    "game": "vod-yt-OdFTSRHjm_0",
+    "round": "4-5",
+    "evidence": "Daniel added Ravager 2 (Murkwolf + Brambleback) at 4-5 beside Riftbeast 7 + Invoker 2"
+   },
+   {
+    "game": "vod-yt-3M9_ZrXJdHc",
+    "round": "3-1",
+    "evidence": "Mattou fielded Brambleback from 3-1 on a win streak, before any 2-star of him"
+   }
+  ],
+  "added": "2026-10-30T02:37:11"
+ },
+ {
+  "id": "riftbeast-level9-after-carry",
+  "rule": "At level 8, while no Brambleback is 2-star or better, the executor skips a plan's XP buys that would complete level 9 (planning or next_round plans) when the gold left after them would be under 20; that gold stays in the bank, the plan's roll (if any) runs at level 8 with its own floor, and XP buys that do not complete the level run as planned. \"force_level\": true in execution_plan skips the rule for that plan. Reported in the next state as 'comp rule: level 9 held (Brambleback 1-star), N gold kept to roll at level 8'.",
+  "why": "Brambleback is a 4-cost: 4-cost odds are 30% at level 8 and 33% at 9, so while he is 1-star a level 9 bought with the roll bank buys only the 9th slot, and the copies that make the carry 2-star are not rolled that phase. Game 41 5-2: 56 of ~71 g on XP for level 9 with Zyra (no tier) in the slot and Brambleback 1 of 3, zero rolls (the 5-1 CALCULATOR: 3.3 copies at 8 against 0.2 after the level); the player's reason was the pinned 'Level 9 at 5-2/5-3', which does not hold for a 1-star carry - the Reviewer graded the 5-2 levelling and rolling bad, cause reasoning; 1 win in 4 fights in stage 5, 5th. The Judge found the playbook alone moves that answer in 1 of 3 (r9-level-leaves-a-roll, call 83). Strong players of this comp: Borislavs levelled 9 at 5-2 only after rolling Brambleback 2 at level 8; Daniel TFT rolled at 8 through stage 5 for him; BoxBox levelled 9 at 5-3 with ~20 g still rolled after the XP. Once Brambleback is 2-star the missing units are mostly 5-costs (3% at 8, 15% at 9) and the rule is off.",
+  "sources": [
+   {
+    "game": "20261030-025439",
+    "round": "5-2",
+    "evidence": "14 XP buys to level 9, 0 rolls, Brambleback 1-star, Zyra in the 9th slot"
+   },
+   {
+    "game": "20261030-025439",
+    "round": "5-1",
+    "evidence": "CALCULATOR level 8: 31 rolls, 3.3 copies; level 9: 1 roll, 0.2 copies"
+   },
+   {
+    "game": "vod-yt-uGe9tKj0b_I",
+    "round": "5-2",
+    "evidence": "Borislavs levels 9 after Brambleback 2 from the level-8 roll at 4-6"
+   },
+   {
+    "game": "vod-yt-OdFTSRHjm_0",
+    "round": "5-2",
+    "evidence": "Daniel TFT rolls at level 8 in stage 5 and finds Brambleback 2"
+   },
+   {
+    "game": "vod-yt-epvlyz63_7w",
+    "round": "5-3",
+    "evidence": "BoxBox levels 9 at 5-3 with 57 g, ~20 g rolled after the XP"
+   }
+  ],
+  "added": "2026-10-30T04:29:29"
+ },
+ {
+  "id": "riftbeast-five-costs-in-roll",
+  "rule": "At level 8 or more, every roll (a planning roll, a roll n times, a next_round roll) also buys one copy of each 5-cost on the comp's final boards - Gnar, Elder Dragon, Taric - while none of that champion is owned, as auto_buy does for the 1-4 costs: the card is bought when the gold covers its cost (the roll's floor stops the rolling, not this buy) and a bench slot is free, after the plan's listed champions in the same shop. It does not buy a second copy unless the plan lists it. \"skip_fives\": true in execution_plan turns it off for that plan. The buy is reported in the next state as 'comp rule: <champion> bought by the roll (final-board 5-cost)'.",
+  "why": "comp_auto_buy leaves the final board's 5-costs out of auto_buy (games 11-12 benched 1-star 5-costs at levels 7-8), so a roll buys them only when the player names them, and its roll lists name the 4-costs it is rolling for. At level 8 a final-board 5-cost shows in about 3% of slots, so a seen one is rare and the next shop replaces it; at 1 star it is a 5-cost body in place of a unit outside the final board or a Riftbeast filler, at the same or more trait tiers (Gnar: Brawler 2 with Krug; Taric for Rakan at 5-5 of game 42). Game 42 4-3: level 8, 20 g, both roll orders listed only Brambleback, Sentinel, Krug and Murkwolf; Gnar showed in the first and the second roll's opening shop and was rolled away; the player then said 'I'm buying Gnar, a 5-cost on the final board' - it wanted him and had left him out of its own order (Reviewer: rolling bad, reasoning, not logical). Game 40 4-2: the roll for Brambleback and Sentinel passed Taric, who was bought the next round at 4-3. Game 38 5-1 and game 41 5-5 bought them because the list named them. A named list is a decision the player gets right only when it remembers; the comp's final board is fixed, so the controller can hold it.",
+  "sources": [
+   {
+    "game": "20261030-050404",
+    "round": "4-3",
+    "evidence": "rolldown want ['Brambleback', 'Krug', 'Murkwolf', 'Sentinel'] then ['Brambleback', 'Murkwolf', 'Sentinel']; Gnar in shops 1 and 0 of the two rolls, bought: Sentinel, Murkwolf; level 8, 20 g"
+   },
+   {
+    "game": "20261030-050404",
+    "round": "4-3",
+    "evidence": "the player after the roll: 'I'm buying Gnar, a 5-cost on the final board. With Krug he makes Brawler 2' - Gnar already gone"
+   },
+   {
+    "game": "20261029-070238",
+    "round": "4-2",
+    "evidence": "rolldown want ['Brambleback', 'Sentinel']; shop ['Taric', 'Pebbles', 'Lillia', 'Xayah', 'Caitlyn'] rolled past; Taric bought at 4-3"
+   }
+  ],
+  "added": "2026-10-30T06:12:13"
+ },
+ {
+  "id": "riftbeast-carry-items-move",
+  "rule": "At the start of the item step of every planning phase (and of a combat-time update and a next_round plan), if a Brambleback is fielded with fewer than 3 completed items and another unit (fielded or benched) holds a completed Guinsoo's Rageblade, Edge of Night, Hand of Justice, Bloodthirster or Quicksilver (Brambleback's MetaTFT builds), the executor moves them to the fielded Brambleback, the plan's carry if two are fielded, up to his 3 slots, Rageblade first, then Edge of Night, then Hand of Justice: a benched holder is sold at the start of planning when it is not on the plan's board (its items return to the item bench), otherwise one Item Remover use on the holder, and the holder's other items are given back to it. It never removes an item from Brambleback, never uses a remover when none with uses is on the item bench, never strips Krug's, Sentinel's or Elder Dragon's items unless they are on that list, and runs before the plan's own gives so they see the moved items. \"keep_items\": true in execution_plan skips it for that plan. The move is reported in the next state as 'comp rule: <item> moved from <unit> to Brambleback'.",
+  "why": "Brambleback is the comp's carry: Rageblade (84% of his games, 4.19), Edge of Night (80%, 4.05) and Hand of Justice (56%) are built for his attack-speed ramp and survive-a-burst ability, and on a 1-2-cost placeholder they add a fraction of that. Each round they wait is a fight the carry plays bare. The player knows the rule (comp notes: 'move them to Brambleback when he is fielded (Item Remover or the sell)') and still writes 'next round' or 'once he is 2-star'; the principle r5-items-follow-the-carry was rejected by the Judge (4/9 vs 3/9), so prose does not move it. Game 45 (20261030-101714): Brambleback fielded 4-5 and 4-6 with no items while Rageblade sat on Kog'Maw and Edge of Night on Murkwolf, Item Remover 5 uses; reason 'Next round Rageblade and Edge of Night move onto Brambleback' graded bad, does not hold; done only at 4-7. Game 40 (20261029-070238): Gromp held Rageblade, Edge of Night and Last Whisper 4-5 to the end, 'until Brambleback is 2-star', remover 4-6 uses; graded bad 4-6 to 5-2. Game 43 (20261030-050404) 3-2: Rageblade + Edge of Night stayed on off-comp Diana while the player had written 'The Item Remover moves Rageblade and Edge of Night from Diana to Brambleback' (late plan; a rule that runs first does not wait on the plan). Game 44 (20261030-084115) 4-3: Gromp kept Rageblade and Hand of Justice. Strong player, train game vod-yt-UnYbcygALog (ZiRacha): 'if I had a Cinderling carry, I would move items over to the Brambleback' (07:56).",
+  "sources": [
+   {
+    "game": "20261030-101714",
+    "round": "4-5",
+    "evidence": "Brambleback fielded bare; Guinsoo's Rageblade on Kog'Maw, Edge of Night on Murkwolf, Item Remover 5 uses on the item bench"
+   },
+   {
+    "game": "20261030-101714",
+    "round": "4-6",
+    "evidence": "same items still off Brambleback, reason 'Next round ... move onto Brambleback' graded bad (reasoning, does not hold); the move ran at 4-7"
+   },
+   {
+    "game": "20261029-070238",
+    "round": "4-6",
+    "evidence": "Gromp 2* held Rageblade and Edge of Night 'until Brambleback is 2-star' with the remover held; graded bad 4-6 to 5-2"
+   },
+   {
+    "game": "20261030-050404",
+    "round": "3-2",
+    "evidence": "Rageblade + Edge of Night stayed on off-comp Diana; the planned remover move did not run before the fight"
+   },
+   {
+    "game": "20261030-084115",
+    "round": "4-3",
+    "evidence": "Gromp kept Rageblade and Hand of Justice in the fight"
+   }
+  ],
+  "added": "2026-10-30T11:36:13"
+ },
+ {
+  "id": "riftbeast-roll-for-seventh",
+  "rule": "In a planning phase (the first reply's execution_plan, or a next_round plan when it runs), at level 7 or more, when 5 or 6 distinct Riftbeasts are owned (board + bench; a champion counts once, Elder Dragon twice) and the plan has no roll, the executor runs a roll after the plan's sells, buys and XP: down to 20 gold, or to the plan's gold_floor when that is lower, and only when the gold is at least 24 as it starts. It buys every Riftbeast not yet owned that a shop shows (Mama Beak, Krug, Sentinel, Brambleback, Elder Dragon, and any 1-2-cost Riftbeast not owned), sells a benched unit that holds no item and is not a Riftbeast to make room, and stops as soon as 7 distinct Riftbeasts are owned. The player's next plan or update decides where the new Riftbeast goes. A Wisp seen during it is asked at once, and the roll waits for the answer. \"hold_gold\": true in execution_plan skips it for that plan. Reported in the next state as 'comp rule: rolled N times for the 7th Riftbeast (<unit> found / not found), gold A -> B'.",
+  "why": "Riftbeast 7 is the comp's combat power (every Riftbeast grows +6% AD/AP/AS, armor, MR and HP every 5 s; MetaTFT: Riftbeast 5 places 6.42, Riftbeast 7 4.20), and the 3-cost Riftbeasts show best at level 7 (43% 3-cost odds): a level-7 shop shows one of the four Riftbeasts usually missing 17% of the time, 10 rolls (20 g) 87% (calc roll). Once at level 7, the player plans for level 8 and the 4-cost carry and holds the bank while fighting on Riftbeast 5-6; its reason ('level 8 once the gold covers the XP plus a roll') does not hold for a missing 3-cost, and the 'Rolling for' line never names Mama Beak (she is not on the MetaTFT final board). The comp notes' level-7 roll is written for the phase that buys level 7; this keeps it when level 7 is bought and the 7th is still missing. Game 48 (20261030-143543): the 3-5 roll ran into a full bench and 4-1's missed her (harness); 4-2 (42 g) and 4-3 (55 g) held at level 7 with 6 owned, Reviewer: rolling bad both times, reason does not hold; 4-1 to 4-3 lost on Riftbeast 5-6 (89 -> 62 HP), Riftbeast 7 only at 4-5, 6th. Game 40 (20261029-070238) 3-6: level 7, 39 g, 'Riftbeast 6, one short of 7', sold for the 40 interest step at 52 HP on a 5-loss streak. Game 45 (20261030-101714) 4-1: level 7, 35 g, 6 owned, Mama Beak missing, 4-loss streak at 64 HP; only the 2 free rerolls ran, level 8 left for 4-2. Strong players roll at level 7 until the 7th is on: Daniel TFT 3-5 49 -> 11 (Riftbeast 7 + Invoker 2 that round), Mattou 52 -> 25, Wasianiverson 75 -> 50; Borislavs held 54 at level 7 only with Riftbeast 7 already fielded.",
+  "sources": [
+   {
+    "game": "20261030-143543",
+    "round": "4-2",
+    "evidence": "call 61: level 7, 42 g, 6 distinct Riftbeasts, standing order 'Mama Beak to 1* (1 more to buy)', no roll: 'Hold 42 gold. Level 8 comes once the gold covers the XP plus a roll'; audit stage-4 rolling bad"
+   },
+   {
+    "game": "20261030-143543",
+    "round": "4-3",
+    "evidence": "call 64: level 7, 55 g, no roll, Blood Ritual + 1 XP, 'at 4-5 we will have about 65'; audit stage-4 rolling bad"
+   },
+   {
+    "game": "20261029-070238",
+    "round": "3-6",
+    "evidence": "call 52: Gold 39, level 7, 'Krug replaces Camille in the front row: 6 Riftbeast, one short of 7', sells for the 40 interest step, no roll"
+   },
+   {
+    "game": "20261030-101714",
+    "round": "4-1",
+    "evidence": "call 67: Gold 35, level 7, 6 distinct owned without Mama Beak, roll times 2 (free rerolls only), 'Level 8 waits for 4-2's gold'"
+   },
+   {
+    "game": "vod-yt-OdFTSRHjm_0",
+    "round": "3-5",
+    "evidence": "Daniel TFT: level 6 -> 7, gold 49 -> 11, 2 shops, Riftbeast 7 + Invoker 2 fielded that round"
+   }
+  ],
+  "added": "2026-10-30T16:17:39"
+ }
+]

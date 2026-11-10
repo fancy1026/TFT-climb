@@ -2,10 +2,13 @@
 
     python tools/play_match.py                 one full game
     python tools/play_match.py --games 5       five in a row
+    python tools/play_match.py --until 3-1     test run: surrender after 3-1
+    python tools/play_match.py --strategist    the strategist version (in ../TFT-claude-strategist)
 
 Per game:
 1. queue + accept AFK checks through the standalone TFT client UI
-2. wait for the TFT window, run the player until the game is over
+2. wait for the TFT window, run the player until the game is over (or the
+   stage limit, then surrender through the in-game menu)
 3. dismiss end-of-game screens, read our placement from TFTEoGStats.json and
    append it to runs/games.jsonl
 F8 stops all game input at any time.
@@ -23,6 +26,7 @@ warnings.filterwarnings('ignore')
 import tft_player.game  # noqa: E402,F401  (arms the F8 kill switch from the start, queueing included)
 
 ROOT = Path(__file__).resolve().parent.parent
+STRATEGIST = ROOT.parent / 'TFT-claude-strategist'     # the strategist version: tools/play_match.py --strategist
 
 
 def gold(p):
@@ -102,17 +106,44 @@ def surrender(cap, inp, client, log):
 def main():
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     ap = argparse.ArgumentParser()
+    ap.add_argument('--until', help='test run: last stage to play, then surrender (the game allows it from 3-2)')
     ap.add_argument('--games', type=int, default=1, help='full games to play in a row')
+    ap.add_argument('--no-surrender', action='store_true')
     ap.add_argument('--ranked', action='store_true', help='queue TFT Ranked (1100) instead of Normal (1090)')
     ap.add_argument('--normal', action='store_true', help=argparse.SUPPRESS)     # the default now
+    ap.add_argument('--record', action='store_true',
+                    help='test data: also record the carousel clips and the per-round unit gallery '
+                         '(runs/<ts>/carousel/<stage>/raw, runs/<ts>/units); off by default, as in the release')
     ap.add_argument('--no-screenshots', action='store_true',
                     help="do not save screenshots in the game's folder (runs/<ts>); its log and the model "
                          'conversation are saved either way')
+    ap.add_argument('--video', action='store_true',
+                    help='also record the whole game as runs/<ts>/game.mp4 (off by default; carousels are always '
+                         'recorded at 8 fps in runs/<ts>/carousel/<stage>/raw)')
+    ap.add_argument('--video-hq', action='store_true',
+                    help='--video at high quality: 30 fps, native resolution, quality 20 (costs capture frames)')
+    ap.add_argument('--profile', action='store_true',
+                    help='also profile the game with py-spy (runs/<ts>/profile.speedscope.json; it slows the game)')
+    ap.add_argument('--test-mode', action='store_true', help=argparse.SUPPRESS)     # recording is always on now
     ap.add_argument('--no-overlay', action='store_true', help='no on-screen explanation panels')
+    ap.add_argument('--strategist', action='store_true',
+                    help='play with the strategist version (second model, MetaTFT live tools) kept in '
+                         f'{STRATEGIST}; default: this folder, the version of 2026-09-28 06:31')
     args = ap.parse_args()
-    os.environ['TFT_TEST_MODE'] = '0'
+    os.environ['TFT_TEST_MODE'] = '1' if args.record else '0'
     if args.no_screenshots:
         os.environ['TFT_NO_SCREENSHOTS'] = '1'
+    if args.profile:
+        os.environ['TFT_PROFILE'] = '1'
+    if args.video or args.video_hq:
+        os.environ['TFT_VIDEO'] = '1'
+    if args.video_hq:
+        os.environ['TFT_VIDEO_HQ'] = '1'
+    if args.strategist:
+        import subprocess
+        rest = [a for a in sys.argv[1:] if a != '--strategist']
+        sys.exit(subprocess.run([sys.executable, str(STRATEGIST / 'tools' / 'play_match.py'), *rest],
+                                cwd=STRATEGIST).returncode)
 
     print(json.dumps({'code': str(ROOT)}), flush=True)     # which version is playing
     print(json.dumps({'loaded': load_harness()}), flush=True)
@@ -279,7 +310,7 @@ def play_one(client, args):
             if coach.speed_refused():
                 return {'result': f'stopped: {coach.speed_refused()}'}
         refresh = refresh_meta()            # ~3 min of MetaTFT downloads, no model tokens: runs while we queue
-        if coach._cli()[0]:
+        if coach._cli()[0] and not os.environ.get('TFT_PILOT'):
             prep = start_preparation(refresh)
         res = enter_match(client, emit=lambda e: print(json.dumps(e), flush=True), timeout=1800,
                           queue_id=1100 if args.ranked else 1090)   # Normal by default (the user, 2026-10-14)
@@ -311,12 +342,12 @@ def play_one(client, args):
     inp = Input(client_win, auto_focus=True)     # dedicated test machine: take focus when covered
     from tft_player.overlay import Overlay
     overlay = None if args.no_overlay else Overlay(client_win)
-    p = Player(cap, inp, run_dir, None, overlay=overlay, client=client, prep=prep)
+    p = Player(cap, inp, run_dir, args.until, overlay=overlay, client=client, prep=prep)
     result = 'stopped'
     try:
         p.run()
         result = 'game over' if p.ending.game_over else 'stage limit reached'
-        if result == 'stage limit reached':
+        if result == 'stage limit reached' and not args.no_surrender:
             for attempt in range(6):
                 time.sleep(1)
                 result = surrender(cap, inp, client, p.log)

@@ -1,4 +1,4 @@
-"""Play one comp, with the default (original) player - one model conversation per stage.
+"""Test run: play one comp only, with the default (original) player - one model conversation per stage.
 
 The system prompt is the usual one with no comp probabilities, plus one line naming the
 comp; the briefing is that line, the comp's MetaTFT page as short text with its numbers,
@@ -8,7 +8,7 @@ The model makes the decisions (round plans, augments, Wisps, items) and may writ
 round's plan ahead (next_round): it runs the moment that planning phase opens, with no model call.
 
     python tools/play_comp.py                                  Lunar Aphelios Nidalee, one game
-    python tools/play_comp.py --comp "Flora Fatalis Azir"   by exact name (or MetaTFT number - numbers
+    python tools/play_comp.py --comp "Flora Fatalis Azir" --until 4-1   by exact name (or MetaTFT number - numbers
                                                                change when MetaTFT reclusters, e.g. 425013 -> 426003)
     python tools/play_comp.py --list                           the comps and their numbers
     python tools/play_comp.py --comp flex                      no fixed comp: the model picks among the MetaTFT comps
@@ -33,6 +33,13 @@ if '--list' in args:
     for c in sorted(META.comps.values(), key=lambda c: c.avg):
         print(f'{c.id}  avg {c.avg:.2f}  {c.name}')
     sys.exit()
+if '--data-roll' in args:                        # attach to the user's game (level 8): reroll, buy, photograph, sell ours
+    args.remove('--data-roll')
+    os.environ['TFT_DATA_ROLL'] = '1'
+    args.append('--data')
+if '--data' in args:                             # data-collection game: buy and level to see champions
+    args.remove('--data')
+    os.environ['TFT_DATA_MODE'] = '1'
 comp = 'Lunar Aphelios Nidalee'                  # by name: MetaTFT renumbers its comps (425002 -> 426004, 2026-10-12)
 if '--comp' in args:
     i = args.index('--comp')
@@ -78,10 +85,15 @@ os.environ['TFT_TEST_OPEN_CONTAINERS'] = '1'          # test games: open contain
 
 from tft_player.coach import _cli, forced_comp, model_name, use_model  # noqa: E402
 
-why = use_model(model, effort)
-if why:
-    sys.exit(f'no model: {why} - not starting a game')
-print(f'model: {model_name()}, effort {effort} ({_cli()[1]})', flush=True)
+if os.environ.get('TFT_DATA_MODE'):
+    os.environ['TFT_COACH_BACKEND'] = 'none'          # data games: no model calls
+else:
+    why = use_model(model, effort)
+    if why:
+        # a model game without a model is not a test of anything (run21 played on fallback rules)
+        sys.exit(f'no model: {why} - not starting a game')
+print('model: none (data-collection game)' if os.environ.get('TFT_DATA_MODE') else
+      f'model: {model_name()}, effort {effort} ({_cli()[1]})', flush=True)
 c = forced_comp()
 if flex:
     print('flex: the model picks among the MetaTFT comps during the game', flush=True)
@@ -89,7 +101,7 @@ elif not c:
     sys.exit(f'no MetaTFT comp named {comp!r}')
 else:
     print(f'forced comp: {c.name} ({c.id}); units: {", ".join(c.units)}', flush=True)
-sys.argv = [sys.argv[0]] + args
+sys.argv = [sys.argv[0]] + [a for a in args if a != '--strategist']
 from tools.play_match import main  # noqa: E402
 
 main()

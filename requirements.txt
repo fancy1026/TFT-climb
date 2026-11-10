@@ -1,5 +1,6 @@
 anthropic==1.8.0
 dxcam==0.3.0
+faster-whisper==1.2.1
 httpx==0.28.1
 imageio-ffmpeg==0.6.0
 jsonschema==4.26.0

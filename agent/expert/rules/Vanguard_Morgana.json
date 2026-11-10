@@ -1,0 +1,34 @@
+{
+ "comp": "Vanguard Morgana",
+ "written": "2026-11-07",
+ "rules": [
+  {
+   "id": "owner-item-plan",
+   "rule": "Item plan: the DPS is Morgana - Adaptive Helm, Morellonomicon, Void Staff (MetaTFT's build); the main tank is the front tank that holds the tank items - in MetaTFT's data Sentinel, with Adaptive Helm and Protector's Vow (or Gargoyle Stoneplate, Warmog's Armor). Three items on each, by priority, not a fixed order: Morgana's before the tank's when the components make the next item of either, then they take turns; an item the components on hand make only for the tank is built at once; what is beyond those six goes on the next carry (Cassiopeia). Damage items never on the tanks.",
+   "why": "The owner, 2026-11-07: 'there should have itemization plan for each comp ... like 6 items ... at the beginning of the stage 5 ... 3 items for the main tank, 3 items for the dps (brambleback and morgana). A little priority should give to the dps.' The owner, 2026-11-07: 'do not build 3 items for dps and then 3 for tank ... I mean priority like: first dps, and then tank, and then another dps item, like this etc.' The owner, 2026-11-07: 'is not a fixed rule. Suppose that we have 3 components in the beginning, vest, cloak and rod. It should build the stoneplate, and not wait for the first dps and then build tank.'",
+   "from": [
+    "x21.1",
+    "x22.1",
+    "x23.1"
+   ]
+  },
+  {
+   "id": "owner-roll-level-8",
+   "rule": "This is a level-8 comp (its carry costs 4): no reroll below level 8 - none at level 7, free rerolls included (they are kept: they do not expire); the executor does not run them. The one exception is the last life (a loss ends the game: all the gold is rolled). Hold the gold for level 8 and roll there. The one exception below level 8 besides the last life: from stage 4, at level 7, one reroll when the shop shows no Wisp and three or more comp units are two copies short of their next star (a Wisp, and a hit is a big upgrade) - the executor makes it.",
+   "why": "The owner, 2026-11-07, on game 74: 'HUGE mistake, it started to reroll at 4-2 level 7 again, set a hard rule. NO reroll at level 7 if the comp is level 8 comp (BOTH brambleback and morgana are 4 cost champion, and level 8 comp)'; 'set it as hard rule, no reroll at level 7' / The owner, 2026-11-07, on game 74b (run 20261107-213309): '4-2 should reroll once, to 1. get wisp, 2. a lot of the champions are two copies, if get another copy large improvement ... I know this conflicts with the no reroll ... but reroll once during this situation is the best play.'",
+   "from": [
+    "x25.8",
+    "x26.14"
+   ]
+  },
+  {
+   "id": "owner-titans-resolve",
+   "rule": "Titan's Resolve is a fighter's item (a Brambleback kind of carry), not Morgana's: while the comp is being chosen, a Titan's Resolve already built means Riftbeast Brambleback, not Vanguard Morgana (Coven can still be played as the pivot, for its rewards). Playing Vanguard Morgana, Titan's Resolve is not built; one already built is the item a Reforger is used on.",
+   "why": "The owner, 2026-11-07, on game 74: 'when the titan is built, vanguard morgana is not possible, and should go for brambleback. And coven could be used as pivot to get some rewards tho. titan is a fighter item, used for like brambleback etc not ideal for the morgana, still usable. but if it really chooses morgana 1. it should not build titan 2. if built, it should use that reforge on titan'",
+   "from": [
+    "x25.2",
+    "x25.3"
+   ]
+  }
+ ]
+}

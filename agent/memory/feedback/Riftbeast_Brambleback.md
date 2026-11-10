@@ -1,0 +1,81 @@
+The owner's feedback on our earlier games with Riftbeast Brambleback - mistakes found, by game and round; do not repeat them:
+- game 50 (6-1, 6-2): In the late stages, stage 5 and after, the Wisp is the single most important decision of the round: its priority is 100% first (in stage 6 there is no question about that). In each such round the most important thing is to choose the best Wisp; nothing else matters that much. Not choosing one in 6-1 and 6-2 was the single largest reason for the loss.
+- game 50 (6-1): Itemize to a plan, not by finding the most suitable random item. First the main carry's full build (Brambleback), then the tank items, then another set of items for Elder Dragon. The most important item effect is armor reduction (Sunder: 30% less armor) - you have to have it, on the frontline or on the backline. Items with healing reduction (Wound) are important too. From an item choice (the golden orb at 6-1), take the armor-reduction item for the frontline.
+- game 50 (6-1, 6-2): Elder Dragon on the bench, not fielded, is never right, even at 1 star: it replaces a Riftbeast that is less powerful, or a unit with no trait, on the board.
+- game 50: The comp's item plan must come from the final board's damage composition: whether it needs Sunder, Shred or both, which item and holder gives it, and its priority next to the main carry's items.
+- game 52: Five distinct Riftbeasts fielded as early as possible (by level 5), for the early reroll; repeated owner point, still not happening.
+- game 52: No level 6 early with interest not full; bank toward 50.
+- game 52: Augments: Invested++ is terrible for this comp; the augment reroll was not used.
+- game 52: 3-1: the Lesser Champion Duplicator was used late (held through stage 2) and on a 2-star Scuttlecrab; a copy toward a 3-star is the better use.
+- game 52: 3-5: the radiant Titan's Resolve was not kept - model choice or not?
+- game 52: 3-6: the Riftbeast Alpha Mark was on Cinderling (a small buff to one unit); with 7 Riftbeasts Scuttlecrab is the better Alpha by default.
+- game 52: 4-1: the bench was full of off-comp champions (Xayah, Sejuani, Warwick) that should have been sold much earlier.
+- game 52: 4-1: building Archangel's Staff on the 2-star Pebbles is bad in an AD comp (Brambleback and Elder Dragon).
+- game 52: 4-1: keeping Ionic Spark was the worst decision of the game; no AP penetration in this comp (AD is ~90% of its damage).
+- game 52: 4-3: Brambleback arrived with only one suitable finished item.
+- game 52: 5-1: no extra Krugs bought toward 3-star (easy with Riftbeast); same for the small red and blue (Cinderling, Pebbles).
+- game 52: 5-2: an extra Rakan was kept on the board over Gnar or Taric through stages 4-5; both are better.
+- game 52: 5-3: three components sat on the board and one item fewer was made; correct: make Evenshroud from the Giant's Belt on Scuttlecrab and the Negatron Cloak on Sentinel.
+- game 52: 5-3: no reroll for a Wisp; Wisps are essential in stages 4-5 (skipping saves gold only when sure to win; the opponents' strength is unknown).
+- game 52: 5-6: levelling to 9 at 5-6 instead of 5-5 is bad: at 5-5 the XP is exact and saves 4 gold.
+- game 53: Stage 5: too many items waiting on the item bench - very bad.
+- game 59: Rabadon's Deathcap went on the 3-cost frontline (Krug), not on the small blue (Pebbles).
+- game 59: Two single components in stage 5. The owner: after the stage 4 monster round, whatever components you have, make an item, so there are never two or more single components.
+- game 59: The frontline items went on the 3-cost (Krug), not on Sentinel.
+- game 59: Elder Dragon lacked one item in stage 5.
+- game 59: The tank items are the player's evaluation of the strongest tank, not a fixed holder: Sentinel 2-star with Vanguard (with Taric) is much stronger than Krug.
+- game 59: Elder Dragon missed an item while the spare Rageblade went to the single-item Murkwolf - no reason for it.
+- game 59: Murkwolf stood where he was attacked first and died every fight: the strategy's positioning must say where the tanks and the fighters go.
+- game 59: Do not force items from 4-1: components still come at the 4-4 carousel and the 4-7 monster round. Until 4-7 a single component may wait for the partner of the item you want; after 4-7 every component is made into an item (owner-no-two-components).
+- game 63: Last Whisper's holder (Murkwolf) and Brambleback stood on opposite sides, so Brambleback did not use the armor reduction.
+- game 65: No reroll used at the second augment selection (3-2).
+- game 65: Level up to 7 during the 3-2 combat: 4-5 gold of interest lost.
+- game 66: No shop rolls in stage 2: its goal is economy, whatever the pivot.
+- game 66: 2-3: Elise not sold to reach 10 gold; sold at 2-5; 1 gold of interest lost.
+- game 66: Edge of Night is a fighter item: on Cinderling much weaker than on Murkwolf; it belongs on Murkwolf, and Alpha Mark on Scuttlecrab.
+- game 66: 3-1: all items should be on Murkwolf (2-star, a fighter, much stronger than Cinderling; even at 1 star it beats a 1-star Cinderling). Large mistake.
+- game 66: 3-3: Alistar fielded for no reason (no traits), 1 interest wasted; the right play was to field another Scuttlecrab.
+- a test game (4-5, 5-2, 5-5, 6-3): Items on the final board were spread wrong: the 3-star main tank (Krug) had 1 item, Brambleback 2, a 2-star Murkwolf 3, the 2-star Cinderling 1 and Sentinel a wrong one. The build: 3 items on the main tank, 3 on Brambleback, then 0-3 on Elder Dragon by how many items there are, or on the 3-star Pebbles.
+- game 72 (4-5): At level 8 the eighth slot is not an eighth Riftbeast - past Riftbeast 7 it adds nothing: field a Brawler or Rakan; MetaTFT's level-8 boards add Taric, Gnar, Sett or Rakan, with their win rates.
+- game 72 (5-2): The 7-Riftbeast plan is to make the fight last as long as possible (Riftbeast stats grow with time): field units that keep the fight going; Ashe gives little (a small bonus to Cinderling only).
+- game 72 (5-2): Crownguard is a tank item, not an AP item: it does not go on a 3-star Pebbles. A second Titan's Resolve on Cinderling made no sense.
+- game 72 (5-2): The frontline must be tanky, its stats balanced: the main tank's items cover 1. armor and magic resist, 2. health, 3. durability.
+- game 72 (5-2): The strongest tank stands on the carry's side: with Brambleback on the right, the frontline's rightmost champion is the main tank - else the enemies kill the weak tank there and then reach Brambleback.
+- game 72 (5-5): One Evenshroud is enough: its effect does not stack.
+- game 72 (5-6): At 1 HP spend all the gold rolling for the carry (Brambleback).
+- game 74 (2-3): An off-comp item holder that another unit of the trait can replace is sold: its items go to the strongest unit kept (the 2-star), and its gold can reach the next interest step; at least, an Item Remover moves its items to that unit.
+- game 74 (3-2): In the fight, XP that leaves 50 gold or more loses no interest: buy it and level then (3-2 had 79+ gold).
+- game 74 (3-3): Items concentrate: stats on one champion multiply, so items are not split over several units. 3-3's right play: the Item Remover on Hecarim and all the items to Elise.
+- game 74 (3-7, 4-1, 4-3): While still pivoting, field 5 Coven - more Coven, more rewards; Coven units are sold only after the cash-out, once the board plays to win at level 8.
+- game 74 (2-4): No reason to take another Rod at 2-4: Guinsoo's Rageblade is already obtained.
+- game 74 (3-1): 3-1 built two Guinsoo's: an item obtained from the augment counts as obtained; focus on the others.
+- game 74 (3-1, 2-6): Guinsoo's pivot is stronger on Mama Beak than on Murkwolf when both are 1-star; no rule may put the pivot items on Murkwolf: the strongest and most suitable champion on board holds them.
+- game 74 (3-2): 3-2: no reason to level to 6 - 2 gold of interest lost; the XP was not exact (2/36); even to level, do it next round.
+- game 74 (3-3): 3-3's level 7: acceptable, a choice.
+- game 74 (3-5): With the fighter on the right, the front row's rightmost is the tankiest (Krug), not Sentinel: the rightmost takes the damage of the enemy carries on that side; if he dies early, the fighters are attacked earlier. Explain it in the comp strategy.
+- game 74 (4-2): 4-2: reroll once at level 7 - for a Wisp, and many champions are two copies (another copy is a big upgrade: Murkwolf, Mama Beak); against the no-reroll rule, but the best play there.
+- game 74 (4-4): 4-4: Elder Dragon is the carousel priority - even if another player takes him, he is the priority when we have the chance.
+- game 74 (5-1, 5-2): 5 components, two final items: Evenshroud first (this game has armor penetration); not another set of items on Murkwolf.
+- game 74: Item priority, every comp, for the same position: all 1-star - 5-cost > 4-cost > ... > 1-cost; mixed stars - a 2-star 4-cost > a 1-star 5-cost (2* Krug > 2* Crab > 1* Krug; 2* Mama Beak > 2* Murkwolf > 2* Cinderling; 2* Alune > 2* Morgana > 1* Alune; 3* Krug > 2* Sentinel > 2* Krug).
+- game 74 (5-3): 5-3: three components, one on Krug: build the full item - Belt + Tear on Krug exists.
+- game 74 (5-5): 5-5: unfield the 2-star Pebbles, not the 3-star Cinderling.
+- game 74 (5-6): 5-6: why roll? What is the aim? Level to 9 (36/68 XP): a chance at a 2-star Elder Dragon and one more unit - a fatal mistake.
+- game 74 (6-1): 6-1: positions bad - the main tank (3-star Krug) at the right 3rd position, Sentinel in the centre.
+- game 77 (4-2, 4-5): The carry stands in the back corner (Brambleback at (0,6), not (0,5)); the front row's carry side is not filled up with every frontliner.
+- game 77 (5-3): Items concentrate: one champion holds two items, not two champions one each.
+- game 78 (4-6, 5-1): At level 8 a unit off the comp (Caitlyn) is never a candidate for the board: field Brawler / Juggernaut etc. to enable the tanky traits; Caitlyn offers no value for this comp.
+- game 78 (5-1): The priority is the second batch of tank items, on Sentinel.
+- game 78 (5-5): Why 8 Riftbeasts again? Field Taric instead.
+- game 78 (3-5): With six Riftbeasts there is no gain over five (Riftbeast counts at 3, 5, 7): the best board is five Riftbeasts plus a unit that makes another trait with a fielded unit (Vi in the shop made Juggernaut with Scuttlecrab).
+- game 78 (3-5): No level 7 with six Riftbeasts (seven not owned): it is not much stronger and loses the interest.
+- game 78 (3-7): Last Whisper is a support item (it reduces the armor): not on Brambleback, but on another attacker such as Gromp or Cinderling standing close to Brambleback, so they attack the same enemy.
+- game 78 (5-1): The damage items (Last Whisper, Giant Slayer, Hand of Justice) on Gromp is acceptable, as the holder for Elder Dragon.
+- game 79 (2-1, 2-2, 2-3, 2-5, 2-6): Early on, interest comes before extra Riftbeast units: in many stage-2 rounds the additional Cinderling could have been sold for extra interest, and it should be. Not essential, so the model's choice - but tell it interest is preferred. Cinderling is not in the final comp (Elder Dragon replaces him).
+- game 79 (6-4): 6-4: prioritise anti-heal, as there is still no anti-heal item.
+- game 79 (6-6, 7-1): Fielding Ivern is not a bad choice but not the best: Taric should replace her.
+- game 79: An exception in this game: a crown carousel (very unlikely) gave every player one extra unit. Then the final board is Gnar, Taric and 8 Riftbeasts. Typically 8 Riftbeasts are not ideal (7 is enough), but with the two Verticality augments the extra 3-star Cinderling is very strong - better than a single Gnar or Taric. Verticality is the best and strongest combat augment for this comp - a very good choice.
+- game 81 (2-5): At level 4 the board is 3 Riftbeasts plus a unit completing a pair (Juggernaut with Scuttlecrab): a 4th Riftbeast (Cinderling) adds nothing.
+- game 81 (3-2, 3-3): A slot past the Riftbeast step goes to a unit that completes a trait with the board, not a random champion: Alistar had 0 active traits.
+- game 81 (3-6, 3-7, 4-1, 4-2, 4-3, 4-5): Fatal: level 8 came too late and Riftbeast 7, the comp's power, was not active until 4-6. Without Riftbeast 7 and Brambleback: level 8 at 4-1/4-2 and roll, all the gold if needed, until Riftbeast 7 with Brambleback is complete. With Riftbeast 7 on a strong board that wins, level 7 can last a little longer.
+- game 88 (2-1, 4-2): Augments are picked for the level-8 board, not MetaTFT's final board: most games end at level 8, Elder Dragon rarely 2-star. Late Game Scaling (5-cost bonus) and Gilded Steel (needs a fielded 5-cost) were bad picks.
+- game 88 (3-1, 3-2, 3-3, 3-5, 3-6): On a stage-3 losing streak with HP about 50: level 7 at 3-4 and roll at level 7 for Riftbeast 7 first, not two more rounds for level 8; the no-reroll-at-7 rule changes for this case.

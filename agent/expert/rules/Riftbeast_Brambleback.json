@@ -1,0 +1,344 @@
+{
+ "comp": "Riftbeast Brambleback",
+ "written": "2026-11-02, by the Coordinator from the owner's points (agent/expert/feedback.jsonl x3, x5) and the owner's words of 2026-11-02; x14 added 2026-11-05; x16 added 2026-11-06; x18 added 2026-11-06; x28 added 2026-11-08; x29 added 2026-11-09; x30 added 2026-11-09; x30 revised 2026-11-10 (owner review); owner-taric-over-eighth-riftbeast folded into owner-eighth-slot; x31 added 2026-11-10; x32 added 2026-11-10; x32.8 revised 2026-11-10 (owner: the model decides, two paths)",
+ "rules": [
+  {
+   "id": "owner-five-riftbeasts",
+   "rule": "Riftbeast counts only at 3, 5, 7 and 10: field the Riftbeasts you own up to the step they reach (five by level 5 when five are owned - the executor fields them). A 4th, 6th, 8th or 9th Riftbeast adds nothing: every slot no step needs goes to a champion that completes a trait tier with the units fielded - in your board reason, name the tier each non-Riftbeast unit completes. A unit whose traits all stay inactive is not fielded while one that completes a tier is owned or in the shop (MetaTFT's level-8 units of owner-eighth-slot excepted).",
+   "why": "The owner: 'Five distinct Riftbeasts fielded as early as possible (by level 5), for the early reroll' (repeated point); game 52 3-2: 'it should have fielded the 5 riftbeast right there'. The owner, 2026-11-09, on game 78 (run 20261108-214104): 'there is no benefit for 6 riftbeast, the best thing is 5 + another trait like there is vi available, which makes the juggernaut with the crab'; 'the 5 riftbeast should have been fielded much earlier when we had it available' (x29.1, x29.3). The owner, 2026-11-10, on game 81 3-3 (x31.2): 'why field alistar? it has 0 traits with the current board. it should look for a units with the traits available, not a random champion'. The owner, 2026-11-10, second pass on game 81: 'field every owned Riftbeast immediately - this is 100% wrong ... only 3 5 7 10 matters. when 4 6 8, 9 it should be adding extra traits, to the current boards ... the model must state what traits it enables with the current board, and prioritize the units with traits' (x31.1, x31.2).",
+   "from": [
+    "x3.1",
+    "x5.2",
+    "x29.1",
+    "x29.3",
+    "x31.1",
+    "x31.2"
+   ]
+  },
+  {
+   "id": "owner-no-level-seven",
+   "rule": "No level 7 while fewer than seven Riftbeasts are owned and the XP would cost interest (take the gold below 50): the seventh slot adds little (the executor does not buy that XP). With the gold staying at 50 or more, or XP that goes on to level 8, it is not held - nor when you take path 2 of owner-hp-paths (HP 50 or less without Riftbeast 7).",
+   "why": "The owner, 2026-11-09, on game 78 (run 20261108-214104): 'it should not level to 7, because we do not have 7 riftbeast, we only have 6, what will happen if you level to 7 is that, it is not much stronger and will lose the interest' (x29.2). The Coordinator, 2026-11-09, after game 81 (7th): the hold kept 79 gold at level 6 at 3-6 while HP fell 89 -> 49 - with 55 left the XP cost no interest, the owner's reason for the rule.",
+   "from": [
+    "x29.2",
+    "x32.8"
+   ]
+  },
+  {
+   "id": "owner-ad-comp",
+   "rule": "Items: this is an AD comp - about 90% of its damage is physical (Brambleback, Elder Dragon). Build no AP items and no AP penetration: never Ionic Spark, never Archangel's Staff. No AP items on a 2-star Pebbles; an AP item we hold anyway (a carousel or loot Rabadon's Deathcap) goes on a 3-star Pebbles, never on Krug.",
+   "why": "The owner, game 52 4-1: 'the choice to keep the Ionic Spark is the worst decision from the whole game, it could be the single worst item for this comp. Most importantly, AP penetration should not be built with this comp, as the AD dmg will be like 90% of the comp'; 'it is bad for giving items [Archangel's] to the 2 star small blue'. Game 59 (x10.1): the Deathcap went on Krug, not on the 3-star Pebbles - the owner: 'why the death cap on 3 cost frontline but not the small blue?', 'but it is 3 star?'.",
+   "from": [
+    "x5.8",
+    "x5.9",
+    "x10.1"
+   ]
+  },
+  {
+   "id": "owner-carry-items-ready",
+   "rule": "Have Brambleback's items made before he arrives (on a fielded holder), so that when he is fielded he carries his suitable completed items at once; a Radiant Hand of Justice is one of the best of them.",
+   "why": "The owner, game 52 4-3: 'when the Brambleback finally arrived, only one item is made and suitable. This is very bad'; 3-3: 'radiant Hand of Justice not used, arguably could be one of the best for Brambleback'.",
+   "from": [
+    "x5.10",
+    "x5.3"
+   ]
+  },
+  {
+   "id": "owner-alpha-crab",
+   "rule": "Alpha Mark: with 7 Riftbeasts, its default holder is Scuttlecrab, not a small carry such as Cinderling.",
+   "why": "The owner, game 52 3-6: 'the Riftbeast Alpha Mark is on the Cinderling, this is bad for 7 Riftbeast, because it is only a small buff to one unit, default to crab would be much better (7 riftbeast)'.",
+   "from": [
+    "x5.6"
+   ]
+  },
+  {
+   "id": "owner-three-stars",
+   "rule": "With Riftbeast it is easy and useful to 3-star the cheap units: buy the extra copies of Krug, Cinderling and Pebbles when the shop shows them.",
+   "why": "The owner, game 52 5-1: 'not sure why it did not buy additional Krugs, with the Riftbeast, it could be easy and useful to get it to 3 star, similarly, for the small red and blue as well'.",
+   "from": [
+    "x5.13"
+   ]
+  },
+  {
+   "id": "owner-interest-early",
+   "rule": "In stage 2, interest comes before spare copies of a unit that leaves the final board: selling one to reach the next 10 gold is preferred (your call).",
+   "why": "The owner, 2026-11-09, on game 79 (run 20261109-060537, 1st): 'prioritize interest over the riftbeast units early on, for example, in a lot of rounds in stage 2, we could sell the additional cinderling for extra interest, it should do this. Because it is not essential, this should be a model choice. But let it know interest preferred, because cinderling is not in the final comp, as will be replaced by elder dragon' (x30.1). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): the example left out.",
+   "from": [
+    "x30.1"
+   ]
+  },
+  {
+   "id": "owner-gnar-taric",
+   "rule": "Gnar and Taric are both better than an extra Rakan: field them over Rakan.",
+   "why": "The owner, game 52 5-2: 'it prioritized the extra unit of Rakan instead of the Gnar or Taric for the whole stage 4-5 - this is bad, both of them are better than Rakan'.",
+   "from": [
+    "x5.14"
+   ]
+  },
+  {
+   "id": "owner-augment-reroll",
+   "rule": "Augments: Invested++ is terrible for this comp. Use the augment reroll when no card suits the comp.",
+   "why": "The owner, game 20261031-015029: 'Invested++ is terrible for this comp; the augment reroll was not used.'",
+   "from": [
+    "x3.5"
+   ]
+  },
+  {
+   "id": "owner-augments-level-eight",
+   "rule": "Augments are picked for the level-8 board, not MetaTFT's final board: most of our games end at level 8 and Elder Dragon or Taric come late if at all (the augment question gives the counts). A card whose value needs a fielded 5-cost - a bonus for 5-costs, a bonus that starts only with one fielded - is worth little for this comp; judge it by what it does for the level-8 board.",
+   "why": "The owner, 2026-11-10, on game 88 (run 20261110-090312, 8th): 'first uagmetn is alsmot uselss, it is chosen to play 5 cost. It is bad; third augemt nis also bad,. It needs to field 5 cost to be useful, why would the model chose it?' and 'the metatft showed the ultimate game comp, which assumes everyting went right but if we force it, msot of the time we never reach the levle 9 2 star elder dragon final phase ... we should not aim for the final comp, but aim for the pickign the augmetn fro the lelve 8 comp' (x32.7).",
+   "from": [
+    "x32.7"
+   ]
+  },
+  {
+   "id": "owner-shred-side",
+   "rule": "Positioning: Last Whisper's holder stands on the same side of the board as Brambleback, so the armor reduction lands on the enemies Brambleback fights.",
+   "why": "The owner, game 63 (x14.4), Murkwolf with Last Whisper on the left and Brambleback on the right in stage 5: 'last whisper and brambleback not on the same side, the armor reduction from the wolf is not used by brambleback'.",
+   "from": [
+    "x14.4"
+   ]
+  },
+  {
+   "id": "owner-support-item",
+   "rule": "An item whose hits reduce the target's armor or magic resist is a support item: it goes on another attacker standing beside Brambleback, so both hit the same enemies - never on Brambleback.",
+   "why": "The owner, 2026-11-09, on game 78 (run 20261108-214104): 'last whisper ideally should not be on the brambleback, because it is a support item, it reduces the armor, like a support, hence, the best play is to equip it to like gromp/cinderling and put them close to the bramble, so they attack the same opponent unit to reduce the armor' (x29.6).",
+   "from": [
+    "x29.6"
+   ]
+  },
+  {
+   "id": "owner-seven-riftbeasts",
+   "rule": "Never field a second copy (another Cinderling) instead of a Riftbeast you own and have not fielded (Mama Beak): at 3-6 in game 66 that left 6 Riftbeast instead of 7.",
+   "why": "The owner, game 66: 'it fielded another Cinderling at 3-6, instead of Mama Beak, no 7 Riftbeast. This should never happen'.",
+   "from": [
+    "x18.10"
+   ]
+  },
+  {
+   "id": "owner-item-plan",
+   "rule": "Item plan: the DPS is Brambleback - Guinsoo's Rageblade, Edge of Night, Quicksilver (MetaTFT's build; Hand of Justice also fits him); the main tank is the strongest tank fielded (more stars, then the higher cost: Krug, Sentinel, Scuttlecrab) - Evenshroud first, then Gargoyle Stoneplate, Warmog's Armor, Spirit Visage; until Brambleback is fielded his items go on the strongest suitable fighter (Mama Beak, Murkwolf, Cinderling - owner-item-holders). Three items on each, by priority, not a fixed order: Brambleback's before Krug's when the components make the next item of either, then they take turns; an item the components on hand make only for Krug is built at once; what is beyond those six goes on Elder Dragon (one, two or three, by how many items there are) or on a 3-star Pebbles. No other unit keeps items once these holders are fielded: Murkwolf, Cinderling, Sentinel and the rest hand theirs on (Item Remover). In the Normal test game of 2026-11-07 the 3-star main tank had 1 item, Brambleback 2, a 2-star Murkwolf 3, Cinderling 1, Sentinel a wrong one.",
+   "why": "The owner, after the Normal test game of 2026-11-07: '1. 3 items on the main tank 2. 3 items on the brambleback 3. 0, 1, 2, 3 items on the elder dragon depends on the number of the items, or items on the 3 star small blue'; 'why does a 2-star wolf have three items? This is wrong.' The owner, 2026-11-07: 'there should have itemization plan for each comp ... like 6 items ... at the beginning of the stage 5 ... 3 items for the main tank, 3 items for the dps (brambleback and morgana). A little priority should give to the dps.' The owner, 2026-11-07: 'do not build 3 items for dps and then 3 for tank ... I mean priority like: first dps, and then tank, and then another dps item, like this etc.' The owner, 2026-11-07: 'is not a fixed rule. Suppose that we have 3 components in the beginning, vest, cloak and rod. It should build the stoneplate, and not wait for the first dps and then build tank.'",
+   "from": [
+    "x20.1",
+    "x21.1",
+    "x22.1",
+    "x23.1",
+    "x26.20"
+   ]
+  },
+  {
+   "id": "owner-first-six-items",
+   "rule": "Items: the first six completed items are Brambleback's three and the main tank's three (the executor builds them, in turns) - no other item is built from components before them. Components that make one of them are made into it at once, also when one of the two sits on another unit (the item is made there and moves to its holder).",
+   "why": "The owner, 2026-11-09, on game 78 (run 20261108-214104): 'there are 7 carry items, and 1 tank items, this severely deviates from the general rules, which target the 3 carry + 3 tanks items first'; 'we have a cloak and belt available, should make the evenshroud' (x29.4).",
+   "from": [
+    "x29.4"
+   ]
+  },
+  {
+   "id": "owner-items-have-holders",
+   "rule": "Every completed item has a holder - the unit it is on now and its final holder. A completed item on the item bench (its holder sold) is given to a unit in your next plan; the state marks it 'no holder'.",
+   "why": "The owner, 2026-11-09, on game 78 (run 20261108-214104): 'all items made should have a carrier, this state is constant in the game, including the final holder and current holder ... when current holder is empty (cait), it should at least let the model know next turn and let it decide who to equip it. Hence it is okay, those two items not used this round, but should be next round' (x29.5); 5-1: the damage items on Gromp 'is okay, acceptable, as holder for the elder drag' (x29.8).",
+   "from": [
+    "x29.5",
+    "x29.8"
+   ]
+  },
+  {
+   "id": "owner-no-idle-components",
+   "rule": "From stage 3, avoid holding more than 3 unused components: make the ones that form an item this comp uses, the less wanted ones first, and an anti-heal item while the team has none. Components that form nothing this comp wants wait for the component that does.",
+   "why": "The owner, 2026-11-09, on game 79 (run 20261109-060537, 1st): 'it should make the deathblade, or IE at 3-1, it should not wait for the most optimal items ... the general rule is that, never leave 3 more components unused ... items are not just about best suitability, but also consume the less wanted components'; 4-2 'make red buff and deathblade, as we do not have anti heal'; 6-4 'should prioritize antiheal' (x30.2, x30.3, x30.7, x30.13). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): 'you should not force 3 components have to make items ... What if the items are tear, rod and cloak? there is no best item to make here for this comp, it should wait and grab another component to consume these ... do not force it, say like no more than 3 components'. The executor no longer makes them.",
+   "from": [
+    "x30.2",
+    "x30.3",
+    "x30.7",
+    "x30.13"
+   ]
+  },
+  {
+   "id": "owner-crown-no-stats",
+   "rule": "Tactician's items (Crown, Cape, Shield) give no stats: they go on a unit that holds none of the carry's or the tanks' items.",
+   "why": "The owner, 2026-11-09, on game 79 (run 20261109-060537, 1st): 6-2: 'one mistake was to put the crown on the sentinel, it gives no stats. This should not be done' (x30.12). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): shortened.",
+   "from": [
+    "x30.12"
+   ]
+  },
+  {
+   "id": "owner-container-order",
+   "rule": "A container on the bench (an anvil) is opened in the same round, once the round's buys, moves and gives are done; its item goes to the next item the plan needs.",
+   "why": "The owner, 2026-11-09, on game 79 (run 20261109-060537, 1st): 7-1 'anvil opened too late. Still not opened after we won the game. 1. buy the wisp 2. adjust position or items if needed 3. open the anvil and get a second item for the sentinel 4. give it to the sentinel' (x30.16). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): shortened, the example left out.",
+   "from": [
+    "x30.16"
+   ]
+  },
+  {
+   "id": "owner-carry-keeps-his-items",
+   "rule": "Items that reach Brambleback stay on him, and the copy of him with more stars and items is the one fielded (the executor keeps both). A Wisp's one-round potions are used that round.",
+   "why": "The owner, 2026-11-09, on game 79 (run 20261109-060537, 1st): 5-5 'it knocks the artifact item off, and then it is given to cinderling. The remedy is to use remover to replace it back to the bramble'; 5-2 'it replaces the board brambleback with the bench brambleback ... it left the 3 items bramble on bench'; 5-6 'one wisp gives the one round usage consumable items, not used' (x30.8, x30.10, x30.11). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): shortened.",
+   "from": [
+    "x30.8",
+    "x30.10",
+    "x30.11"
+   ]
+  },
+  {
+   "id": "owner-eighth-slot",
+   "rule": "From level 8, past Riftbeast 7 another Riftbeast adds no trait step (the next is 10): the slots beyond the seven go to the units MetaTFT's level-8 boards rank best (their average places are on the comp's page: Taric, Gnar, Sett and the like). Buy them from the shop and in roll-downs (name them in the roll's buy list).",
+   "why": "The owner, 2026-11-07, on game 72: '4-5, why not buy Sett? Why field 8 Riftbeast? One extra does nothing, offers no value, why not field a brawler? Or even Rakan? In MetaTFT it is clearly marked that level 8 should field Taric / Gnar / Sett / Rakan etc., and has win rate.' The owner, 2026-11-09, on game 79 (run 20261109-060537, 1st): 'taric > sett'; 'the field of the ivern is not a bad choice, but not the optimal one, the best should be taric to replace her'; 'it did not buy extra copy of sett, it should be bought and make it two star' (x30.15, x30.17). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): 'you do not need to add too hard code rules, this should be generalised to, the level 8 extra units should be determined based on the meta tft level 8 board ranking, like taric gnar, sett etc.' The fixed order is gone from the code.",
+   "from": [
+    "x24.1",
+    "x30.15",
+    "x30.17"
+   ]
+  },
+  {
+   "id": "owner-verticality",
+   "rule": "Verticality is the preferred combat augment for this comp.",
+   "why": "The owner, 2026-11-09, on game 79 (run 20261109-060537, 1st): 'during one carousel, it encountered the extremely low likelihood crown round, which means one extra unit for all players; in this case the final board should be 1. gnar 2. taric 3. plus the rest 8 riftbeast; typically, 8 riftbeasts are not ideal, as 7 is enough, but this game has exception, because we have 2 verticality augments, which makes the fielding of the extra 3 star cinderling very strong, it is better than a single gnar or taric in this case. verticality is the best and strongest combat augment for this comp, very good choice' (x30.18). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): 'I was communicating to you, not wanting you to make it a strategy. the strategy would be simple and short, verticality preferred if want combat power augment'.",
+   "from": [
+    "x30.18"
+   ]
+  },
+  {
+   "id": "owner-last-the-fight",
+   "rule": "The 7-Riftbeast plan wins by making each fight last as long as possible - Riftbeast stats grow with time: field the units that keep the fight going (a tanky frontline, healing, staying power), not ones that add a little damage; a unit whose value is a small bonus to one ally (Ashe, to Cinderling) gives little - bench or sell it for one that keeps the fight going.",
+   "why": "The owner, 2026-11-07, on game 72: 'Ashe offers little value to this comp? ... the strategy of the 7 Riftbeast: its goal is to last the fight as long as possible, because it gains stats with time. Hence why Ashe? Which only gives a little bonus to the Cinderling and nothing else.'",
+   "from": [
+    "x24.2"
+   ]
+  },
+  {
+   "id": "owner-roll-level-8",
+   "rule": "This is a level-8 comp (its carry costs 4): no reroll below level 8 - none at level 7, free rerolls included (they are kept: they do not expire); the executor does not run them. The one exception is the last life (a loss ends the game: all the gold is rolled). And path 2 of owner-hp-paths (HP 50 or less, Riftbeast 7 not active): your rolls at level 7 run, if you decide to take it. Hold the gold for level 8 and roll there. The one exception below level 8 besides the last life: from stage 4, at level 7, one reroll when the shop shows no Wisp and three or more comp units are two copies short of their next star (a Wisp, and a hit is a big upgrade) - the executor makes it.",
+   "why": "The owner, 2026-11-07, on game 74: 'HUGE mistake, it started to reroll at 4-2 level 7 again, set a hard rule. NO reroll at level 7 if the comp is level 8 comp (BOTH brambleback and morgana are 4 cost champion, and level 8 comp)'; 'set it as hard rule, no reroll at level 7' / The owner, 2026-11-07, on game 74b (run 20261107-213309): '4-2 should reroll once, to 1. get wisp, 2. a lot of the champions are two copies, if get another copy large improvement ... I know this conflicts with the no reroll ... but reroll once during this situation is the best play.'",
+   "from": [
+    "x25.8",
+    "x26.14",
+    "x32.8"
+   ]
+  },
+  {
+   "id": "owner-riftbeast-seven-first",
+   "rule": "No reroll below level 8, so Riftbeast 7 with Brambleback comes from level 8 and its rolls - unless you take path 2 of owner-hp-paths (level 7 and its rolls first). Without Riftbeast 7 in stage 4: level 8 at 4-1 and roll the gold left (20-30 is enough to find the seventh) until Riftbeast 7 with Brambleback is complete. With Riftbeast 7 already active at level 7 and HP not low, level 8 can wait until about 4-5.",
+   "why": "The owner, 2026-11-10, on game 81 (run 20261109-074926, 7th): 'fatal error; it level to 8 too late, the largest combat power is 7 riftbeast, and it was not activated the whole time. it should level to 8 at 4-1, 4-2 ... if it has 7 riftbeast already, and strong board and winning some rounds, it could wait and stay in level 7 a bit longer ... level up 8 and reroll for 7 riftbeast is the largest priority, it should spend all the gold until 7 riftbeast with brambleback is complete' (x31.3). The owner, 2026-11-10, second pass on game 81: 'I said no reroll at level 7, so it should level to 8 and reroll ... when you already have 7 rift at 7 and HP is not too low, you could level to 8 a bit slowly, like 4-5, but in that game case, it should immediately level to 8 at 4-1, it has enough gold about 20-30, to get 7 rift' (x31.3).",
+   "from": [
+    "x31.3",
+    "x32.8"
+   ]
+  },
+  {
+   "id": "owner-hp-paths",
+   "rule": "Two paths for Riftbeast 7 - which one, and when, is your decision from HP, gold, the streak and the board: 1. HP healthy and the board lucky enough to hit Riftbeast 7: keep it and build interest. 2. HP not healthy (50 or less) and Riftbeast 7 still not active: get Riftbeast 7 at once - level 7 and roll there for the seventh Riftbeast, before level 8. On path 2 the no-reroll-below-8 rule and the level-7 hold do not stop your XP to 7 or your rolls at level 7; the executor does neither on its own.",
+   "why": "The owner, 2026-11-10, on game 88 (run 20261110-090312, 8th): '7 riftbeast too late, in the case of that, losing streaks, and HP dangerous, like lose all the way to the 3-4, and HP was dangerous, like 50 ... the strategy should be hcanged, not to wait another 2 round to levle 8 and rero,. it should have level up 7 at 3-4 and secure the 7 rift board first to gurantee some power, hence the no reoll at lvl 7 should be changed' (x32.8). Revised by the owner, 2026-11-10, against the executor doing it: 'do nto do this / let model decides,. / but let it aware, two paths / 1. HP healthy and boardlucky, hit 7 riftbseat, could accuamte interst / 2. HP not healthy, <50, still not 7 rift, needto get 7 rift immediately . / it is all decisions based on the HP and gold etc .' (x32.8).",
+   "from": [
+    "x32.8"
+   ]
+  },
+  {
+   "id": "owner-alpha-on-crab",
+   "rule": "Alpha Mark goes on Scuttlecrab.",
+   "why": "The owner, game 66: 'Edge of Night is a fighter item, on Cinderling is much weaker than on wolf, it should be on wolf, and the Alpha Mark should be on the crab.'",
+   "from": [
+    "x18.5"
+   ]
+  },
+  {
+   "id": "owner-tank-on-fighter-side",
+   "rule": "The formation (the executor places it): the front row from the right - (3,4) the main tank, the holder of the tank items; (3,3) Sentinel; (3,2) Scuttlecrab. The back row - Brambleback in the right corner (0,6), Pebbles in the left corner (0,0), Cinderling and Gromp beside Brambleback ((0,5), (0,4)). The other units stand on the comp's hexes. The main tank, in front of the fighters' side, takes the enemy carries' damage first.",
+   "why": "The owner, 2026-11-07, on game 74b (run 20261107-213309): '3-5 position mistake, when the fighter is at right side, the front right most should be the most tanky (krug) instead of the sentinel, explain in the comp strategy why is this position essential, because the right most champion takes the dmg from the enemy carries from the right side, if it is not tanky after being dead, the fighter (wolf, bramble) will be attacked earlier.' The owner, 2026-11-09, on game 78 (run 20261108-214104): 'tank position should default to, from right: 3rd position: main tank with the item, mostly krug; mid: sentinel; 5th: crab. brambleback back right corner, small blue left corner, and then cinderling and gromp close to the brambleback on the back' (x29.9).",
+   "from": [
+    "x26.12",
+    "x29.9"
+   ]
+  },
+  {
+   "id": "owner-front-row-comp-hexes",
+   "rule": "Brambleback stands in his back corner, the comp's hex (the executor places him there). The frontliners stand on the comp's front-row hexes, not stacked on the carry's side so that its whole front-row half is full.",
+   "why": "The owner, 2026-11-08, on game 76 (run 20261108-082600): 'the front line right side is blocked, full, this should not happen'; 'the brambleback back not in the bottom corner, but a bit to the left' (x27.3)."
+  },
+  {
+   "id": "owner-carry-arrival",
+   "rule": "When Brambleback arrives, everything is done in that planning phase, in seconds: the off-comp unit that holds items or his place (Caitlyn) is sold, Brambleback is fielded in his corner, the Item Remover takes his items off the unit holding them for him and they go onto him; the second carry's items stay on Cinderling. The executor does this by itself.",
+   "why": "The owner, 2026-11-08, on game 78 (run 20261108-214104): '3-5 operations wrong: it should be sell cait, field brambleback, remove items and fit first batch of items to the bramble, second carry items on the cinderling, everything should be finished in a few seconds at most, not like 2-3 rounds' (x28.1).",
+   "from": [
+    "x28.1"
+   ]
+  },
+  {
+   "id": "owner-off-comp-sold",
+   "rule": "A unit on none of the comp's boards and with no tank trait (Caitlyn) is sold as soon as it is benched, with its items coming back - no decision is needed for it.",
+   "why": "The owner, 2026-11-08, on game 78 (run 20261108-214104): '4-1, the bench cait still not sold, which has 2 items wasted. It is not in the comp, it should be sold immediately, does not need the model decision' (x28.2).",
+   "from": [
+    "x28.2"
+   ]
+  },
+  {
+   "id": "owner-level-eight-candidates",
+   "rule": "From level 8 a unit on none of the comp's boards with no tank trait is never a board candidate: the slots go to comp units, or to a Brawler / Juggernaut / Vanguard for the tanky traits.",
+   "why": "The owner, 2026-11-08, on game 78 (run 20261108-214104): 'Why field cait at level 8? It should never be a candidate in level 8, you should field brawler / juggernaut etc. to enable tanky traits'; 4-6: 'still fielding the useless cait, it offers no value for this comp' (x28.4).",
+   "from": [
+    "x28.4"
+   ]
+  },
+  {
+   "id": "owner-roll-once",
+   "rule": "From level 8, a shop with no Wisp and no champion the comp needs is rolled once (the executor does it) - rolling for a 2-star Brambleback is the best use of that gold.",
+   "why": "The owner, 2026-11-08, on game 78 (run 20261108-214104): '4-5, when there is no wisp and champion in the shop, reroll once automatically, does not need the model decision. The best decision should be reroll for bramble 2 star' (x28.5).",
+   "from": [
+    "x28.5"
+   ]
+  },
+  {
+   "id": "owner-items-given",
+   "rule": "From stage 4 no completed item waits on the item bench: the tank items are given; at 5-1 every completed item on the item bench is given in the plan.",
+   "why": "The owner, 2026-11-08, on game 78 (run 20261108-214104): 4-6: 'huge amount of the items left unused, why? Why not just give the tank items?'; 5-1: 'Hard code it to force the model to make decision on all of the items at 5-1' (x28.6, x28.8). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): components left to owner-no-idle-components (they are not forced).",
+   "from": [
+    "x28.6",
+    "x28.8"
+   ]
+  },
+  {
+   "id": "owner-corner-free",
+   "rule": "The front-row hex in front of Brambleback's corner, (3,6), stays empty: no frontliner stands there (the executor moves one off it).",
+   "why": "The owner, 2026-11-08, on game 78 (run 20261108-214104): 5-1: 'it places the krug to the right most front again, no frontline should be there' (x28.7). The owner, 2026-11-09, on game 78 (run 20261108-214104): the main tank's hex is now the formation's (3,4) (x29.9).",
+   "from": [
+    "x28.7",
+    "x29.9"
+   ]
+  },
+  {
+   "id": "owner-mirror-positions",
+   "rule": "Mirror positions: just before the fight, when the time allows, the executor flips the board to its mirror (column c -> 6 - c) so the opponents' placement against us misses, and puts it back at the next planning phase's start. Write your plans' hexes for the normal positions.",
+   "why": "The owner, 2026-11-09, on game 78 (run 20261108-214104): 'add a function called mirror position. it is something to change the position of the units to avoid the opponent to target us ... before rounds ends use the fastest time to switch positions ... this should be performed when there is still enough time before the round ends. if not, do not perform this ... even for the earlier rounds' (x29.10).",
+   "from": [
+    "x29.10"
+   ]
+  },
+  {
+   "id": "owner-wisp-every-stage-five-round",
+   "rule": "From level 8 (and all of stage 5) a Wisp every round. A Wisp in the shop at the round's start: decide it in your plan (\"wisps\") or by your Wisp flag - the executor buys it if your answer has not come in time; a skipped one is followed by up to 2 rolls for the next Wisp, which is bought. No Wisp in the shop: the executor rolls once (a roll always shows one). A shop overrun with Riftbeasts: the comp's units are bought, then up to 2 rolls for the Wisp. The comp's champions those rolls show are bought. A roll from 2 gold still finds one: a Wisp can cost 0.",
+   "why": "The owner, 2026-11-08, on game 78 (run 20261108-214104): 'still no wisp this round. wisp is a must. Even no model call. It has to reroll for wisp in stage 5 and buy it'; '5-3 wisp should be bought automatically, but ignored' (x28.9). The owner, 2026-11-09, on game 78 (run 20261108-214104): 'set a hard rule, after level up, every round, it should buy the wisp, if the model does not have time enough to answer yes, it should buy automatically. So 3 cases: 1. round start with the natural wisp, ask the model and perform other actions and then buy or skip (reroll 2 times for next wisp, buy units needed during it) 2. round start with no wisp, reroll once to get wisp and repeat 1 3. round start with the riftbeast shop, need to reroll 2 times for the wisp'; from level 8; 'it will have wisp 100%' (x29.7). The owner, 2026-11-09, on game 79 (run 20261109-060537, 1st): '6-5 forgets to reroll once and buy wisp, this should be done first'; 4-6 'even it only has 2 gold, after reroll, you could still buy 0 cost wisp'; 4-5 'the brambleback hides behind the wisp card ... it should first check that position before reroll' (x30.5, x30.6, x30.14). Revised 2026-11-10 after the owner's review of x30 (\"use your brain and not just follow my words exactly\"): 'the Wisp comes first' was my misreading (it put the Wisp roll before the plan's buys); kept: do not forget it, from 2 gold.",
+   "from": [
+    "x28.9",
+    "x29.7",
+    "x30.5",
+    "x30.6",
+    "x30.14"
+   ]
+  },
+  {
+   "id": "owner-second-tank-set",
+   "rule": "After Brambleback's and the main tank's items, the next set is the second batch of tank items, on Sentinel; then Elder Dragon's damage items.",
+   "why": "The owner, 2026-11-08, on game 78 (run 20261108-214104): 'the priority is to make the second batch of tank items on sentinel' (x28.10).",
+   "from": [
+    "x28.10"
+   ]
+  }
+ ],
+ "banned_augments": [
+  "Pandora's Items I",
+  "Pandora's Items II",
+  "Pandora's Items III"
+ ],
+ "banned_why": "The owner, game 52: 'NOT SURE if the model understands how the second augment works. If it is difficult to make it work, maybe we could avoid picking it? It changes the items on bench every round to random ones'; 2026-11-02: 'like this pandora, it is hard to make this work well, since it is changing every round' (x5.12)."
+}

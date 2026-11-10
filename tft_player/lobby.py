@@ -13,7 +13,30 @@ import threading
 import time
 
 LOG_DIR = Path(os.environ.get('LOCALAPPDATA', Path.home())) / 'TFT/Saved/Logs'
-OUR_PUUID = '35498dda-f1c1-5f59-928c-0ca51bea144e'
+PUUID_IN_LOG = re.compile(r'puuid=([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})&accountId=')
+_OUR_PUUID = {}
+
+
+def our_puuid(log_path=None):
+    """The signed-in account's PUUID, from the client's own requests in its log ("puuid=<id>&accountId="), so any
+    account plays with no setting (it was one account's id, written here). TFT_PUUID overrides. None while the
+    log has none; a found id is kept for the log it came from."""
+    if os.environ.get('TFT_PUUID'):
+        return os.environ['TFT_PUUID']
+    path = Path(log_path or LOG_DIR / 'TFT.log')
+    try:
+        key = (str(path), path.stat().st_ctime_ns)
+    except OSError:
+        return None
+    if key not in _OUR_PUUID:
+        try:
+            ids = PUUID_IN_LOG.findall(path.read_text(encoding='utf-8', errors='replace'))
+        except OSError:
+            return None
+        if not ids:
+            return None
+        _OUR_PUUID[key] = max(set(ids), key=ids.count)
+    return _OUR_PUUID[key]
 TFT_QUEUES = {1090: 'TFT Normal', 1100: 'TFT Ranked'}
 QUEUED = ('Matchmaking', 'ReadyCheck', 'GameStart', 'InProgress')
 PLAYING = ('GameStart', 'InProgress', 'Reconnect')
@@ -377,7 +400,8 @@ class StandaloneClient:
             if since_ms >= self._baseline_ms and game_id == self._baseline_id:
                 return None
             players = (data.get('statsBlock') or {}).get('players') or []
-            me = next((p for p in players if p.get('PUUID') == OUR_PUUID), None)
+            ours = our_puuid(self.log.path)
+            me = next((p for p in players if ours and p.get('PUUID') == ours), None)
             if not me or type(me.get('ffaStanding')) is not int or not 1 <= me['ffaStanding'] <= 8:
                 return None
             units = lambda p: [(u.get('championName'), u.get('starLevel'), u.get('itemNames'))

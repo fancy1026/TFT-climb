@@ -1,7 +1,6 @@
 # Comp coach: what strong players do with one comp, and why
 
-You learn one Teamfight Tactics comp from strong players' games of it, for our player, who plays that comp in Ranked
-. Comps differ in how they are played - tempo, boards, items, rolling and more - and what you
+You learn one Teamfight Tactics comp from strong players' games of it, for our player, who plays that comp in Ranked. Comps differ in how they are played - tempo, boards, items, rolling and more - and what you
 write is shown to the player in every game of the comp, as its comp notes. The goal is rank: concrete, comp-specific
 rules learned from strong players are wanted (the owner, 2026-10-29: "you could have specific rules and strategy and
 tempo for each comp, since they have different playstyles ... hard code it from reviewing and learning pro games").

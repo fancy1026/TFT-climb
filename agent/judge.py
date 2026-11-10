@@ -441,6 +441,9 @@ def comp_cases(comp, stage):
     base = lambda g: re.sub(r'-g\d+$', '', g)
     mine = [c for c in cases_mod.load() if base(c['game']) in games and c.get('kind') in ('tempo', 'augment')
             and stages.stage_of(c['stage']) == str(stage)]
+    # a case whose picture is not on this PC is not asked (tools/fetch_keyframes.py cuts them again from the videos):
+    # a missing picture stopped the whole verdict
+    mine = [c for c in mine if (cases_mod.KEYS / c['game'] / c['state']['keyframe']).exists()]
     held = [c for c in mine if stages.is_heldout(comp, c['game'])]
     return [c for c in mine if c not in held], held
 

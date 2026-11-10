@@ -8,5 +8,6 @@
  "strategy": "model",
  "fallback_model": "claude:claude-opus-5-5",
  "fallback_effort": "medium",
- "wait_for_codex": false
+ "wait_for_codex": false,
+ "video": "hq"
 }

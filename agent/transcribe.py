@@ -19,6 +19,14 @@ ROOT = Path(__file__).resolve().parent.parent
 MODEL = 'small.en'                    # ~460 MB, downloaded once into the Hugging Face cache
 
 
+
+def yt_dlp():
+    """yt-dlp: on PATH, else the one requirements.txt put beside this Python (.venv/Scripts, which is not on PATH
+    when the climb runs as .venv/Scripts/python - a fresh install found none)."""
+    return shutil.which('yt-dlp') or next((str(p) for p in (Path(sys.executable).with_name('yt-dlp.exe'),
+                                                              Path(sys.executable).with_name('yt-dlp')) if p.exists()), None)
+
+
 def stamp(s):
     h, rem = divmod(max(0.0, s), 3600)
     m, sec = divmod(rem, 60)
@@ -27,7 +35,7 @@ def stamp(s):
 
 def audio(url, folder, section=None):
     """The video's audio only (yt-dlp), for a game whose video is gone. -> the file, or None."""
-    exe = shutil.which('yt-dlp')
+    exe = yt_dlp()
     if not exe or not url:
         return None
     cmd = [exe, '-f', 'bestaudio', '--no-playlist', '-o', str(folder / 'audio.%(ext)s')]

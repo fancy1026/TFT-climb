@@ -1,0 +1,499 @@
+{
+ "comp": "Riftbeast Brambleback",
+ "updated": "2026-11-09T15:03:56",
+ "games": [
+  "vod-yt-nA0DbvL9XNg",
+  "vod-yt-uGe9tKj0b_I",
+  "vod-yt-0vjLekc60Mg",
+  "vod-yt-n22_elVXTyk",
+  "vod-yt-QBWbKpZVCPo",
+  "vod-yt-7ggrpeOnAn8"
+ ],
+ "areas": [
+  {
+   "area": "The comp and its final board",
+   "points": [
+    {
+     "text": "The comp is Riftbeast 7 around a 2-star Brambleback with three items, an itemized Krug 3 in front and Elder Dragon as second carry. Final board at level 8: Pebbles 3*, Murkwolf, Krug 3*, Brambleback, Sentinel, Elder Dragon (two slots), Taric. At level 9 one more support beside Taric: Gnar, Sett or Ivern. Riftbeast 7 + Invoker 2 (Pebbles, Sentinel) + Ravager 2 (Murkwolf, Brambleback) + Brawler 2 (Krug + Gnar/Sett) + Vanguard 2 (Sentinel + Taric). What makes it strong is Brambleback's stars and items, Krug's three tank items and stars, Dragon, and the time-scaling of Riftbeast 7 - not the number of trait badges.",
+     "when": "Recognizing the target board at levels 8-9.",
+     "why": "MetaTFT (patch 18.6): the level-8 board with Taric averages 2.78, the same board with Sett instead of Taric 5.04; level 9 with Ivern + Taric 1.89, Gnar + Taric 2.83, Sett + Taric 3.31. The owner: 'more traits does not mean stronger'. Riftbeast 7 grows every Riftbeast by 5% AD, 6% AS, +5 armor/MR and +50 HP every 5 s, so the board wins long fights (owner-last-the-fight).",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-QBWbKpZVCPo",
+       "round": "5-5",
+       "evidence": "level 9, trait panel Riftbeast 7, Apex Predator, Emerald Aspect, Invoker 2, Brawler 2, Ravager 2, Vanguard 2, Elderwood 1, Sprykin 1: Dragon, Taric and Gnar on the board"
+      },
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "5-2",
+       "evidence": "levels to 9 (53 -> 1 gold); keyframe panel Riftbeast 7, Apex Predator, Emerald Aspect, Greenfather 1, Invoker 2, Ravager 2, Vanguard 2: Dragon, Taric and Ivern"
+      },
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "5-3",
+       "evidence": "level 9, Riftbeast 7, Brawler 4, Invoker 2, Ravager 2 (Brawler emblem); 'My elder did so much'"
+      },
+      {
+       "game": "vod-yt-n22_elVXTyk",
+       "round": "6-1",
+       "evidence": "level 9, Riftbeast 7, Invoker 2, Brawler 2, Ravager 2, Vanguard 2"
+      }
+     ]
+    },
+    {
+     "text": "Elder Dragon counts as two Riftbeasts and takes two team slots: five other distinct Riftbeasts + Dragon = Riftbeast 7 in seven slots. When he comes in, two one-slot units leave - Cinderling and Scuttlecrab, the bridge units - unless a slot was empty. A second copy of a champion adds no Riftbeast count.",
+     "when": "Counting Riftbeasts and slots when Dragon is bought.",
+     "why": "Apex Predator: 'takes up 2 team slots and grants +2 to the Riftbeast trait'. MetaTFT's tip: 'ELDER DRAGON early -> drop Cinderling & Scuttlecrab'. Borislavs slotted an early Dragon at once at 4-3.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "4-3",
+       "evidence": "'We also found an early Elder Dragon that we're able to immediately slot in'; Riftbeast 7 kept"
+      },
+      {
+       "game": "vod-yt-QBWbKpZVCPo",
+       "round": "5-5",
+       "evidence": "Apex Predator 1 on the panel with Riftbeast 7 at level 9"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "area": "Units",
+   "points": [
+    {
+     "text": "Brambleback: the carry, 4-cost. Fielded the round he is bought, even at 1 star, in the back-right corner (0,6), carrying his completed items at once (owner-carry-items-ready, owner-carry-arrival). Target 2 star, rolled for at level 8. Never leaves.",
+     "when": "Brambleback is owned.",
+     "why": "Crimson Fury: on his target's death he leaps to the next one dealing physical damage; his active gives AD and ignores armor. He scales with attack speed (Rageblade) and needs to survive the first burst (Edge of Night, Quicksilver). Borislavs: 'just sitting here with seven Riftbeast and Brambleback two is the strongest board'.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "4-1",
+       "evidence": "Riftbeast 7 + Ravager 2 fielded at level 7 with a 1-star Brambleback: 'We do naturally single bramble back that's quite valuable'"
+      },
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "4-7",
+       "evidence": "'just sitting here with seven Riftbeast and Brambleback two is the strongest board'"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "3-5",
+       "evidence": "our Brambleback fought itemless while Caitlyn kept a slot and items; Rageblade/Hand reached him only at 3-6 (owner x28.1: very bad)"
+      }
+     ]
+    },
+    {
+     "text": "Krug: the main tank and the Brawler with Gnar or Sett. In from stage 2-3 to the end; extra copies always bought for 3 star (Krug 3* is on every MetaTFT final board). He holds the main tank set and stands at (3,4).",
+     "when": "Krug is owned or offered.",
+     "why": "Krug's active gains max HP and on death he splits into two taunting Kruglettes, buying time for the scaling Riftbeasts. Borislavs: 'Getting to a Krug three should be an incredible power spike for this board'.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "4-5",
+       "evidence": "'holding onto the extra Krugs is going to be quite worthwhile ... Krug three should be an incredible power spike'"
+      },
+      {
+       "game": "vod-yt-n22_elVXTyk",
+       "round": "4-5",
+       "evidence": "'that's basically just croc three ... I might as well not take the risk' - rolled at level 8 for Krug 3"
+      },
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "4-1",
+       "evidence": "'I need krug in ... I just want to tank a rift beast here like they're getting a million stats'"
+      }
+     ]
+    },
+    {
+     "text": "Sentinel: the second tank (Vanguard with Taric, Invoker with Pebbles), 4-cost, to the end, target 2 star; front row (3,3). He holds the second tank set (Protector's Vow, Adaptive Helm, or the Visage/Warmog's Krug has no slot for).",
+     "when": "Sentinel is owned.",
+     "why": "His cast shields him, knocks up and Mana Reaves the enemies in a line; Blue Buff gives allies mana. MetaTFT's Sentinel build: Adaptive Helm + Protector's Vow x2 (3.56). Wasianiverson at 5-2 plans to move items to him once he is 2 star.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "4-2",
+       "evidence": "'Problem is we do need to hit like senti two eventually'"
+      },
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "5-2",
+       "evidence": "'when we hit senti to move the items'"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "5-1",
+       "evidence": "Sentinel replaced Caitlyn but held no item through 5-5 while Spirit Visage and Steadfast Heart sat idle (owner x28.10)"
+      }
+     ]
+    },
+    {
+     "text": "Pebbles: the Invoker in the back row, left corner (0,0), all game; extra copies bought to 3 star (Pebbles 3* is on every MetaTFT final board). No AP items on a 2-star Pebbles (owner-ad-comp).",
+     "when": "Pebbles is owned.",
+     "why": "His laser is magic damage and lowers his target's MR; with Sentinel he gives Invoker 2 mana regen to the team. At 1 gold a copy, 3 star is cheap with Riftbeast 5's overrun shops.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-QBWbKpZVCPo",
+       "round": "5-1",
+       "evidence": "Invoker 2 on the level-8 board with Riftbeast 8"
+      },
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "4-5",
+       "evidence": "he values 'having the extra invoker on our board' over Brawler"
+      }
+     ]
+    },
+    {
+     "text": "Murkwolf: Ravager with Brambleback, the board's second melee damage, from stage 2 to the end; target 2 star. He stands behind the front row on Brambleback's side, (1,5), and is the natural Last Whisper holder there.",
+     "when": "Murkwolf is owned.",
+     "why": "He leaps to the lowest-health enemy and his empowered attacks are physical; Ravager 2 gives him and Brambleback 10% omnivamp and bonus damage, doubled below 50% health. Last Whisper Sunders what its holder hits, so beside Brambleback the armor cut lands on Brambleback's targets (owner-shred-side, owner-support-item).",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "3-5",
+       "evidence": "Ravager 2 fielded the round Brambleback came in: 'The whole point of the bramble back is that you play seven riff beasts'"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "4-3",
+       "evidence": "the repackage took Last Whisper off and never put it on a fighter beside Brambleback; no Sunder on the board afterwards"
+      }
+     ]
+    },
+    {
+     "text": "Bridge Riftbeasts - Cinderling, Gromp, Scuttlecrab, Mama Beak - make Riftbeast 5 by level 5 and 7 by level 7. Cinderling and Gromp stand in the back row beside Brambleback ((0,5), (0,4)) and hold his items before he arrives; Scuttlecrab tanks at (3,2) and holds the Alpha Mark at seven; Mama Beak is a ranged physical attacker whose Orange Buff lowers armor. Cinderling and Scuttlecrab leave when Elder Dragon comes; Gromp and Mama Beak when the final units fill their slots. A spare Cinderling copy in stage 2 is sold for interest (owner-interest-early).",
+     "when": "Stages 2-4, before the final units are owned.",
+     "why": "MetaTFT's boards on the way: level 5 Pebbles, Cinderling, Murkwolf, Scuttlecrab, Krug; level 7 adds Gromp and Mama Beak (68.9% round win rate). The 7th Riftbeast is the comp's power spike, and the bridge units reach it before the 4- and 5-costs are owned.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-7ggrpeOnAn8",
+       "round": "2-7",
+       "evidence": "the coach: 'you need to play five pieces of the rift. You should play five Rift Beasts this turn. It's important'"
+      },
+      {
+       "game": "vod-yt-7ggrpeOnAn8",
+       "round": "3-5",
+       "evidence": "level 7 and Riftbeast 7 + Invoker 2 at 3-5, 76 -> 31 gold"
+      },
+      {
+       "game": "vod-yt-0vjLekc60Mg",
+       "round": "2-7",
+       "evidence": "Riftbeast 5 fielded at level 5"
+      }
+     ]
+    },
+    {
+     "text": "Taric: the first support at level 8, in place of a Riftbeast beyond the seventh (owner-eighth-slot); Vanguard 2 with Sentinel. Front row (3,2) once Scuttlecrab is gone. Pair him with the ally the enemy reaches first - Sentinel when the front line is what breaks.",
+     "when": "Taric is owned at level 8 or more.",
+     "why": "Emerald Radiance shields allies around him and his pair when either drops low, and heals: it keeps the fight going while Riftbeast 7 scales. MetaTFT: level-8 board with Taric 2.78 against 5.04 with Sett in his place. In Borislavs's game Taric was linked to Sentinel 'rather than the bramble back'.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "5-6",
+       "evidence": "'opting to link him together with the Sentinel, it seems, rather than the bramble back'"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "5-5",
+       "evidence": "Taric owned and benched while eight Riftbeasts fought (owner x28.12: bad)"
+      }
+     ]
+    },
+    {
+     "text": "The level-9 support beside Taric: Gnar (Brawler 2 with Krug; his leap cuts enemy armor and MR), Sett (Brawler 2, 4-cost: bought on to 2 star), or Ivern (shields and damage amp on two allies). MetaTFT's level-8 and level-9 board ranking orders them (owner-eighth-slot); Rakan only while none of them is owned.",
+     "when": "Level 9, or level 8 with Taric fielded and an eighth Riftbeast in a slot.",
+     "why": "Brawler 2 adds team HP; Gnar's transform lowers the armor and MR of the enemies he lands on, which every physical hit of the board then uses. Robinsongz on the slot: Brawler 'is pretty important in this comp'.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-n22_elVXTyk",
+       "round": "4-7",
+       "evidence": "'Prawler is pretty important in this call'"
+      },
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "4-6",
+       "evidence": "'it's definitely not better than like taric too, but we can play them in the short term' (Brawler emblem board)"
+      },
+      {
+       "game": "vod-yt-QBWbKpZVCPo",
+       "round": "5-5",
+       "evidence": "Gnar and Taric both fielded at level 9 (Sprykin 1, Emerald Aspect 1)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "area": "Positions",
+   "points": [
+    {
+     "text": "The formation (owner-tank-on-fighter-side, owner-corner-free): front row from the right - (3,6) empty, (3,4) Krug with the tank items, (3,3) Sentinel, (3,2) Scuttlecrab, later Taric; Gnar behind them at (2,3). Back: Brambleback (0,6), Cinderling (0,5), Gromp (0,4), Pebbles (0,0); Murkwolf (1,5); Elder Dragon (1,3).",
+     "when": "Every board from stage 3; the executor places it and mirrors it before the fight.",
+     "why": "The right-most frontliner takes the enemy carries' damage first; if it is not the tank, Brambleback and Murkwolf are reached early (owner x26.12). Brambleback's corner lets his kill-leaps start from the safest hex; Borislavs: 'be quite vigilant with your positioning so you're able to get these resets onto the weak sides'.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "4-6",
+       "evidence": "'he's going to be getting targeted very early in the fight ... positioning so you're able to get these resets onto the weak sides'"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "5-1",
+       "evidence": "Krug stood at (3,6) from 5-1 on (owner x28.7: bad)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "area": "Item plan",
+   "points": [
+    {
+     "text": "Brambleback's set: Guinsoo's Rageblade (Rod + Bow), Edge of Night (Sword + Vest), then Quicksilver (Cloak + Gloves) or Hand of Justice (Gloves + Tear); Sterak's Gage (Sword + Belt), Bloodthirster (Sword + Cloak) or Titan's Resolve (Vest + Bow) when the components point there. Never Last Whisper on him (owner-support-item). Before he arrives the set is built on a fielded Cinderling or Gromp (Mama Beak or Murkwolf if they are not there) and moves to him the round he is fielded.",
+     "when": "Building and choosing the carry's three items.",
+     "why": "MetaTFT: Rageblade in 93.6% of the comp's games, Edge of Night 83%; EoN + Rageblade + Quicksilver 3.97, + Hand of Justice 4.07, + Titan's 3.88. Rageblade stacks attack speed every second, which compounds with Riftbeast 7's growth; EoN and Quicksilver keep him alive and uncontrolled through the opening burst. His own active ignores armor, so Sunder on him is partly wasted - it belongs on the attacker beside him.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "2-2",
+       "evidence": "'the rageblade on this guy is very, very strong. And then ... the edge of night and Sterak's Gage are very strong'"
+      },
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "3-5",
+       "evidence": "'you could be going for a BT or a QSS giving him still ... more attack speed scaling'"
+      },
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "5-4",
+       "evidence": "'maybe just getting the QSS for the bramble back ... with that extra early game CC'"
+      },
+      {
+       "game": "vod-yt-n22_elVXTyk",
+       "round": "3-2",
+       "evidence": "'ginsu Titans into Titans edge of night'"
+      }
+     ]
+    },
+    {
+     "text": "The main tank's set, on Krug (Scuttlecrab holds it until Krug is fielded): Evenshroud first (Belt + Cloak), then Gargoyle Stoneplate (Vest + Cloak), Warmog's Armor (Belt + Belt), Spirit Visage (Belt + Tear) - three of them, by the components on hand. The second set goes on Sentinel: Protector's Vow (Vest + Tear), Adaptive Helm (Cloak + Tear), or the Visage/Warmog's Krug has no slot for; a Sunfire Cape (Vest + Belt) there gives the team anti-heal once Cinderling has left.",
+     "when": "Building the tank items.",
+     "why": "MetaTFT: Krug Stoneplate + Visage + Warmog's 3.91; Stoneplate in 81.6% of games. Evenshroud's 30% Sunder within 2 hexes of the main tank cuts the armor of the enemies in front of Brambleback's side, and its 15 armor/MR covers the first 15 s. Strong players finish the tank items early: Wasianiverson 'I'll just make my third tank item first', Borislavs 5-1 'finally complete also the third frontline item'; Wasianiverson's 5-7 loss: 'I didn't have a single tank item'.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "3-6",
+       "evidence": "'I'll just make my third tank item first and what happens happens'"
+      },
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "5-7",
+       "evidence": "'I didn't have a single tank item. That's how' - the loss explained"
+      },
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "5-1",
+       "evidence": "'should be looking to finally complete also the third frontline item just running on two item crack too'"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "5-1",
+       "evidence": "Spirit Visage and Steadfast Heart idle on the item bench while Sentinel held none (owner x28.6, x28.10)"
+      }
+     ]
+    },
+    {
+     "text": "Order: Brambleback's and Krug's items take turns from the first components (owner-item-plan, owner-first-six-items); then Sentinel's set; then Elder Dragon's: Infinity Edge (Sword + Gloves), Last Whisper (Bow + Gloves), Striker's Flail (Belt + Gloves), or a spare Hand of Justice or Rageblade; or a 3-star Pebbles. Until Dragon is owned, his items fight on a fielded Mama Beak, Murkwolf or Gromp - never on the bench. From stage 3 no more than 3 components wait unused, unless they form nothing this comp wants (owner-no-idle-components); Tactician's items go on none of these holders (owner-crown-no-stats).",
+     "when": "Deciding which item to complete next and who holds it.",
+     "why": "MetaTFT: Dragon IE + LW + Flail 2.99, the best full build of the comp. Borislavs: 'if we had the extra Hand of Justice, we could have moved it over to Elder Dragon. He loves having that extra crit'. Gloves sit in five of these recipes (QSS, HoJ, IE, LW, Flail), so a Gloves from the carousel or an anvil completes whichever set is next.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "6-1",
+       "evidence": "'if we had the extra Hand of Justice, we could have moved it over to Elder Dragon. He loves having that extra crit'"
+      },
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "5-2",
+       "evidence": "'We have only a TG on him which is sufficient' - Thief's Gloves as Dragon's package"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "4-7",
+       "evidence": "our player benched Caitlyn to keep her two items for a Dragon not yet owned; the items fought nowhere through 5-5"
+      }
+     ]
+    },
+    {
+     "text": "Carousel and anvils: take the component that completes the next item of the plan; Gloves and Belt are wanted most (MetaTFT's carousel order: Vest, Gloves, Belt, Sword, Cloak, Tear, Bow, Rod). No Rod or Tear for AP items.",
+     "when": "A carousel, an anvil or a loot choice.",
+     "why": "Every item of the plan is built from Vest, Gloves, Belt, Sword, Cloak, Tear, Bow and one Rod (Rageblade); MetaTFT ranks the carousel accordingly.",
+     "kind": "advice",
+     "sources": [
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "4-7",
+       "evidence": "'ie blue ie starax It's i lw guard that's what it likes' - choosing an anvil item for Dragon"
+      },
+      {
+       "game": "vod-yt-n22_elVXTyk",
+       "round": "4-3",
+       "evidence": "'Reforged glove ... I can get sword or chain' - fitting the component to the next item"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "area": "Damage, Sunder, Shred and Wound",
+   "points": [
+    {
+     "text": "The final board's damage is physical: Brambleback roughly 40-50% (physical attacks and leaps, armor ignored during his active), Elder Dragon roughly 25-30% (physical splash attacks, physical Ignite of max health, Flame Breath), Murkwolf, Gnar and Krug's roll about 15%; magic - Pebbles' laser, Sentinel's shockwave, Taric's bonus hits - about 10%; Burn from Cinderling or a Red Buff is true damage. So the board wants Sunder (armor), not Shred: Evenshroud on Krug and Last Whisper on Murkwolf or Elder Dragon beside Brambleback; Gnar's leap and Mama Beak's buff also cut armor. No Shred item is built (owner-ad-comp).",
+     "when": "Choosing between damage, Sunder and anti-heal items.",
+     "why": "The shares are rough, from the abilities in data/reference/champions.md and the owner's 'AD dmg will be like 90% of the comp'. Last Whisper's 30% Sunder lasts 3 s on what its holder hits and does not stack, so one holder on Brambleback's side covers his targets; Evenshroud covers enemies within 2 hexes of the main tank, who stands in front of that side. Sunder on Brambleback himself overlaps his active's armor ignore.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-QBWbKpZVCPo",
+       "round": "5-5",
+       "evidence": "the level-9 board: Brambleback, Dragon, Murkwolf, Gnar as physical damage; Pebbles, Sentinel, Taric the magic part"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "4-3",
+       "evidence": "no Sunder on the board after Last Whisper was taken off and left on the item bench"
+      }
+     ]
+    },
+    {
+     "text": "Anti-heal (Wound): while Cinderling is fielded her Razor Leaves Wound and Burn; once she leaves for Dragon the team has none, and a good next item is a Red Buff (Bow + Bow) on Murkwolf or Dragon, or a Sunfire Cape (Vest + Belt) on Sentinel (owner-no-idle-components).",
+     "when": "Cinderling leaves the board, or no fielded unit Wounds.",
+     "why": "Riftbeast 7 wins long fights, and long fights are where enemy healing and omnivamp count most; 33% Wound cuts it. Wasianiverson: 'Maybe i'm supposed to save our red buff'.",
+     "kind": "advice",
+     "sources": [
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "4-7",
+       "evidence": "'Maybe i'm supposed to save our red buff'"
+      },
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "5-4",
+       "evidence": "'probably getting red on the whole board can't be bad'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "area": "Alpha Mark",
+   "points": [
+    {
+     "text": "Stages 2-3: the Alpha Mark goes on the unit that carries (Cinderling or Gromp, or Brambleback if he comes early). With seven Riftbeasts it goes on Scuttlecrab (owner-alpha-crab); after Scuttlecrab leaves, Krug (his Slate Buff shields the team when Krug or his Kruglettes die), or Elder Dragon when Krug dies too late for the shields to matter.",
+     "when": "Placing the Alpha Mark.",
+     "why": "Riftbeast 3 grants the marked unit its own Buff. Wasianiverson used Krug's, then Dragon's: 'my crog is dying too late ... I'm marking dragon'. MetaTFT's tip names the carry in stages 2-3.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "6-5",
+       "evidence": "'my crog is dying kind of late ... I should just mark the dragon ... All right, i'm marking dragon'"
+      },
+      {
+       "game": "vod-yt-7ggrpeOnAn8",
+       "round": "3-3",
+       "evidence": "'Even if you don't have actual tank items like this, the Krog mark is fine'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "area": "Augments",
+   "points": [
+    {
+     "text": "Verticality (I, II, III) is the preferred combat augment (owner-verticality); others that grow with the Riftbeasts: Omega Riftbeast (a second Alpha), Comeback Story, Coronation and Cursed Crown (extra team slots). MetaTFT's A-tier economy picks (Capital Gains, Booster Pack, Grab Bags) are fine when the board is stable. Never Invested++ or Pandora's Items; reroll a set with nothing for the comp.",
+     "when": "An augment choice.",
+     "why": "MetaTFT's list for the comp (patch 18.6): S Verticality I-III, Omega Riftbeast, Comeback Story; A Coronation, Cursed Crown and economy picks. Borislavs: Verticality 'probably the best combat augment you can be seeing in this line'; Wasianiverson: 'All of my best games have been like with like two combat augments'.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "4-2",
+       "evidence": "'We see verticality ... Probably the best combat augment you can be seeing in this line'"
+      },
+      {
+       "game": "vod-yt-nA0DbvL9XNg",
+       "round": "5-2",
+       "evidence": "'All of my best games have been like with like two combat augments and then my brown deck is just like completely 1v9'"
+      },
+      {
+       "game": "vod-yt-n22_elVXTyk",
+       "round": "3-2",
+       "evidence": "'Group hug with comeback story. That sounds fucking broken'"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "area": "Transitions",
+   "points": [
+    {
+     "text": "A board change - Brambleback's arrival, Dragon's arrival, a support for an eighth Riftbeast - is one complete step in one planning phase: sell the outgoing unit (its items come back), field the incoming one on its hex, move its items onto it, and only then XP or rolls. Check the board that will fight, not the list of moves.",
+     "when": "Any round a final unit is bought.",
+     "why": "Each round the change is spread over is a fight on a weaker board; in our game 78 Brambleback's arrival took three rounds and Taric was never fielded. Strong players slot the new unit the round they buy it.",
+     "kind": "rule",
+     "sources": [
+      {
+       "game": "20261108-214104",
+       "round": "3-5",
+       "evidence": "Brambleback itemless, Scuttlecrab removed, Caitlyn kept; items reached him at 3-6 and 3-7 (owner x28.1)"
+      },
+      {
+       "game": "20261108-214104",
+       "round": "5-5",
+       "evidence": "Taric benched while eight Riftbeasts fought (owner x28.12)"
+      },
+      {
+       "game": "vod-yt-uGe9tKj0b_I",
+       "round": "4-3",
+       "evidence": "Dragon slotted the round he was found"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "dropped": [],
+ "study_next": [
+  {
+   "query": "Riftbeast Brambleback level 9 Ivern Taric vs Gnar Taric",
+   "why": "MetaTFT's level-9 board with Ivern + Taric averages 1.89 against 2.83 with Gnar; the owner orders Gnar before Ivern - games that field each would show why."
+  },
+  {
+   "query": "Riftbeast Brambleback Taric pair Sentinel or Brambleback",
+   "why": "Which ally strong players pair Taric with, and on what it depends; one game (Borislavs 5-6) shows Sentinel."
+  },
+  {
+   "query": "Riftbeast Brambleback no Elder Dragon level 9 board",
+   "why": "What strong players field when Dragon is not found by stage 5."
+  }
+ ]
+}

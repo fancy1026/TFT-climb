@@ -817,3 +817,14 @@ def wisp_names():
             if m and m.group(1).strip() not in ('Wisp', '---')]
 
 
+def pilot_from_env():
+    """TFT_PILOT=<MetaTFT comp name or id> (tools/play_pilot.py): the Pilot, or None."""
+    import os
+    name = os.environ.get('TFT_PILOT')
+    if not name:
+        return None
+    from tft_player.meta import META
+    comp = META.by_name(name)
+    if not comp:
+        raise SystemExit(f'TFT_PILOT: no MetaTFT comp named {name!r}')
+    return Pilot(comp)

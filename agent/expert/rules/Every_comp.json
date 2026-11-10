@@ -1,0 +1,249 @@
+{
+ "comp": "Every comp",
+ "written": "2026-11-07",
+ "note": "The owner's rules for every comp (x19.2: Brambleback's own rules stay in its file); the player gets them in every game, before and after a commit.",
+ "rules": [
+  {
+   "id": "owner-xp-exact",
+   "rule": "Levelling: when the XP still needed for the next level is an exact number of XP buys (4 XP each, none left over) and you mean to take that level this round or the next, buy it now. When it is not exact, or it takes the gold below an interest step, the level waits for the next round (its passive XP) - unless this fight needs the slot now. The executor buys the next level at the start of a planning phase when its XP leaves 50 gold or more (no interest lost), up to the comp's roll level - an XP order written before that is not bought twice.",
+   "why": "The owner, game 52: 'it is bad decision to level to 9 on 5-6 rather than 5-5, because if you calculate the experience, it is perfect experience and saves 4 gold if you do on 5-5' (5-5: level 8, 16/68 XP, 52 more = 13 buys exactly). / The owner, 2026-11-07, on game 74b (run 20261107-213309): '3-2, there is no reason to level to 6, it wasted 2 gold interest doing this. First, the xp is not perfect, it is 2/36, even you want to level up, do it next round.'",
+   "from": [
+    "x5.17",
+    "x26.10",
+    "x32.3"
+   ]
+  },
+  {
+   "id": "owner-no-early-6",
+   "rule": "No early level 6 while interest is not full: bank toward 50 gold first.",
+   "why": "The owner, game 20261031-015029: 'No level 6 early with interest not full; bank toward 50.'",
+   "from": [
+    "x3.2"
+   ]
+  },
+  {
+   "id": "owner-sell-off-comp",
+   "rule": "Sell champions outside the comp early: the bench never fills with off-comp units. Champions from the monster rounds' loot that are not in the comp are sold the moment they arrive.",
+   "why": "The owner, game 52 4-1: 'the bench full, with useless champions on bench, should have sold much earlier, like Xayah, Sej, Warwick'; earlier game: 'Bench full all game; units outside the comp must be sold (Akali with items still on the bench at 4-6).' Game 63 (x14.6), Kha'Zix and Yunara from the 4-7 loot kept for a round: 'the champ obtained from the monster should be sold instantly, if they are not from the comp, like kha'zix and yunara'.",
+   "from": [
+    "x5.7",
+    "x3.3",
+    "x14.6"
+   ]
+  },
+  {
+   "id": "owner-combine-components",
+   "rule": "Never leave single components on different units when two of them make an item: put them together on one fielded unit - the strongest one that holds either (items concentrate) - with the Item Remover if needed.",
+   "why": "The owner, game 52 5-3: 'three components on the board, one less item made' - the Giant's Belt on Scuttlecrab and the Negatron Cloak on Sentinel make Evenshroud. / The owner, 2026-11-07, on game 74 (x25.5): the items concentrate on the strongest unit, never split off it.",
+   "from": [
+    "x5.15",
+    "x25.5"
+   ]
+  },
+  {
+   "id": "owner-items-not-waiting",
+   "rule": "From stage 4 on, completed items do not wait on the item bench: every planning phase, put them onto fielded units with a free slot. A unit with three items takes no more.",
+   "why": "The owner, game 53: 'too much items waiting on bench, at stage 5, this is very bad' (7-11 items on the bench from 4-2 to 5-5). Its component part moved to owner-no-two-components (x11.1): the owner's words were about stage 5, and 'from stage 4 on' for components forced items from 4-1.",
+   "from": [
+    "x9.1",
+    "x11.1"
+   ]
+  },
+  {
+   "id": "owner-no-two-components",
+   "rule": "Components: until the 4-7 monster round a single component may wait for the partner of the item you want - the 4-4 carousel and the 4-7 monster round still bring components, so items are not forced from 4-1. After the 4-7 monster round, never hold two or more single components: whatever components you have, combine them into an item on a fielded unit with a free slot, even an item outside the plan.",
+   "why": "The owner, game 59 (x10.2): 'after stage 4 monster round, it does not matter what components you have, you have to make an item, hence there will never be [two or more] components there' - a Rod sat as Krug's third item and Sparring Gloves as Elder Dragon's, which together were one item. The owner (x11.1), on a stage-4 strategy that combined components from 4-1: 'do you mean to force making items from 4-1? if so, this is bad because there will still be components in the 4-4 and monster round'.",
+   "from": [
+    "x10.2",
+    "x11.1"
+   ]
+  },
+  {
+   "id": "owner-duplicator",
+   "rule": "Lesser Champion Duplicator: use it early, and on a copy toward a 3-star rather than to make a 2-star.",
+   "why": "The owner, game 52 3-1: 'used a bit late, did not make two star crab in time, also, it is actually not the best use on crab, since it is two star, use it on three star would be better'.",
+   "from": [
+    "x5.1"
+   ]
+  },
+  {
+   "id": "owner-wisps",
+   "rule": "In stage 5 a Wisp is the first priority. Wisps in stages 4 and 5: a Wisp is essential - about 70% of the focus in that stretch. Roll for one when the shop shows none, unless you are sure to win without it; you do not know the opponents' strength, so get one.",
+   "why": "The owner, game 52 5-3: 'it did not reroll once for wisp. WISP is pretty much essential for stage 4-5 ... since it did not know the opponent strength, ideally, it is still better to get a wisp'; 'from 5-3 - 5-6, no wisp is bought, while the 70% of the focus should be wisp during this whole stage'. Earlier, game 50: in stage 5 and after the Wisp is the single most important decision of the round. Game 63 (x14.8), 5-5 at 4 HP with no Wisp bought: 'This is fatal error, wisp is the first prio in stage 5, if it had wisp, it could won the last round'.",
+   "from": [
+    "x5.16",
+    "x5.18",
+    "x1.6",
+    "x14.8"
+   ]
+  },
+  {
+   "id": "owner-elder-dragon",
+   "rule": "Elder Dragon is fielded the moment he is bought, never left on the bench, even at 1 star: decide his hex before he arrives.",
+   "why": "The owner: 'Elder Dragon on the bench, not fielded, is never right, even at 1 star'; game 52 6-3: 'elder dragon came, and did not field asap, this should be preset, before arrival'.",
+   "from": [
+    "x1.8",
+    "x5.21"
+   ]
+  },
+  {
+   "id": "owner-augment-reroll-use",
+   "rule": "Augments: use the rerolls - at 3-2 in game 65 no reroll was used.",
+   "why": "The owner, game 65: 'No reroll used in the second augment selection.'",
+   "from": [
+    "x16.2"
+   ]
+  },
+  {
+   "id": "owner-no-xp-in-combat",
+   "rule": "No XP once combat has started when it takes the gold below 50: it loses interest (game 65: level 7 bought in the 3-2 combat lost 4-5 gold of interest). Gold above 50 earns no interest, so XP that leaves 50 gold or more is bought in the fight too, and the level taken then (the executor does it). A level up too late for this fight that would go below 50 is done at the start of the next planning phase.",
+   "why": "The owner, game 65: 'Level up to 7 at 3-2 combat, lost 4-5 gold interest'; game 66 3-5: 'there is 0 reason to level up to 7, because combat is already started, the level up to 7 should be queued and performed at the 3-6 start'. / The owner, 2026-11-07, on game 74: '3-2 during combat, it should buy xp and level up, because it does not affect interest, since have 79 gold'",
+   "from": [
+    "x16.3",
+    "x18.9",
+    "x25.4"
+   ]
+  },
+  {
+   "id": "owner-no-roll-stage-2",
+   "rule": "Never roll during stage 2 - game 66 rolled its free rerolls there (2-1, 2-2, 2-6, 2-7): the goal is to build economy, whatever the pivot.",
+   "why": "The owner, game 66: 'Never use RR during stage 2, the goal is to build economy, it does not matter what used to pivot.'",
+   "from": [
+    "x18.2"
+   ]
+  },
+  {
+   "id": "owner-interest-sell",
+   "rule": "Interest: an off-comp unit, fielded or on the bench, is sold in the round where its gold keeps you at or brings you to 10 - in game 66, after its 2-3 buys, selling the fielded Elise would have kept 10 gold; she was sold at 2-5 instead and 1 gold of interest was lost.",
+   "why": "The owner, game 66: '2-3, the Elise not sold for 10 gold, and then sold at 2-5, lost 1 gold interest.'",
+   "from": [
+    "x18.4"
+   ]
+  },
+  {
+   "id": "owner-no-off-comp-filler",
+   "rule": "Do not field a unit that gives no trait: at 3-3 in game 66 Alistar was fielded for no reason (no traits, 1 interest wasted); the right play was to field another Scuttlecrab.",
+   "why": "The owner, game 66: '3-3 fielded Alistar for 0 reason, no traits, and wasted 1 interest, the correct way is to field another crab.'",
+   "from": [
+    "x18.7"
+   ]
+  },
+  {
+   "id": "owner-coven-rewards",
+   "rule": "Coven: more Coven does not make the board stronger when you are almost dead. Plan when to take the Coven rewards (convert the Essence to loot), and once taken, field stronger champions and traits in place of the Coven units (game 71 ended at 29 HP with Camille fielded). While the game is still pivoting (the Coven rewards not taken yet), field as many Coven units as the board takes - more Coven, more rewards; a Coven unit is sold only after the cash-out, once the board plays to win at level 8.",
+   "why": "The owner, game 71: 'why is the Camille on the board? When you are almost died, does having more coven make you stronger? I guess no? Then why even field coven? It should have plan when to take the rewards and use stronger champions and traits'. / The owner, 2026-11-07, on game 74: 'why sell camile? 4-1 should field 5 coven. It is still pivoting, more coven = more rewards. It should only be sold after cashout and started wanting to win in level 8.'",
+   "from": [
+    "x19.3",
+    "x25.7"
+   ]
+  },
+  {
+   "id": "owner-damage-items-not-on-tanks",
+   "rule": "Damage items (AP or AD) go on damage dealers, never on a tank; a tank gets tank items. Fiddlesticks is a tank (melee, Defender), not a damage dealer: in game 71 Jeweled Gauntlet and Striker's Flail were put on him. Before giving an item, check the holder's job: tank or damage dealer.",
+   "why": "The owner, game 71: 'why are the AP items on the Fid? it is tank, not dps'; then: 'FID is a tank, it is a tank, why do you give AP damage item on tank?'",
+   "from": [
+    "x19.4"
+   ]
+  },
+  {
+   "id": "owner-no-spend-when-weak",
+   "rule": "When you are not on a win streak and the board is not strong, spend no gold on levelling or rerolls: hold it for interest (game 71 stage 2 levelled at 2-2 and 2-5 on a loss streak and stayed at 0-10 gold) - but not when HP is already low on a losing streak and you decide to take a path of the comp's FIRST RULES that levels and rolls for its power step then.",
+   "why": "The owner, game 71: 'There should be general rule, if not winning streak, and board is not strong, it should not spend gold on level up and reroll.'",
+   "from": [
+    "x19.5",
+    "x32.8"
+   ]
+  },
+  {
+   "id": "owner-item-plan-every-comp",
+   "rule": "Items: every comp has an item plan (its FIRST RULES name its main tank, its DPS and their items). By the start of stage 5 a game has about 6 completed items - more when augments, the encounter or events give more: 3 go on the main tank and 3 on the DPS. The order is a priority, not a fixed rule: when the components can make the next item of either, the DPS's comes first, then the tank's, then the DPS's again (the DPS's 1st, the tank's 1st, the DPS's 2nd, the tank's 2nd, the DPS's 3rd, the tank's 3rd); an item the components on hand make for only one of them is built now, not held for the other's turn. Build toward that plan from the first components.",
+   "why": "The owner, 2026-11-07: 'there should have itemization plan for each comp ... like 6 items ... at the beginning of the stage 5 ... 3 items for the main tank, 3 items for the dps (brambleback and morgana). A little priority should give to the dps.' The owner, 2026-11-07: 'do not build 3 items for dps and then 3 for tank ... I mean priority like: first dps, and then tank, and then another dps item, like this etc.' The owner, 2026-11-07: 'is not a fixed rule. Suppose that we have 3 components in the beginning, vest, cloak and rod. It should build the stoneplate, and not wait for the first dps and then build tank.'",
+   "from": [
+    "x21.1",
+    "x22.1",
+    "x23.1"
+   ]
+  },
+  {
+   "id": "owner-last-life-all-in",
+   "rule": "When a loss ends the game (1 HP, or less than a loss's damage): first the XP when the gold on hand completes the next level (a slot and the next level's odds), then spend all the gold rolling for the comp's upgrades: no gold floor, sell what the board does not need (the executor does both).",
+   "why": "The owner, 2026-11-07, on game 72: '5-6, when you only have 1 HP, why not spend all the gold for the RR for the Brambleback?' / The owner, 2026-11-07, on game 74b (run 20261107-213309): '5-6, why started to waste money on reroll? What is the aim? the play should be level to 9, it is 36/68 already. This is a fatal mistake. when you get to 9, you have chance to two star elder dragon, and one more unit'",
+   "from": [
+    "x24.7",
+    "x26.23"
+   ]
+  },
+  {
+   "id": "owner-tank-and-items",
+   "rule": "Items and the main tank (the executor does them - the state's ITEM PLAN): the main tank's three items cover the frontline's stats, one each - armor and magic resist (Gargoyle Stoneplate, Evenshroud, Bramble Vest, Dragon's Claw), health (Warmog's Armor, Sunfire Cape, Spirit Visage, Protector's Vow, Crownguard), durability (Steadfast Heart); Crownguard is a tank item, not an AP item; an item whose effect does not stack (Sunder, Shred, Burn, Wound: Evenshroud, Last Whisper, Sunfire Cape, Morellonomicon) is built once a team; the main tank stands at the front row's end on the main carry's side, so the enemies meet him before the carry.",
+   "why": "The owner, 2026-11-07, on game 72: 'Why Crownguard on small blue? It is a tank item, not AP ... for frontline it should have 1. armor and MR, 2. health, 3. durability. The build you have on the Krug has no 1, hence it is not tanky. The strongest tank to be on the same side of the Brambleback ... the frontline, the most right champion should be the main tank. Why get two Evenshrouds? One is enough, its effect does not stack.'",
+   "from": [
+    "x24.3",
+    "x24.4",
+    "x24.5",
+    "x24.6"
+   ]
+  },
+  {
+   "id": "owner-item-concentration",
+   "rule": "Concentrate the items: each item's stats multiply with the ones already on that champion, so items stacked on one holder are stronger than the same items spread over several units. Items and components go onto the strongest unit the board keeps (a 2-star before a 1-star); an Item Remover moves them there from a weaker holder, and one holder's items are never split over two units. A holder the board can do without - another unit gives its trait - is sold: its items come back to the item bench for the strongest unit, and its gold counts toward the next interest step.",
+   "why": "The owner, 2026-11-07, on game 74: 'a terrible mistake to separate the items in 3-3; in the general strategy it should emphasize the importance of items concentration, because additional stats on the same champion is multiplying effect' and '2-3 should sell hec and then field another vanguard. It could give the items to the 2 star elise and get one more interest. Or at least use remover to give it to the elise'",
+   "from": [
+    "x25.1",
+    "x25.5"
+   ]
+  },
+  {
+   "id": "owner-wisp-before-roll",
+   "rule": "A roll that depends on a Wisp (a Wisp that changes the shops) runs only after that Wisp is bought; when the Wisp is not bought, the roll does not run (the executor drops it). Below the comp's roll level no reroll runs, so a Wisp whose value is in rolling is not bought there.",
+   "why": "The owner, 2026-11-07, on game 74: 'it started to reroll at 3-6 combat, it thought it bought the wisp and reroll. But it did not buy the wisp, hence the reroll actions should be cancelled ... In addition, that wisp should not be bought, because there is no reason to reroll at level 7 for this comp.'",
+   "from": [
+    "x25.6"
+   ]
+  },
+  {
+   "id": "owner-item-holders",
+   "rule": "Items go on the strongest and most suitable champion of their position (the carry's items on a fighter or carry, the tank's on a tank; the executor's item plan does it, with no fixed stand-in): suitable - the position's own kind, by MetaTFT's item data; strongest - more stars first, then the higher cost (all 1-star: 5-cost > 4-cost > ... > 1-cost; a 2-star 4-cost beats a 1-star 5-cost). The same order says which unit leaves the board for another: the weakest one goes, never a 3-star for a 2-star of a lower or equal cost.",
+   "why": "The owner, 2026-11-07, on game 74b (run 20261107-213309): 'there should not be any rules that pivot items must be on wolf ... The pivot items should be on the strongest and most suitable champion on board'; 'the item prio (general rule, applied to all comp): if all 1 star: 5 cost > 4 cost > ... 1 cost; if mixed stars: 2 star 4 cost > 1 star 5 cost; this applies for the same position'; '5-5, it should unfield small blue instead of 3 star cinderling'",
+   "from": [
+    "x26.9",
+    "x26.20",
+    "x26.22"
+   ]
+  },
+  {
+   "id": "owner-sell-at-once",
+   "rule": "Sell a unit the moment you decide to: put it in the first plan's sell list - sells run first, in the fight too; a unit outside the comp sold one round late costs its interest.",
+   "why": "The owner, 2026-11-07, on game 74b (run 20261107-213309): '2-1, it clearly says sell the kobuko and cait, why not sell during combat? It wasted 1 interest. For selling, it should sell as soon as seeing them.'",
+   "from": [
+    "x26.1",
+    "x26.6"
+   ]
+  },
+  {
+   "id": "owner-wisp-flag-preset",
+   "rule": "Rolls never stop to ask about a Wisp: set strategy.wisp_flag (combat and economy: buy or skip, or Wisp names) before a roll - a Wisp the flag does not cover is passed. From stage 4 the default is combat: buy.",
+   "why": "The owner, 2026-11-07, on game 74b (run 20261107-213309): '4-3 when level up and reroll, there is no time to ask the model every time what wisp to get, hence the model could preset if combat or eco wisp acceptable. And then during reroll, no need to ask the model.'",
+   "from": [
+    "x26.15"
+   ]
+  },
+  {
+   "id": "owner-wisp-reroll",
+   "rule": "When the comp's board is finished, or in stage 6, and the shop shows no Wisp, the first action of the planning phase is one reroll, for a Wisp (the executor does it) - not ten seconds of other steps first.",
+   "why": "The owner, 2026-11-07, on game 74b (run 20261107-213309): '6-2, the instant action to do is to reroll once. when the comp is finished built or in stage 6, when there is no wisp in the shop, the instant action is to reroll once to get wisp, not wait for 10 s for other things.'",
+   "from": [
+    "x26.25",
+    "x26.26"
+   ]
+  },
+  {
+   "id": "owner-evenshroud-first",
+   "rule": "Evenshroud is the main tank's first item whenever its components are there (this game has armor penetration: its Sunder makes the team's damage count), whatever stat his other items cover - one a team.",
+   "why": "The owner, 2026-11-07, on game 74b (run 20261107-213309): '5-1, 5-2. there are 5 components to make decision on the two final items. It should make evenshroud first! (there is armor penetration in this game, evenshroud should be the priority)'",
+   "from": [
+    "x26.19"
+   ]
+  }
+ ]
+}

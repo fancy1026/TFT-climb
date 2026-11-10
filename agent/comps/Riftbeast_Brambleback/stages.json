@@ -1,0 +1,2204 @@
+{
+ "comp": "Riftbeast Brambleback",
+ "stages": {
+  "1": [
+   {
+    "v": 1,
+    "text": "Collect the PvE loot and field every available slot: level 2 at 1-3, level 3 at 1-4. Buy natural cheap Riftbeasts and useful pairs; use an available defensive trait before choosing between equal-trait stars. Ornn + Leona is a Defender pair; a shielded frontline buys time for ranged damage. Put melee tanks in row 3 and ranged units in row 0. Keep Pebbles/Cinderling and useful Gromp/Scuttlecrab offers for the later core without leaving this board empty. Use natural shops rather than paid rerolls. Hold components for an identifiable usable carry/tank combine; do not invent loot or a fixed starting build. Hand stage 2 the actual units, pairs, components and strongest active trait board.",
+    "why": "MetaTFT starts with a cheap trait board. Borislavs' opened 1-4 has Defender 2 at level 3 and zero end gold; Robin's 1-4 instead has Spellweaver 2 at the same level/bank. These two openings support using available traits rather than one mandatory inventory. There are no reviewed games of ours in this material.",
+    "sources": [
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "1-3",
+      "evidence": "Opened 000004: the two-slot PvE opening."
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "1-4",
+      "evidence": "Opened 000032: Defender 2, level 3, zero gold."
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "1-4",
+      "evidence": "Opened 000042: Spellweaver 2, level 3, zero gold."
+     }
+    ],
+    "by": "comp coach",
+    "when": "2026-11-01T18:59:34",
+    "status": "replaced",
+    "watch": null,
+    "judge": null
+   },
+   {
+    "v": 2,
+    "text": "Collect PvE loot and fill every available slot: natural level 2 at 1-3 and level 3 at 1-4. Buy natural cheap Riftbeasts and useful core pairs; keep offered Pebbles/Cinderling copies toward 3-star. Field every distinct owned Riftbeast immediately under FIRST RULES, even before a breakpoint; never wait for a later slot to preserve a defensive pair. Fill remaining slots with useful frontline and damage support. An available defensive trait helps only when it fits around the owned Riftbeasts; judge the units' jobs, stars and items rather than the number of active traits. Put melee tanks in row 3, melee damage near the tank, and ranged damage in row 0. Sell unused off-comp bench units early, including a displaced support; no interest threshold is required. Retain the core's upgrade copies. Use natural shops, no paid opening rerolls. Build an available suitable AD carry/tank combine on a fielded holder; hold components when no permitted useful combine is available and follow FIRST RULES for split components. Do not invent loot or a fixed starting build. Hand stage 2 the actual fielded Riftbeasts, support, pairs, items and XP/gold for the next useful level; apply FIRST RULES to its exact-XP timing.",
+    "why": "Narrowly replace v1's defensive-trait-first and 'later core' priorities with owner-five-riftbeasts and owner-sell-off-comp, preserving natural levels, cheap-core purchases, no paid opening rolls, functional positioning and useful carry/tank combines. In game 54 at 1-4, the player explicitly kept Sejuani/Rakan's Juggernaut pair and queued known Cinderling for the fourth slot. The audit's legal alternative is Sejuani (3,3), Murkwolf (2,1), Cinderling (0,2), with Rakan displaced and sold. It keeps the shield tank and adds ranged physical damage, Wound and Burn while giving up Juggernaut 2; only two distinct Riftbeasts were known, so it activates neither Riftbeast 3 nor the five-unit shop reward. The same round retained corrected, unused Camille because no interest step was reachable; sell her regardless, retaining both Cinderlings. The audit attributes both choices to reasoning, unlike the 1-3 Rakan/Varus fallback that blocked requested Xayah. Game 52's 1-3 missed Cinderling entry and late 1-4 shop, and game 53's 1-4 failed Rek'Sai entry/Alistar positioning, remain execution/information evidence, not reasons for stronger trait chasing. Borislavs and robinsongz at 1-3/1-4 support natural level-two/three tempo and inexpensive functional bridges; their different Defender/Spellweaver openings do not establish a universal trait-first ranking. Keep the good 1-4 lone-Rod hold and exact four-gold 2-1 level preparation without imposing a fixed opening item or mandatory XP spend. Stage 1 has only v1, no rejected predecessor or watch, so reverting has no supported target. Prompt delivery is confirmed, but model, code, roster and owner-rule differences confound cross-game scores; no opening-loot or roll deviation is measured. Third place, +29 LP and extra active traits do not establish strategy improvement, nor does the Cinderling delay establish a quantified later combat cost.",
+    "sources": [
+     {
+      "game": "20261103-054607",
+      "round": "1-3"
+     },
+     {
+      "game": "20261103-054607",
+      "round": "1-4"
+     },
+     {
+      "game": "20261101-205238",
+      "round": "1-3"
+     },
+     {
+      "game": "20261101-205238",
+      "round": "1-4"
+     },
+     {
+      "game": "20261103-033800",
+      "round": "1-4"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "1-3"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "1-4"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "1-3"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "1-4"
+     }
+    ],
+    "by": "Strategist after game 54",
+    "when": "2026-11-03T07:10:45",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 1, 1-1 through 1-4, especially the first movable phase after a distinct Riftbeast is acquired and the 1-4 handoff: board selection, off-comp buys/sells, positioning, items and opening spending.",
+     "expect": "Each known distinct owned Riftbeast is requested and fielded immediately, even below a breakpoint, with defensive support using only remaining slots. Unused off-comp bench units and displaced supports are sold early without waiting for interest; useful core copies remain. Natural levels and zero paid opening rerolls persist, with an actual tank/damage formation, permitted useful combines on fielded holders and a calculated next-level budget.",
+     "risk": "Replacing a defensive partner can remove real durability, leaving the remaining tank too weak or damage exposed. Overbroad cleanup can sell a still-needed fielded support, while core-copy retention can crowd the bench. Extra purchases or unnecessary item/move work can consume the next-level budget or planning time; a misleading hold instruction could delay an available permitted combine.",
+     "how": "For the next three games, confirm stage-text delivery and record model/effort, code, natural shop/loot, verified ownership, stars and XP/gold before comparing openings. At each stage-1 planning window, compare known distinct owned Riftbeasts against requested and actually completed entries at combat lock; distinguish deliberate benching from late identification, stale shops or unfinished moves. Audit off-comp sale requests/results and retained core copies, even when the bank stays below 10. Check the actual remaining tank, protected ranged holder, board/positioning grades, equipped items, available permitted combines, paid refresh count and exact next-level arithmetic. Do not treat trait totals, placement, HP or an unconfirmed item read as success; report the loss of a defensive trait and whether the retained formation still functions.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "1",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-03T07:07:31",
+     "in_sample": {
+      "cases": 6,
+      "games": 3,
+      "base": [
+       12.0,
+       12
+      ],
+      "candidate": [
+       12.0,
+       12
+      ],
+      "better": 0,
+      "worse": 0,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 2,
+      "games": 1,
+      "base": [
+       4.0,
+       4
+      ],
+      "candidate": [
+       4.0,
+       4
+      ],
+      "better": 0,
+      "worse": 0,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 3,
+    "text": "Collect PvE loot and fill every slot: natural level 2 at 1-3, level 3 at 1-4; no paid rerolls. Buy natural cheap Riftbeasts and the offered Krug, Pebbles and Cinderling copies toward stars. Riftbeast counts at 3: with three distinct Riftbeasts owned and three slots, field all three. Short of three, a Riftbeast completes no step: give that slot to the unit that completes a step of another trait with the units fielded (a Defender or Juggernaut pair), else the strongest frontline or damage. Melee tanks in row 3, ranged units in row 0. Sell unused off-comp bench units early; keep the core's copies. Items: the first six completed items are Brambleback's (Guinsoo's Rageblade, Edge of Night, Quicksilver; Hand of Justice fits) and the main tank's (Evenshroud, Gargoyle Stoneplate, Warmog's Armor, Spirit Visage). When the components make one of them, build it now on its holder: Brambleback's on the strongest fielded fighter (Mama Beak, Murkwolf, Cinderling), the tank's on the strongest fielded tank. Build no other item and no AP item; otherwise hold the components. Every completed item has a holder: one left on the item bench is given in the next plan. Hand stage 2 the fielded Riftbeasts and pairs, the items and their holders, the components and the gold: in stage 2 interest comes before a spare Cinderling copy (Elder Dragon takes her place on the final board), so a spare one may be sold to reach the next 10 gold.",
+    "why": "v2 checked against the FIRST RULES added since it was written; only the parts that disagree change. (1) owner-five-riftbeasts: v2 said field every owned Riftbeast 'even before a breakpoint; never wait ... to preserve a defensive pair'. The rule says Riftbeasts are fielded up to the step they reach and a Riftbeast short of the next step adds nothing, so its slot goes to a unit completing another trait's step: in stage 1 that means Riftbeast 3 when three are owned, otherwise the pair (Defender/Juggernaut) wins the slot. (2) owner-first-six-items: v2's 'build an available suitable AD carry/tank combine' allowed any carry item; now only Brambleback's three or the main tank's three, built at once when the components make one, on the holders the item plan names (owner-item-holders). Game 82 1-4: Cloak + Gloves (Quicksilver) ordered onto Cinderling were refused by the item plan and three components sat idle into 2-1 (audit stage-1, items bad, cause execution - a harness fault for the Editor, not the text); game 80 1-4 built Edge of Night on a fielded Cinderling from the same kind of order. (3) owner-items-have-holders: a completed item on the item bench is given next plan. (4) owner-interest-early: v2 kept every Cinderling copy; the handoff now says stage 2 prefers interest over a spare Cinderling. The rule to buy offered cheap copies stays. owner-no-level-seven, owner-support-item, owner-no-idle-components (from stage 3) and owner-crown-no-stats do not apply to stage 1 play and v2 did not contradict them; v2's 'no interest threshold is required' for off-comp sells is kept in substance (sell early). Game 82's stage-1 faults (two anvils eating 1-3 and 1-4, Shen auto-placed in the back row) were harness timing, not strategy.",
+    "sources": [
+     {
+      "game": "20261109-120848",
+      "round": "1-3"
+     },
+     {
+      "game": "20261109-120848",
+      "round": "1-4"
+     },
+     {
+      "game": "20261109-070116",
+      "round": "1-4"
+     },
+     {
+      "game": "20261103-054607",
+      "round": "1-4"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "1-4"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "1-4"
+     }
+    ],
+    "by": "Strategist after game 82",
+    "when": "2026-11-09T13:40:39",
+    "status": "current",
+    "watch": {
+     "where": "Stage 1, 1-3 and 1-4: board choice with 1-2 Riftbeasts owned, the item step, and the 1-4 handoff.",
+     "expect": "With fewer than three Riftbeasts the third slot goes to a unit completing a Defender/Juggernaut (or other) pair; with three owned Riftbeast 3 is fielded. A component pair that makes Rageblade, Edge of Night, Quicksilver, Hand of Justice or a tank item is built that phase on a fielded holder; no other item is built.",
+     "risk": "A pair chosen over a lone Riftbeast could delay Riftbeast 3 or 5 in stage 2 (watch the first stage-2 round with five owned); holding components that make only off-plan items could leave the opening weaker than a slammed item.",
+     "how": "Stage-1 audit board and items grades; the 1-4 board in 1-4-fight.jpg; the item bench at 2-1 in log.jsonl; the round Riftbeast 5 is first fielded in stage 2.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "1",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-09T13:36:46",
+     "in_sample": {
+      "cases": 10,
+      "games": 5,
+      "base": [
+       20.0,
+       20
+      ],
+      "candidate": [
+       20.0,
+       20
+      ],
+      "better": 0,
+      "worse": 0,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 4,
+      "games": 2,
+      "base": [
+       8.0,
+       8
+      ],
+      "candidate": [
+       8.0,
+       8
+      ],
+      "better": 0,
+      "worse": 0,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   }
+  ],
+  "2": [
+   {
+    "v": 1,
+    "text": "Build the economy and the Riftbeast bridge. MetaTFT's level-4 board is Rakan, Pebbles, Cinderling, Scuttlecrab; its five-slot target is Pebbles, Cinderling, Murkwolf, Scuttlecrab, Krug. Prioritize active traits, then stars. Keep distinct Riftbeasts and natural useful pairs; sell unrelated spares for interest. No paid low-cost reroll chase on the standard line. With a strong streak board, buy useful slots toward the published level 5 at 2-5. With a deliberate economy/loss opener, the three standard carry videos stay level 4 through 2-6 and reach 5 at 2-7; do not spend simply to copy a faster opener. Those three end 2-5 with 30/30/45 gold, not one shared budget. Put usable carry items on the fielded damage holder, tank items on the tank, and Alpha on the actual carry once three Riftbeasts are active. Carousel: complete a useful current pair; Vest for Edge is one observed choice. Field five Riftbeasts when affordable and ready so their overrun shops begin. Robin's actual Coven/Comeback Story line can retain Coven for its payout; ordinary weak boards lack that reward. Hand stage 3 the current streak, five-Riftbeast progress, item holders and level-6 budget.",
+    "why": "MetaTFT provides the four/five-slot boards and tempo. All three standard-carry videos show level 4 at 2-5/2-6 and 5 at 2-7; Borislavs' commentary explains the deliberate loss streak while preferring tempo when available. Robin is still on Coven rather than five Riftbeasts. Yolo has five Riftbeasts at 2-7. Different boards/rewards explain the observed alternatives; the table has no our-game values to compare.",
+    "sources": [
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "2-5",
+      "evidence": "Level 4, gold 43 -> 45."
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "2-5",
+      "evidence": "Opened 000294: level 4, Riftbeast 3, Vest; gold ends 30."
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "2-7",
+      "evidence": "Opened 000362: level 5 by round end; commentary prefers tempo/five Riftbeasts."
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "2-7",
+      "evidence": "Opened 000230: Coven 4/Ravager 2, level 5, 40 end gold."
+     },
+     {
+      "game": "vod-yt-0vjLekc60Mg",
+      "round": "2-7",
+      "evidence": "Opened 000036: five Riftbeasts, level 5, 37 end gold."
+     }
+    ],
+    "by": "comp coach",
+    "when": "2026-11-01T18:59:34",
+    "status": "replaced",
+    "watch": null,
+    "judge": null
+   },
+   {
+    "v": 2,
+    "text": "Build the economy and the Riftbeast bridge. Board, at every level: field each distinct Riftbeast you own before any non-Riftbeast, the round you own it, five by level 5. Only a slot no owned Riftbeast can fill takes a frontline or damage unit, picked by its stars, items and job, not by the trait count; an item on a benched non-Riftbeast is no reason to field it (the Remover moves it). An extra slot from an augment takes a sixth Riftbeast when owned. Buy every Pebbles, Cinderling and Krug copy the shop shows, even at an interest gold: they go toward 3-star. Sell unrelated spares for interest; a distinct Riftbeast is never a spare: keep and field it over an interest step, also at 2-7 to reach 30 gold, and sell a non-Riftbeast instead. No paid low-cost reroll chase. Level 4: when one XP buy reaches it at 2-1 or 2-2, buy it and name the 4th unit and its hex in the same plan; the XP carries over. With a strong streak board, buy useful slots toward level 5 at 2-5. With a deliberate economy/loss opener, strong players stay level 4 through 2-6 and reach 5 at 2-7; do not spend simply to copy a faster opener. Put usable carry items on a fielded Riftbeast damage holder (Cinderling for AD items), tank items on the tank, and Alpha on the actual carry once three Riftbeasts are active. A picked Radiant or completed item goes on a fielded unit that round. Carousel: complete a useful current pair. Hand stage 3 the streak, every owned Riftbeast fielded, item holders and the level-6 budget.",
+    "why": "Diff-2 asks to gate the existing game-58 candidate (20261103-143833-stage-2, which carries the game-56/57 ones; stages.json still holds only v1, none of them gated), so this is that text with one clause added and two trims. Kept unchanged: field each distinct Riftbeast the round it is owned (game 56 Leona over Cinderling; owner-five-riftbeasts), buy Pebbles/Cinderling/Krug copies (game 57 2-2; owner rule), a distinct Riftbeast is never a spare (game 58 2-7 Gromp sold for 1 interest), economy/levels/rolls/items/carousel. Game 59 played all of those as meant (no paid roll, level 5 at 2-5 on exact buys, Rageblade + Alpha on Cinderling, Riftbeast 5 the round Krug was owned, 21 gold at 2-6 and 30 at 2-7), which is baseline evidence against the candidate's main risk (banking falls when every Riftbeast and copy is kept). New clause: game 59 fought 2-1 and 2-2 with 3 units: at 2-1 the XP buy was planned but rejected because the plan left the 4th slot unnamed ('the fourth slot goes after the review'), at 2-2 the player skipped it for 1 interest ('level 4 comes free next round') - both graded levelling bad; the XP carries over and saves a 4g buy at 2-5, so level 4 costs about 1 gold. In the material Vladdy (vod-yt-QBWbKpZVCPo) took level 4 at 2-1 (3 -> 0 gold, Riftbeast 3) and held level 4 through 2-3. The clause names the slot so the controller does not reject the buy; it agrees with owner-xp-exact. Trimmed to fit: the 30/30/45 bank figures (v1 game-58 sale pulled from them) and the 'Vest for Edge' carousel example. Not the strategy's (Editor): the controller rejecting an XP buy whose plan leaves the new slot empty, the XP line not saying the XP carries over, the carousel returning the last-choice Rod, the Kayle sale delayed to 2-2. Sources limited to the material and our games: the VODs earlier candidates and the diff report cite for this point are on the Judge's held-out list, so they are not used here.",
+    "by": "Strategist after game 59",
+    "when": "2026-11-04T00:57:12",
+    "status": "rejected",
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "2",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-04T00:47:03",
+     "in_sample": {
+      "cases": 32,
+      "games": 6,
+      "base": [
+       44.33,
+       52
+      ],
+      "candidate": [
+       40.67,
+       52
+      ],
+      "better": 2,
+      "worse": 6,
+      "sign_p": 0.289
+     },
+     "held_out": {
+      "cases": 14,
+      "games": 3,
+      "base": [
+       20.67,
+       23
+      ],
+      "candidate": [
+       21.0,
+       23
+      ],
+      "better": 1,
+      "worse": 1,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": false,
+     "reason": "rejected: more than 5% fewer points than the current version on in_sample"
+    }
+   },
+   {
+    "v": 3,
+    "text": "Build the economy and the Riftbeast bridge. MetaTFT's level-4 board: Rakan, Pebbles, Cinderling, Scuttlecrab; five: Pebbles, Cinderling, Murkwolf, Scuttlecrab, Krug. Field every owned distinct Riftbeast immediately, five by level 5; traits/stars choose only remaining slots. Keep natural core pairs and buy offered Pebbles/Cinderling/Krug copies. Sell unused off-comp units early, loot arrivals immediately; never wait for interest. Sell off-comp even from the board to keep/reach 10. Never roll in stage 2, including free refreshes. With a strong streak board, buy useful slots toward level 5 at 2-5. Economy/loss videos stay 4 through 2-6, reach 5 at 2-7 and end 2-5 at 30/30/45g; no shared budget or forced faster opener. FIRST RULES override: buy exact XP now for a level intended this/next round, during planning only; no early 6 before full interest. Prepare Brambleback's suitable items now on fielded holders; tank items on tanks; build no AP items or AP penetration. Murkwolf holds carry items when his stars match/exceed Cinderling's; Edge of Night goes on wolf. Unite split components that make an item, using Remover if needed. Alpha on Scuttlecrab when owned; otherwise the fielded carry at Riftbeast 3. Carousel: complete a useful pair; Vest for Edge is observed. Robin's Coven/Comeback Story payout can use only slots no owned Riftbeast needs; ordinary weak boards lack that reward. Hand stage 3 streak, five-piece progress, holders and level-6 budget.",
+    "why": "Owner-rule reconciliation of current stage-2 v1, not a new economy schedule. The played snapshot confirms v1; history contains only v1 current and game-59 v2 rejected (40.67/52 versus 44.33/52 in-sample, more than the permitted 5% regression). Do not resurrect that candidate's unconditional one-buy level-four timing. Preserve v1's MetaTFT bridge examples, natural core purchases, useful streak slots, alternative economy opener, differing 30/30/45 banks, carousel pair/Vest example and stage-three handoff. Qualify its trait-first ranking and 'affordable and ready' fifth with immediate distinct-owned deployment (owner-five-riftbeasts); Coven never overrides it. Replace interest-dependent spare sales with early off-comp cleanup and instant loot sales, retaining needed fielded support until displaced except for the owner's explicit keep/reach-10 sale. Make exact-XP/no-early-six/no-combat-XP precedence explicit without forcing a round. Replace 'no paid low-cost chase' with the owner's stage-two ban on paid AND free refreshes. Replace the generic carry-Alpha/holder wording with crab Alpha, the owner's wolf star comparison and Edge of Night mapping, prepared suitable carry items, no AP builds and split-component combining. owner-items-not-waiting begins at stage 4 and does not create a new stage-two item deadline; the later component deadline remains in FIRST RULES unchanged. Game 70 at 2-1 pays one exact 4g buy and fields Pebbles; at 2-5 one exact buy adds useful Defender Ornn and leaves 31g, while 2-6 correctly banks toward full interest and 2-7 holds 53g without a useful sixth. Those good decisions support retaining flexible tempo; Hard Bargain's extra 8g prevents treating its bank as a universal target. Game 69 at 2-7 buys crab, immediately replaces Camille and fields five while keeping 40g, but wrongly retains wolf Alpha. Game 68 at 2-3 and later deliberately retains Cinderling Alpha with crab owned. In game 66 at 2-2, Belt/Tear remain split despite a correct combine request: delivery is an Editor fault, not proof of a new forced-build deadline. Likewise game 70's requested Gromp back-row entry and 4g off-comp cleanup at 2-6 complete incorrectly/late; keep those faults with the Editor and do not invent an extra lost-interest amount. Borislavs 2-5/2-6/2-7 and Robin 2-7 support the retained economy/cashout observations, while Vladdy 2-1/2-5 supplies the faster useful-slot contrast; none outranks FIRST RULES. The named diff-2.json, diff/stage-2.md and per-game summary are absent. The 66-70 meta explicitly says Jobs 2-4 were intentionally omitted, so use its stage-2 batch comparison, all available game-70 stage audits and the round packet rather than invent a diff verdict. No paid replay, Judge invocation or stage-strategy edit is performed. Stage-3 and stage-5 meta requests belong to their separately scoped candidates.",
+    "sources": [
+     {
+      "game": "20261106-141909",
+      "round": "2-1"
+     },
+     {
+      "game": "20261106-141909",
+      "round": "2-5"
+     },
+     {
+      "game": "20261106-141909",
+      "round": "2-6"
+     },
+     {
+      "game": "20261106-141909",
+      "round": "2-7"
+     },
+     {
+      "game": "20261106-133856",
+      "round": "2-7"
+     },
+     {
+      "game": "20261106-130240",
+      "round": "2-3"
+     },
+     {
+      "game": "20261106-111922",
+      "round": "2-2"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "2-5"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "2-6"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "2-7"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "2-7"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "2-5"
+     },
+     {
+      "game": "vod-yt-QBWbKpZVCPo",
+      "round": "2-1"
+     },
+     {
+      "game": "vod-yt-QBWbKpZVCPo",
+      "round": "2-5"
+     }
+    ],
+    "by": "Strategist after game 70",
+    "when": "2026-11-06T16:25:46",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 2, 2-1 through 2-7: useful exact-XP purchases, newly owned distinct Riftbeasts, off-comp arrivals/displacements, Alpha and physical-item holders, split components and the stage-three economy handoff.",
+     "expect": "Preserve the economy opener and useful-slot tempo while obeying FIRST RULES: field each owned species immediately, including the fifth; sell genuine unused off-comp promptly and obey the keep/reach-10 sale; zero paid/free refreshes and no combat XP; exact useful levels in planning without early six below full interest. Crab gets Alpha when available, wolf gets Edge and the carry package at equal/higher stars, and available suitable carry items are prepared on fielded holders with split recipes united. A missing fifth not offered naturally does not trigger stage-two rolling.",
+     "risk": "Removing a support can lose frontline or an actual trait; cleanup can accidentally sell a needed support or core upgrade copy. Extra copy buys and exact levels can reduce interest, while a mistaken interpretation can force level five without useful entry or six before full interest. Item transfers and repeated Alpha attempts can consume the phase, and blanket no-AP wording must not misplace an unavoidable AP item allowed by FIRST RULES. Preserving the loss-opener observation must not postpone an owned fifth or an intended exact level.",
+     "how": "Route this file through the existing Judge path; the Strategist does not run it. Settle the recorded controls in the review: game 70 2-1/2-5 exact useful levels versus 2-2/2-3 holds and 2-7 no-six; game 69 2-7 immediate fifth plus corrected crab Alpha; game 68 2-3 crab versus Cinderling; game 66 2-2 split recipe; game 70 2-6 cleanup and actual Gromp hex. For the next three games compare first plans with actual before-lock units, destinations, marks, item holders/recipes, sells, XP and free/paid refresh counts. Record verified ownership, offered species, stars, augment income/discounts and opening bank so different shops or Hard Bargain do not become policy credit. Check useful remaining frontline, core-copy retention, interest after each buy/sale and stage-three bank. Separate deliberate decisions from identity, sale, move and item-delivery failures; mark unverified Alpha or temporary-item recoverability uncertain. Do not score by placement, HP, trait totals or final equipment alone.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "2",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-06T16:10:12",
+     "in_sample": {
+      "cases": 32,
+      "games": 6,
+      "base": [
+       51.33,
+       52
+      ],
+      "candidate": [
+       49.67,
+       52
+      ],
+      "better": 0,
+      "worse": 4,
+      "sign_p": 0.125
+     },
+     "held_out": {
+      "cases": 14,
+      "games": 3,
+      "base": [
+       20.0,
+       23
+      ],
+      "candidate": [
+       20.67,
+       23
+      ],
+      "better": 2,
+      "worse": 1,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 4,
+    "text": "Build economy and the core. MetaTFT four: Rakan/Pebbles/Cinderling/Scuttlecrab; five Pebbles/Cinderling/Murkwolf/Scuttlecrab/Krug. Field owned distinct Riftbeasts now, five by level 5; traits/stars choose remaining slots. Keep core pairs; buy offered Pebbles/Cinderling/Krug copies. Sell unused off-comp early, loot arrivals immediately; sell off-comp even from board to keep/reach 10. Never roll in stage 2, free refreshes included. Strong streak: buy useful slots toward five at 2-5. Economy/loss examples stay four through 2-6, five at 2-7; banks differ, no forced faster opener. FIRST RULES: intended this/next-round level buys exact XP now only if no interest step lost; otherwise wait for passive XP unless this fight needs the slot. Combat XP only if 50g remains; no early six before full interest. Build toward three items each on Brambleback and main tank: carry first when both next items are possible, then alternate; build a tank-only combine now. Use strongest suitable fielded carry/tank holders: stars then cost; hand items on by sale/Remover on replacement or Brambleback entry. Verify handoffs. No AP builds/penetration. Unite split components on the strongest fielded holder of either, with Remover. Main tank fronts the fighters' outside edge to take hits before them. Alpha on crab when owned, otherwise carry at Riftbeast 3. Carousel completes a useful pair. Coven payout uses only slots no owned beast needs. Hand stage 3 streak, five-piece progress, holders and six budget.",
+    "why": "Narrow owner-rule reconciliation of stage-2 v3. The run's committed-comp snapshot records v3 at the 2-3 Riftbeast commitment; earlier flex decisions did not receive it. History has v1 replaced, v2 rejected (40.67/52 versus 44.33/52 in sample) and v3 accepted/current. Preserve its bridge examples, immediate owned-species deployment, natural cheap-core copies, off-comp cleanup, useful streak slots versus economy opening, zero paid/free stage-2 refreshes, crab Alpha, carousel pair and stage-three handoff. Shorten examples only to meet 1,500 characters; the observed 30/30/45 banks remain differing examples, never a target. Replace unconditional exact-XP/planning-only wording with owner-xp-exact's interest-step and immediate-slot conditions and owner-no-xp-in-combat's permission when at least 50g remains. Game 77 2-2 at 4/6 XP correctly waits; 2-5's exact 8g plus a useful shop unit crosses an interest tier and can wait; 2-6's inexact 8g level adds owned crab to an established streak, the immediate-slot exception. Do not revive v2's compulsory early-four purchase. Replace fixed Murkwolf/Edge priority with owner-item-plan and owner-item-holders: strongest suitable role holder, stars then cost, flexible carry/tank alternation from the first components, tank-only recipes now, actual sale/Remover handoff and immediate Brambleback delivery. Game 77 2-3 correctly concentrates damage on Cinderling 2 over wolf 1; 2-6 wrongly splits Sunfire onto crab 1 while Alistar 2 holds the other tank items; 2-7 deliberately targets crab rather than equal-star higher-cost Krug and leaves Alistar's items benched. Correct intended destinations separately from the Editor's suppressed gives and failed transfer delivery. Specify owner-combine-components' strongest fielded holder of either component, not merely any combine destination; game 74 2-6/2-7 leaves Bow on crab and Rod on wolf despite an available Remover. Add owner-tank-on-fighter-side's outside protector and reason: game 77 2-3 supplies the good Alistar formation; 2-6 automation demotes him and 2-7 the plan itself leaves Krug inside. The existing crab Alpha and stage-2 refresh ban already agree with owner-alpha-on-crab and owner-roll-level-8; the latter's qualified level-seven exception starts in stage 4 and creates no stage-two search. owner-eighth-slot and owner-last-the-fight govern the later seven-piece board, not a new stage-two slot policy, so add no later-stage advice. Borislavs 2-5/2-7 and Vladdy 2-5/2-6 retain the evidence for economy versus useful-slot tempo, subject to FIRST RULES. All five batch games played identical stage2v3 after different commitment rounds, with different natural shops and augment resources; no version or placement effect is inferred. Named diff-2.json, diff/stage-2.md and per-game summary are absent; meta 73-77 explicitly says Jobs 2-4 were omitted. Use the digest, stage audits, round packet and committed strategy snapshot instead, without inventing a keep verdict. The meta's stage-four and stage-five revisions require their separately scoped candidates; this file changes only stage two. No Judge invocation or direct stage-strategy edit.",
+    "by": "Strategist after game 77",
+    "when": "2026-11-08T10:48:31",
+    "status": "rejected",
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "2",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-08T10:37:36",
+     "in_sample": {
+      "cases": 32,
+      "games": 6,
+      "base": [
+       50.67,
+       52
+      ],
+      "candidate": [
+       47.0,
+       52
+      ],
+      "better": 1,
+      "worse": 5,
+      "sign_p": 0.219
+     },
+     "held_out": {
+      "cases": 14,
+      "games": 3,
+      "base": [
+       21.33,
+       23
+      ],
+      "candidate": [
+       20.67,
+       23
+      ],
+      "better": 0,
+      "worse": 1,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": false,
+     "reason": "rejected: more than 5% fewer points than the current version on in_sample"
+    }
+   },
+   {
+    "v": 5,
+    "text": "Build economy and the Riftbeast bridge. MetaTFT's level-4 board: Rakan, Pebbles, Cinderling, Scuttlecrab; five: Pebbles, Cinderling, Murkwolf, Scuttlecrab, Krug. Field owned distinct Riftbeasts up to the step they reach (3, then 5), five by level 5 the round owned; a 4th or 6th short of the next step adds nothing: that slot completes another trait. Buy offered Pebbles/Krug/Cinderling copies, but early interest comes first: a spare Cinderling (Elder Dragon replaces her) is worth selling to reach the next 10g, your call. Sell unused off-comp early, loot arrivals at once, even from the board to keep/reach 10. Never roll in stage 2, free ones too. Strong streak: useful slots toward 5 at 2-5. Economy/loss videos stay 4 through 2-6, 5 at 2-7; no forced faster opener. FIRST RULES override: exact XP now for a level intended this/next round, in planning only. Items: the first six completed are Brambleback's three on the strongest fielded fighter (Murkwolf at stars >= Cinderling's; Edge of Night on wolf) and the main tank's three on the strongest tank; nothing else first; components that make one combine at once (Remover if split). No AP items; an armor/MR-shred item is a support item, never Brambleback's. An item on the item bench gets a holder in your next plan. Tactician's Cape/Crown (no stats): not on the carry or main tank. Alpha on Scuttlecrab when owned, else the carry at Riftbeast 3. Carousel: a useful pair. Hand stage 3 streak, Riftbeasts, holders, level-6 budget.",
+    "why": "Owner-rule reconciliation of current v3, keeping its economy, levelling, rolling, Alpha, carousel and hand-over wording (v2 and v4 lost Judge points by reworking XP timing; this leaves v3's XP sentence alone). Four places disagreed with the newer FIRST RULES: (1) 'field every owned distinct Riftbeast immediately' -> up to the step reached (3, then 5), a 4th/6th short of the next step gives its slot to another trait (owner-five-riftbeasts, game 78 owner note). (2) 'keep natural core pairs and buy Pebbles/Cinderling/Krug copies' -> copies still bought, but early interest comes first and a spare Cinderling is worth selling for the next 10g, the player's call (owner-interest-early; game 79 2-2/2-3/2-6 kept Cinderling copies over interest, graded ok/good under the old rule). (3) items: v3 had only 'prepare Brambleback's items, tank items on tanks'; now the first six completed items are Brambleback's three and the main tank's three, nothing else first, matching components combined at once (owner-first-six-items); shred items are support items (owner-support-item); a benched completed item gets a holder in the next plan (owner-items-have-holders). (4) Tactician's Cape/Crown never on the carry or main tank (owner-crown-no-stats): game 82 2-7 ordered the Cape onto Shen**, the main tank holding Sunfire, graded bad (reasoning). Murkwolf star comparison and Edge of Night on wolf kept (no rule disagrees; 82 2-5 Quicksilver+Rageblade on Murkwolf graded ok). owner-no-level-seven, owner-no-idle-components do not apply in stage 2. Cut to fit: the 30/30/45 bank figures and the Robin/Coven example. Not changed: the 2-7 exact level 5 held for 1 interest in game 82 (owner-xp-exact) - the reviewer sent that to the owner, it is not this stage text's to override.",
+    "sources": [
+     {
+      "game": "20261109-120848",
+      "round": "2-7"
+     },
+     {
+      "game": "20261109-120848",
+      "round": "2-5"
+     },
+     {
+      "game": "20261109-120848",
+      "round": "2-3"
+     },
+     {
+      "game": "20261109-060537",
+      "round": "2-2"
+     },
+     {
+      "game": "20261109-060537",
+      "round": "2-3"
+     },
+     {
+      "game": "20261109-060537",
+      "round": "2-7"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "2-7"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "2-5"
+     },
+     {
+      "game": "vod-yt-QBWbKpZVCPo",
+      "round": "2-5"
+     }
+    ],
+    "by": "Strategist after game 82",
+    "when": "2026-11-09T13:52:51",
+    "status": "current",
+    "watch": {
+     "where": "Stage 2, 2-1 to 2-7: Cinderling copy buys/sales against the 10g steps, the board when a 4th Riftbeast is owned, every item build and give (Tactician's items, item-bench items, combines).",
+     "expect": "A spare Cinderling sold when it reaches the next 10g step; a 4th Riftbeast at level 4 does not displace a unit completing another trait; the first completed items are only Brambleback's (on Murkwolf/Cinderling) and the main tank's; Cape/Crown on a non-carry, non-tank unit; no completed item left without a holder past the next plan.",
+     "risk": "Selling Cinderling copies can leave a 1-star Cinderling carrying Brambleback's items weaker into stage 3; the trait-step wording could bench a 4th Riftbeast that would reach 5 the next round; the first-six rule could leave a strong early non-list item (Sunfire on a 2-star tank) unbuilt and weaken the opener streak.",
+     "how": "Stage-2 reports: buys_sells/economy grades for Cinderling, gold at each round end against the 10 steps, items grades (holder, Cape/Crown, combines), board grades at 4 owned Riftbeasts; Cinderling stars entering 3-1; log give/combine lines. Compare with games 78-82 stage 2.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "2",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-09T13:40:40",
+     "in_sample": {
+      "cases": 32,
+      "games": 6,
+      "base": [
+       44.67,
+       52
+      ],
+      "candidate": [
+       46.67,
+       52
+      ],
+      "better": 5,
+      "worse": 1,
+      "sign_p": 0.219
+     },
+     "held_out": {
+      "cases": 14,
+      "games": 3,
+      "base": [
+       20.33,
+       23
+      ],
+      "candidate": [
+       19.67,
+       23
+      ],
+      "better": 1,
+      "worse": 2,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   }
+  ],
+  "3": [
+   {
+    "v": 1,
+    "text": "Standard goal: seven Riftbeasts and a funded move to the four-cost carry. The three standard carry videos buy 6 at 3-2, keeping 40/50/57 gold. Aim for five Riftbeasts plus a useful side trait, or the published six-unit bridge; preserve the real tank and itemed damage. Buy missing distinct pieces, including Mama Beak. The published seven is Pebbles, Cinderling, Gromp, Murkwolf, Scuttlecrab, Mama Beak, Krug. Add Brambleback/Sentinel on a useful hit while keeping seven; move the carry items and Alpha when Brambleback carries. MetaTFT advises pushing 7 at 3-5 or 4-1 and rolling for seven. Wasian buys 7 at 3-5 (75 -> 50); Borislavs reaches it at 3-7 and visibly fields seven. Search for the actual missing piece, then bank after the board works. Buy carousel items that complete carry protection/speed or tanking. A real Coven cashout changes the sequence: Robin stays on Coven through 3-5/3-6, reaches five Riftbeasts at 3-7 and prepares level 8, with only 17 HP left. That is a narrow observed comeback, not a normal loss target. Yolo's level-6 reroll branch is separate. Hand stage 4 the exact missing units, carry/tank stars and items, current XP, gold and cashout state.",
+    "why": "MetaTFT's six-slot early board has 42.0% round win rate versus 69.7% for its seven-slot seven-Riftbeast board, an observational reason to value the breakpoint. The three standard videos share the 3-2 level but differ in seven's timing and rewards. Yolo remains level 5 at 3-2 and six at 3-7. Robin's opened frames correct the material's spurious Spellweaver/Lunar 7 OCR: he is not playing seven Riftbeasts at 3-5.",
+    "sources": [
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "3-2",
+      "evidence": "Level 5 -> 6, gold 78 -> 57."
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "3-5",
+      "evidence": "Level 6 -> 7, gold 75 -> 50; commentary values seven Riftbeasts."
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "3-2",
+      "evidence": "Opened 000490: five Riftbeasts plus Summoner/Juggernaut; level 6."
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "3-7",
+      "evidence": "Opened 000642: seven Riftbeasts at level 7."
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "3-5",
+      "evidence": "Opened 000452: Coven 4 with only two Riftbeasts, not the OCR Spellweaver 7."
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "3-7",
+      "evidence": "Opened 000526: five Riftbeasts, 17 HP."
+     },
+     {
+      "game": "vod-yt-0vjLekc60Mg",
+      "round": "3-7",
+      "evidence": "Opened 000084: level 6, five Riftbeasts."
+     }
+    ],
+    "by": "comp coach",
+    "when": "2026-11-01T18:59:34",
+    "status": "replaced",
+    "watch": null,
+    "judge": null
+   },
+   {
+    "v": 2,
+    "text": "Standard goal: seven Riftbeasts and a funded move to the four-cost carry. Level 6 at 3-2 only when about 35+ gold stays after the XP (exact buys); the strong players level there from 51-78 gold and keep 40/50/57. With less, hold level 5 on five fielded Riftbeasts and bank toward 50 (no early 6 while interest is not full), then buy 6 and 7 together around 3-5 and field the 7th Riftbeast that round. Aim for five Riftbeasts plus a useful side trait, or the published six-unit bridge; preserve the real tank and itemed damage. Buy missing distinct pieces, including Mama Beak. The published seven is Pebbles, Cinderling, Gromp, Murkwolf, Scuttlecrab, Mama Beak, Krug. Push 7 at 3-5 or 4-1 (MetaTFT; Wasian 75 -> 50 at 3-5); at 3-3 only when every piece of the seven is owned or a Wisp pays the XP. Roll only for the actual missing piece, then bank after the board works. Add Brambleback/Sentinel on a useful hit while keeping seven; move the carry items and Alpha when Brambleback carries. Buy carousel items that complete carry protection/speed or tanking. A real Coven cashout (Robin) delays the Riftbeasts to 3-7 at low HP: a narrow comeback, not a target. Hand stage 4 the exact missing units, carry/tank stars and items, current XP, gold and cashout state.",
+    "why": "Narrow revision of v1, as the meta review of games 55-59 asks. Changed: 'The three standard carry videos buy 6 at 3-2, keeping 40/50/57 gold' becomes a condition on the gold kept after the XP (about 35+), otherwise hold level 5 on five Riftbeasts and bank to buy 6 and 7 together around 3-5 - the owner's owner-no-early-6. It is the only stage-3 line a bad grade traces to: game 57 3-2 bought level 6 at 28 -> 16 (levelling graded bad, reason 'level 6 at 3-2 with 3 exact XP buys'), gold under 30 all stage, level 7 only at 3-7 at 0 gold, stage 5 opened at 13. Fine: game 58 3-2 kept 38, game 59 kept 35, game 60 kept 36 (53 -> 36, graded good). The meta review proposed about 40; I set 35 so the three graded-fine games still level and game 57 (16) and the 28-gold case do not. Strong players: Wasian 3-2 78 -> 57, Borislavs 51 -> 40, Broseph 63 -> 59. Also: the 7th push may come at 3-3 when every piece is owned or a Wisp pays the XP (game 60 3-3, Grow Up Wisp, 45 -> 14, graded good, won 3-3 to 3-7), as diff-3 asks. Removed Yolo's level-6 reroll branch and shortened the Coven note for length. Kept everything else. Game 57's broader candidate (20261103-131835-stage-3) is still unjudged; this one is the narrow alternative.",
+    "sources": [
+     {
+      "game": "20261103-131835",
+      "round": "3-2"
+     },
+     {
+      "game": "20261103-131835",
+      "round": "3-7"
+     },
+     {
+      "game": "20261103-143833",
+      "round": "3-2"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "3-2"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "3-2"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "3-3"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "3-2"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "3-5"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "3-2"
+     }
+    ],
+    "by": "Strategist after game 60",
+    "when": "2026-11-04T12:19:29",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 3, 3-2 to 3-5: the levelling and economy decisions (gold before -> after each level buy) and the board the round level 7 comes.",
+     "expect": "No level 6 at 3-2 that leaves under about 35 gold; with less, level 5 on five Riftbeasts, banking, then 6+7 together by 3-5/3-6 with the 7th fielded that round; no stage-3 levelling grade of bad; 20+ gold entering 4-1.",
+     "risk": "A level-5 board loses more of 3-2 to 3-5 while banking (lower HP at 4-1), or the player banks past the point where level 7 was affordable and enters stage 4 at level 6; an early 3-3 push leaves too little gold for stage 4.",
+     "how": "The diff packet's stage-3 lines (level, gold before -> after, fielded, fight results) and the stage report's levelling/economy grades; HP and gold at 4-1 against games 56-60.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "3",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-04T12:06:11",
+     "in_sample": {
+      "cases": 34,
+      "games": 6,
+      "base": [
+       45.0,
+       62
+      ],
+      "candidate": [
+       43.0,
+       62
+      ],
+      "better": 3,
+      "worse": 4,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       25.33,
+       33
+      ],
+      "candidate": [
+       25.0,
+       33
+      ],
+      "better": 2,
+      "worse": 2,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 3,
+    "text": "Standard goal: seven Riftbeasts and a funded move to the four-cost carry. Level 6 at 3-2 only when about 35+ gold stays after the XP (exact buys); the strong players level there from 51-78 gold and keep 40/50/57. With less, hold level 5 on five fielded Riftbeasts and bank toward 50 (no early 6 while interest is not full), then buy 6 and 7 together around 3-5 and field the 7th Riftbeast that round. Field every distinct Riftbeast you own the round you own it; a side-trait unit (Kog'Maw for Invoker/Adaptor) only fills a slot no owned Riftbeast can - never bench a 6th Riftbeast for a 2-trait. Preserve the real tank and itemed damage. Buy missing distinct pieces, including Mama Beak. The published seven is Pebbles, Cinderling, Gromp, Murkwolf, Scuttlecrab, Mama Beak, Krug. Push 7 at 3-5 or 4-1 (MetaTFT; Wasian 75 -> 50 at 3-5); at 3-3 only when every piece of the seven is owned or a Wisp pays the XP. Roll only for the actual missing piece, then bank after the board works. Add Brambleback/Sentinel on a useful hit while keeping seven; move the carry items and Alpha when Brambleback carries. Buy carousel items that complete carry protection/speed or tanking. A real Coven cashout (Robin) delays the Riftbeasts to 3-7 at low HP: a narrow comeback, not a target. Hand stage 4 the exact missing units, carry/tank stars and items, current XP, gold and cashout state.",
+    "why": "Narrow revision of v2, as diff-3 asks; v2's levelling lines and their watch stay word for word (one more game is due on them). Changed: 'Aim for five Riftbeasts plus a useful side trait, or the published six-unit bridge' becomes 'Field every distinct Riftbeast you own the round you own it; a side-trait unit (Kog'Maw for Invoker/Adaptor) only fills a slot no owned Riftbeast can - never bench a 6th Riftbeast for a 2-trait', which is the owner's owner-five-riftbeasts rule applied to stage 3. Evidence: game 62 (20261104-153922) 3-3, Mama Beak bought as the 6th distinct Riftbeast and benched while Kog'Maw held the slot for Invoker 2 + Adaptor 2; the player's reasons 'Riftbeast 5 + Invoker 2 + Adaptor 2 with Kog'Maw; Mama Beak waits on the bench until level 7 adds a slot' and 'a 6th Riftbeast would add no tier' read straight from the old line; the stage-3 audit graded the 3-3 board bad by owner-five-riftbeasts. Strong players: vod-yt-H58WAx5xEh8 3-3 fielded Riftbeast 5 + Adaptor 2 + Invoker 2, but owned only five Riftbeasts, so the side trait filled a slot no Riftbeast could - which the new line still allows. MetaTFT's level-6 board is six Riftbeasts. Each Riftbeast fielded scales the trait's stacking bonus on every Riftbeast, and the 6th is the step to Riftbeast 7 at level 7.",
+    "sources": [
+     {
+      "game": "20261104-153922",
+      "round": "3-3"
+     },
+     {
+      "game": "vod-yt-H58WAx5xEh8",
+      "round": "3-3"
+     },
+     {
+      "game": "20261104-123556",
+      "round": "3-2"
+     }
+    ],
+    "by": "Strategist after game 62",
+    "when": "2026-11-04T17:22:44",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 3, 3-2 to 3-7: the board each round a 6th distinct Riftbeast is owned at level 6 (and the 3-2 levelling line, still on v2's watch).",
+     "expect": "Every owned distinct Riftbeast fielded the round it is owned; a side-trait unit (Kog'Maw, Yorick) fielded only while fewer Riftbeasts are owned than slots; no stage-3 board grade of bad for a benched Riftbeast; v2's levelling expectations unchanged (no 3-2 level leaving under ~35 gold, 20+ gold entering 4-1).",
+     "risk": "Giving up Invoker 2 / Adaptor 2 at level 6 for a 1-2-cost 6th Riftbeast could lose 3-3/3-5 fights the 2-trait board would win (lower HP at 4-1); the player could also sell its Kog'Maw items or a useful 2-trait piece it needs later.",
+     "how": "The diff packet's stage-3 lines (traits, fielded count against distinct Riftbeasts owned, fight results), the stage report's board grades and the player's reasons for any benched Riftbeast; HP at 4-1 against games 58-62.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "3",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-04T17:09:05",
+     "in_sample": {
+      "cases": 34,
+      "games": 6,
+      "base": [
+       45.67,
+       62
+      ],
+      "candidate": [
+       43.33,
+       62
+      ],
+      "better": 1,
+      "worse": 5,
+      "sign_p": 0.219
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       24.33,
+       33
+      ],
+      "candidate": [
+       25.67,
+       33
+      ],
+      "better": 2,
+      "worse": 0,
+      "sign_p": 0.5
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 4,
+    "text": "Bank toward 50 before early six. Field every owned distinct Riftbeast immediately, replacing fillers/duplicates first. Once economy is built, compare a useful affordable six with six/seven together: name each added unit, price XP, hit purchases and search separately. Take six if it adds an owned beast or real combat pair and seven would starve the search; reaching 50 once does not fund any jump. Seven needs an owned fallback in every slot plus money to buy hits and meaningfully search the missing species. Never leave a slot waiting for luck. Take a funded seven when it enables the core; no fixed round/bank schedule. Recompute XP after rewards; take exact XP now in planning when levelling this/next round, stop at target, never buy XP in combat.\nCount final distinct species after every swap: Brambleback for Gromp adds zero. If owned Gromp can replace a filler for seven, do it free before rolling. Only search genuinely missing species, including Mama Beak; stop on a useful new species, field it and recount. Never require its two-star to stop a breakpoint search. Give alternative arrivals unique legal hexes. With seven fielded, bank for eight/carry search; separately budget urgent upgrades. Keep offered cheap three-star copies. Prepare AD items on a fielded holder; move suitable items to Brambleback on entry and tank items off departing bridges. At seven default Alpha is Scuttlecrab. Hand stage 4 the actual lineup, missing units, stars/items, XP, gold and search budget.",
+    "why": "Revise stage 3 v3's automatic deferred six/seven jump into a funded comparison while retaining economy before early six and immediate distinct deployment. Game 67 (20261106-120636) 3-5 starts at 50g and 12/20 XP: six costs 8g and permits Sentinel/Rakan Vanguard two alongside five Riftbeasts. Rejecting an unaffordable seven did not justify skipping that useful six. At 3-6 its 44g jump from 57g left only about 13g for hits/search, no owned fallback was preset, six units fought in seven slots and the search ended at 1g. The 0 versus about 2.2 expected hits compounds those prior errors; crab two-star was the wrong breakpoint stop. By contrast, game 68 (20261106-130240) 3-6 pays 28g for seven and retains 40g; late seventh deployment is an execution fault. Game 69 (20261106-133856) already owned all seven at 3-3; its completed seven and crab Alpha at 3-5 are the deployment control, with 56g after XP before cleanup. Its subsequent eight-roll upgrade group is assigned to 3-6 by the individual audit and to 3-5 by the comparison/meta; both report 10 hits versus about 5.1 expected. That favorable search does not establish a required round, bank, or guaranteed upgrades. Game 70 (20261106-141909) 3-5 funds seven comfortably, but Brambleback replaces Gromp without adding a distinct species; Gromp can replace Leona for seven free. Searching another five paid rolls costs an unnecessary 10g, and the owned correction remains omitted through 3-7. Explicit final counting and new-species stop/recount address this. Remove v3's carry-Alpha conflict: the owner crab rule controls, while suitable carry items move on Brambleback's entry. Wasianiverson's funded 3-5 seven and Borislavs' 3-2 six/3-7 seven illustrate inventory-dependent timing, not a fixed schedule. Unique entry hexes, complete planning-time levels and immediate item handoffs preserve concrete lessons without recasting blocked authorized actions as strategic refusals. The named diff-3.json, diff/stage-3.md and per-game summary are absent; the batch meta explicitly explains Jobs 2-4 were omitted. Used the extant individual stage audits, batch stage-3 comparison, round packet, recorded player states, snapshots, allowed material/playalongs and v1-v3 history. This file is the submission for the existing Judge path; no Judge was run and no live strategy was edited.",
+    "sources": [
+     {
+      "game": "20261106-120636",
+      "round": "3-5"
+     },
+     {
+      "game": "20261106-120636",
+      "round": "3-6"
+     },
+     {
+      "game": "20261106-130240",
+      "round": "3-6"
+     },
+     {
+      "game": "20261106-133856",
+      "round": "3-3"
+     },
+     {
+      "game": "20261106-133856",
+      "round": "3-5"
+     },
+     {
+      "game": "20261106-133856",
+      "round": "3-6"
+     },
+     {
+      "game": "20261106-141909",
+      "round": "3-5"
+     },
+     {
+      "game": "20261106-141909",
+      "round": "3-7"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "3-5"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "3-2"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "3-7"
+     }
+    ],
+    "by": "Strategist after game 70",
+    "when": "2026-11-06T16:41:08",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 3 planning transitions, especially level five with full-interest economy deciding useful six versus six/seven, and carry swaps at six/seven. Recorded controls: 67 3-5/3-6, 68 3-6, 69 3-3/3-5 and 70 3-5 through 3-7. Inspect the next two comparable eligible transitions in owner-started games.",
+     "expect": "Recorded budget cases should choose useful 8g six in 67 rather than conflate it with the 44g jump; preset an owned fallback for every added slot and retain explicit hit/search funds. Preserve the funded seven options in 68/69/70 without copying their round or bank. In 70 stop the missing-seventh search, field Gromp over Leona and retain the 10g unnecessary search spend. For missing species, stop/recount at a useful one-star hit rather than require crab two-star. Verify final fielded distinct count and owner crab Alpha after carry swaps. Future evidence must contain two comparable transitions showing these budget/count decisions and their before-lock delivery.",
+     "risk": "Overcaution could delay an affordable complete seven or eight/carry search; useful six could consume money needed for the next breakpoint. Replacing an itemized bridge could strand its tank items, break an augment row condition or weaken the actual frontline. Stopping a breakpoint search could be misread as forbidding separately justified stabilization or offered cheap three-star copies.",
+     "how": "Existing Judge gate compares current/candidate on its permitted and held-out cases; this role neither reads held-out games nor runs the Judge. Keep the recorded cheap-six/jump and owned-seventh controls explicit in the downstream decision comparison: state XP/discounts, bank after XP and hit costs, available funded rolls by level, missing-species inventory, fallback/conditional hexes, stop condition and final board. Match conversation.md plans to log.jsonl execution and start/fight screenshots; predicted board_after and mark_used alone are insufficient. Distinguish a correct requested plan blocked by execution from a reasoning error. Use game 69's completed 3-5 lineup as the positive control and label its 10 versus 5.1 expected search luck separately. In the next three games require two eligible comparable transitions, checking actual deployment/items/Alpha before lock, gold and exact missing units handed to stage 4. Fewer than two eligible transitions leaves acceptance unsettled; placement, wins and HP are context, not decision grades.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "3",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-06T16:25:46",
+     "in_sample": {
+      "cases": 34,
+      "games": 6,
+      "base": [
+       41.0,
+       62
+      ],
+      "candidate": [
+       44.0,
+       62
+      ],
+      "better": 5,
+      "worse": 6,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       24.67,
+       33
+      ],
+      "candidate": [
+       24.33,
+       33
+      ],
+      "better": 3,
+      "worse": 3,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 5,
+    "text": "Bank toward 50 before early six. Field distinct owned Riftbeasts at once; fillers/duplicates out first. Compare useful six with six/seven: name additions; price XP, purchases and level-eight search separately. Reaching 50 once funds no jump; every slot needs an owned fallback. Take funded seven when it enables the core; no schedule.\nRecompute XP after rewards. If levelling this/next round, buy exact XP now unless it drops an interest step; otherwise wait for passive XP unless this fight needs the slot. In combat buy XP only if 50+ remains; else next planning.\nIn stage 3 no rerolls below eight, even free ones: save them. On verified last life, buy an affordable next level first, then roll all gold. Count species after swaps: Brambleback for Gromp adds zero; owned Gromp over a filler may give seven free. Preset legal entry hexes. Keep offered cheap three-star copies. At seven bank for eight/carry; prefer frontline/healing for long fights. At eight list/buy/field Taric, Gnar, Sett or Rakan over an eighth beast.\nAlpha on Scuttlecrab. AD/tank items use strongest suitable fielded holders, stars then cost. Alternate DPS/tank toward three each, DPS first when either is buildable; tank-only combines now. Unite split components on the strongest fielded holder of either via Remover. Move suitable items to Brambleback on entry; tank items follow strongest tank. Main tank outermost front on fighters' side. Hand stage 4 lineup, missing units, stars/items, XP, gold and search budget.",
+    "why": "Owner-rule synchronization of stage 3 v4, not a new policy inferred from sixth place. The requested diff-3.json, diff/stage-3.md and per-game summary are absent; the 73-77 meta review explains that individual Jobs 2-4 were omitted. I read the available game-77 stage audits, digest, batch/73-77/stage-3.json comparison, permitted material/play-alongs, stage history and recorded v4 snapshot instead. V4's missing-species search and requirement to fund that search at seven disagree with owner-roll-level-8, including saved free rerolls. Remove those searches and keep the existing useful-six/funded-seven comparison, owned fallbacks, exact species recount, natural cheap copies, legal hexes and handover. Search funds now belong to level eight. The one stage-4 level-seven Wisp/pairs refresh remains a stage-4 exception under FIRST RULES, not a stage-3 permission. Verified last life follows owner-last-life-all-in: affordable next level first, then all gold rolling. Game 76 (20261108-082600) 3-3 paid 36g at 2/36 for duplicate Pebbles and ordered blocked free rolls; its assumed below-eight search cannot fund a transition. Game 77 3-3 correctly held six and 3-5 bought an exact 32g seven for natural Gromp, ending at 30g after cleanup; game 74 (20261107-213309) 3-3 likewise funded a real seventh species. Preserve these concrete upgrades without requiring a lucky shop. V4's unconditional exact-XP line omits owner-xp-exact's interest-step/passive-XP condition: game 77 3-2 exact 12g from 56g to 44g added only a sixth species, whereas its 3-5 seventh activated teamwide growth. Replace 'never buy XP in combat' with owner-no-xp-in-combat's cap-preserving exception; game 75 (20261108-075451) 3-7 had exact 20g XP from 83g, leaving 63g, but authorized preparation was deferred. V4's unrestricted distinct-unit instruction is qualified at eight by owner-eighth-slot; extra slots use the named support choices, and owner-last-the-fight governs useful combat value. Its generic AD holder/departing-bridge item instruction is synchronized with owner-item-plan, owner-item-holders and owner-combine-components: strongest suitable fielded holders, stars before cost, flexible DPS/tank priority toward three each, immediate tank-only combines, split-component concentration, and actual carry/tank handoff. Game 77 3-2 shifted Titan's to one-star Mama Beak despite two-star Cinderling; at 3-3 the attempted correction to upgraded Murkwolf failed, and stronger Scuttlecrab lacked the tank package. These are holder-information/execution faults, not evidence against concentration. Game 74 3-2/3-3 supplies a completed concentrated carry-package control, not a required double-Rageblade build. Owner-tank-on-fighter-side corrects game 74 3-5's weaker outer Sentinel over Krug, protecting the fighters from early focus. Owner-alpha-on-crab removes v4's 'at seven default' qualifier: Scuttlecrab holds Alpha. Strong-player material/play-alongs for Wasianiverson 3-2/3-3/3-5 and Borislavs 3-2/3-7 support inventory-dependent levels and preserved economy; their older roll/Alpha advice does not override FIRST RULES. Stage 4 v5 and stage 5 v3 meta actions are outside this single-stage assignment. No owner disagreement, live strategy edit, Judge run or game action is proposed here.",
+    "by": "Strategist after game 77",
+    "when": "2026-11-08T11:00:30",
+    "status": "rejected",
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "3",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-08T10:48:32",
+     "in_sample": {
+      "cases": 34,
+      "games": 6,
+      "base": [
+       48.0,
+       62
+      ],
+      "candidate": [
+       48.0,
+       62
+      ],
+      "better": 7,
+      "worse": 6,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       24.33,
+       33
+      ],
+      "candidate": [
+       22.67,
+       33
+      ],
+      "better": 0,
+      "worse": 2,
+      "sign_p": 0.5
+     },
+     "tested": true,
+     "accept": false,
+     "reason": "rejected: more than 5% fewer points than the current version on held_out"
+    }
+   },
+   {
+    "v": 6,
+    "text": "Bank toward 50 before early six. Field every owned distinct Riftbeast immediately, replacing fillers/duplicates first. Level 7: with seven distinct Riftbeasts owned, buy it in the first planning phase the XP keeps 50g or costs only a few gold of interest (30+ left): Riftbeast 7 is the comp's spike (strong players at 3-5: 75->50, 76->31). Field the seventh that fight. With six or fewer owned, level 7 only when 50+ gold stays after the XP (FIRST RULES); then it is never held as 'premature'. Put the XP buys first in the plan, the exact count to the level. With fewer than seven, compare a useful six with six/seven together: name each added unit, price the XP. Take six if it adds an owned beast or a real combat pair. Every added slot needs an owned unit; never leave a slot waiting for luck. Recompute XP after rewards; never buy XP in combat.\nCount final distinct species after every swap: Brambleback for Gromp adds zero. If owned Gromp can replace a filler for seven, do it free. No rerolls below level 8 (FIRST RULES): missing species, including Mama Beak, come from each round's shop - buy on sight, field and recount. Give arrivals unique legal hexes. With seven fielded, bank for eight and the carry search; budget urgent upgrades separately. Keep offered cheap 3-star copies. Prepare AD items on a fielded holder; move suitable items to Brambleback on entry and tank items off departing bridges. Alpha on Scuttlecrab. Hand stage 4 the lineup, missing units, stars/items, XP and gold.",
+    "why": "Narrow revision of v4, as the meta review of games 78-82 asks (action 4). The per-game diff-3.json and diff/stage-3.md named in the brief do not exist (the meta notes per-game Jobs 3-4 ran only for game 78); I used the game-82 stage audits, the batch 78-82 stage-3 comparison, the meta review, v1-v5 history, the owner rules and material.md. Changed: v4's 'Take a funded seven when it enables the core; no fixed round/bank schedule' and its exact-XP line become an explicit level-7 rule: with seven distinct Riftbeasts owned, buy level 7 the first planning phase the XP keeps 50g or costs only a few gold of interest, XP first in the plan, the seventh fielded that fight; with six or fewer, level 7 when 50+ stays (owner-no-level-seven as revised in dc9ec91), never held as 'premature'. Evidence: game 80 (20261109-070116) 3-5 levelled 55->22 with seven owned, the batch's first Riftbeast 7 in stage 3 and its best stage; game 79 (20261109-060537) held level 5 to 3-6 with all seven species owned from 3-2 and bought only level 6 at 57g, Riftbeast 7 coming at 3-7; game 82 3-6 stopped XP at 34/36 'without completing level seven prematurely'; game 81 3-6/3-7 held 79-86g at level 6 under the old wording. Strong players: vod-yt-nA0DbvL9XNg 3-5 6->7 75->50; vod-yt-7ggrpeOnAn8 3-5 6->7 76->31 with Riftbeast 7 + Invoker 2; vod-yt-n22_elVXTyk 3-5 74->40. Also synced v4's 'search the missing species' lines with owner-roll-level-8 (no rerolls below 8; the executor refuses them, as in game 81 3-7): missing species come from shops bought on sight. Removed v4's 'seven needs money to search' and the crab-Alpha qualifier ('at seven default') per owner Alpha rule; kept the rest of v4 word for word or shortened. Not changed from game 82's audit: its rolling grades at level 6 (3-5/3-6) contradict owner-roll-level-8, and its 3-6 level-7 (74->46 with three species owned) would be held by owner-no-level-seven, so neither enters the text. Game 82's stage-3 losses were mostly execution (cleanup sold planned units, late buys, phantom item) - the Editor's.",
+    "sources": [
+     {
+      "game": "20261109-070116",
+      "round": "3-5"
+     },
+     {
+      "game": "20261109-060537",
+      "round": "3-6"
+     },
+     {
+      "game": "20261109-060537",
+      "round": "3-7"
+     },
+     {
+      "game": "20261109-074926",
+      "round": "3-6"
+     },
+     {
+      "game": "20261109-074926",
+      "round": "3-7"
+     },
+     {
+      "game": "20261109-120848",
+      "round": "3-6"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "3-5"
+     },
+     {
+      "game": "vod-yt-7ggrpeOnAn8",
+      "round": "3-5"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "3-5"
+     }
+    ],
+    "by": "Strategist after game 82",
+    "when": "2026-11-09T14:08:15",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 3, 3-2 to 3-7: every planning phase with seven distinct Riftbeasts owned at level 5-6, and every phase with six or fewer owned and 78+ gold at level 6 (level 7 keeping 50).",
+     "expect": "Level 7 bought the first phase seven species are owned and the XP leaves 30+ (50 when possible), XP orders first and run in that phase, Riftbeast 7 fielded that fight; no 'premature level seven' reason; with six or fewer, level 7 only when 50+ stays.",
+     "risk": "Levelling to 7 at ~30g leaves a thin bank for the level-8 roll at 4-1/4-2 (stage 4 entering under 30g, level 8 later); a level 7 with six owned at 50g adds a filler slot of little value.",
+     "how": "The diff packet's stage-3 lines (level, gold before -> after each XP, distinct species owned and fielded, fight results), the stage report's levelling/economy grades and the player's reasons; gold and level at 4-1 and the round of level 8 against games 78-82.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "3",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-09T13:52:52",
+     "in_sample": {
+      "cases": 34,
+      "games": 6,
+      "base": [
+       51.0,
+       62
+      ],
+      "candidate": [
+       52.67,
+       62
+      ],
+      "better": 5,
+      "worse": 5,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       22.67,
+       33
+      ],
+      "candidate": [
+       23.0,
+       33
+      ],
+      "better": 1,
+      "worse": 1,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 7,
+    "text": "Bank toward 50 before early six. Riftbeasts count only at 3, 5 and 7: field them up to the step they reach; every other slot takes a unit that completes a trait tier with the board (name it), never one whose traits stay inactive. Level 7: with seven distinct Riftbeasts owned, buy it in the first planning phase the XP keeps 50g or costs only a few gold of interest (30+ left): Riftbeast 7 is the comp's spike (strong players at 3-5: 75->50, 76->31). Field the seventh that fight. With six or fewer owned, level 7 only when 50+ gold stays after the XP (FIRST RULES); then it is never held as 'premature'. Put the XP buys first in the plan, the exact count to the level. With fewer than seven, compare a useful six with six/seven together: name each added unit, price the XP. Take six if it adds an owned beast or a real combat pair. Every added slot needs an owned unit; never leave a slot waiting for luck. Recompute XP after rewards; never buy XP in combat.\nCount final distinct species after every swap: Brambleback for Gromp adds zero. If owned Gromp can replace a filler for seven, do it free. No rerolls below level 8 (FIRST RULES): missing species, including Mama Beak, come from each round's shop - buy on sight, field and recount. Give arrivals unique legal hexes. With seven fielded, bank for eight and the carry search; budget urgent upgrades separately. Keep offered cheap 3-star copies. Prepare AD items on a fielded holder; move suitable items to Brambleback on entry and tank items off departing bridges. Alpha on Scuttlecrab. Hand stage 4 the lineup, missing units, stars/items, XP and gold.",
+    "why": "The owner, x31.1: 'field every owned Riftbeast immediately - this is 100% wrong ... only 3 5 7 10 matters'. Only that sentence changes.",
+    "by": "the owner (2026-11-10, game 81 points x31)",
+    "when": "2026-11-10T02:30:00",
+    "status": "current",
+    "watch": null,
+    "judge": null
+   }
+  ],
+  "4": [
+   {
+    "v": 1,
+    "text": "Turn the bridge into an itemed Brambleback 2 board. MetaTFT's main search is level 8 at 4-2: four-cost odds rise from 10% at 7 to 30% at 8. Wasian and Robin buy 8 at 4-1; Borislavs waits to 4-2 after naturally fielding Brambleback 1 with seven at 4-1. Calculate the XP and search/purchase budget from the current HUD. Roll for Brambleback, Sentinel and tank upgrades; field the useful hits, transfer the carry build/Alpha and keep seven with Ravager/Invoker. If the missing seventh is still a three-cost, finish that core rather than treating an extra slot alone as stabilization. A first Dragon can enter now; he needs two slots, with Cinderling/Scuttlecrab the published replacements when the remaining tank/traits suffice. Add a real Brawler/Vanguard partner in the extra slot. Complete useful tank/carry items with carousel/loot. Rebuild once the carry/frontline work; Robin explicitly calls his 4-6 rolling excessive. If a further loss would end the game, buy immediate fighting power rather than waiting to restore interest. Yolo stays 6 until 4-5 while chasing low-cost stars with Golden Egg/free rerolls: do not copy that delay as the standard Brambleback line. Hand stage 5 the actual carry/tank upgrades and next useful slot.",
+    "why": "The standard videos share the level-8 conversion, not one identical round or gold floor: Wasian 4-1 62 -> 10, Robin 4-1 54 -> 9, Borislavs 4-2 40 -> 1. Borislavs' opened 4-2 already includes Dragon; 5-7 is his later star upgrade. Robin's 4-6 caption provides direct evidence against copying every extra refresh. Yolo's Golden Egg is visible in 4-2/4-3.",
+    "sources": [
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "4-1",
+      "evidence": "Level 7 -> 8, gold 62 -> 10, six observed shops."
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-1",
+      "evidence": "Opened 000668: natural Brambleback 1, seven Riftbeasts, still level 7."
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-2",
+      "evidence": "Opened 000770: level 8 with Dragon, seven Riftbeasts, one end gold."
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-1",
+      "evidence": "Opened 000574: level 8/seven Riftbeasts; 54 -> 9."
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-6",
+      "evidence": "The player explicitly says he is overrolling; 20 -> 1."
+     },
+     {
+      "game": "vod-yt-0vjLekc60Mg",
+      "round": "4-3",
+      "evidence": "Opened 000200: level 6, Golden Egg and 81 end gold."
+     },
+     {
+      "game": "vod-yt-0vjLekc60Mg",
+      "round": "4-5",
+      "evidence": "Opened 000248: only now reaches level 7."
+     }
+    ],
+    "by": "comp coach",
+    "when": "2026-11-01T18:59:34",
+    "status": "replaced",
+    "watch": null,
+    "judge": null
+   },
+   {
+    "v": 2,
+    "text": "Aim for Brambleback 2 and an equipped frontline. Normally buy 8 around 4-1/4-2 for 30% four-cost odds versus 10% at 7; calculate XP, search and purchase money first. Finish a missing three-cost seventh Riftbeast at 7. If 8 leaves too little to buy hits, stabilize at 7 then rebuild for 8. Follow FIRST RULES for exact XP.\nField useful hits immediately, preserving seven and Ravager/Invoker. Transfer suitable completed carry items when Brambleback enters. Before combat equip tank health/sustain and physical armor reduction; complete available AD/tank combines and use carousel/loot for missing pieces. Check actual holders.\nAlpha Mark: with 7 Riftbeasts, its default holder is Scuttlecrab, not a small carry such as Cinderling.\nBuy and retain offered Krug, Cinderling and Pebbles toward 3-star; keep their purchase targets while rebuilding. Sell off-comp/obsolete fillers for space. Collect natural copies without a dedicated low-cost reroll chase.\nFor each player fight, get a Wisp. Roll when none shows unless sure to win without it; unknown opponents give no such assurance. Use free rolls first and reserve purchase money. Rebuilding never replaces this search.\nOnce carry/frontline work, stop extra upgrade rolls and bank for the next useful slot. If a loss could end the game, buy immediate strength. Preset Dragon's hex and both outgoing slots; field the first copy immediately. Hand stage 5 the actual equipped upgrades, held copies and next level budget.",
+    "why": "Keep v1's state-dependent level-eight conversion and rebuilding, but separate carry-item transfer from Alpha, preserve the owner's natural cheap-copy collection and make the Wisp search explicit during rebuilding. In game 53, 4-2 eight cost 48 of 54 gold, leaving only six for purchases; its level-seven Brambleback/Krug stabilization is graded ok, so no fixed level deadline or gold floor is added. At 4-3 Cinderling collection was disabled, at 4-5/4-6 a fourth Krug was ordered sold/sold, and at 4-7 the offered Krug+Cinderling cost four from 45, preserving four interest and the next phase's 36-gold level. These are reasoning errors under owner-three-stars, not a reason to pay for a low-cost reroll chase. Borislavs 4-5 explicitly values retained Krugs toward three-star; his 4-1/4-2 and Robin's 4-1 show different XP/banks for conversion. Robin's 4-6 warning supports stopping excess upgrade rolls. Game 53's requested 4-3/4-5 free Wisp searches, Scuttlecrab entry/Alpha and tank/carry equipment mostly failed in execution; clarify the goals without claiming prose repairs the harness. Game 52 4-5 also exposed an available Evenshroud combine. Stabilization means fielded upgrades and equipped physical carry/frontline strength, not extra trait-tier counts. No causal performance verdict follows from fifth place, modestly unfavorable 4-2 shops or version snapshots without confirmed prompt delivery. The digest identifies Sol medium despite the diff packet's Terra-high label; compare future decisions with prompt/model/code/augment context recorded.",
+    "sources": [
+     {
+      "game": "20261103-033800",
+      "round": "4-1"
+     },
+     {
+      "game": "20261103-033800",
+      "round": "4-2"
+     },
+     {
+      "game": "20261103-033800",
+      "round": "4-3"
+     },
+     {
+      "game": "20261103-033800",
+      "round": "4-5"
+     },
+     {
+      "game": "20261103-033800",
+      "round": "4-6"
+     },
+     {
+      "game": "20261103-033800",
+      "round": "4-7"
+     },
+     {
+      "game": "20261101-205238",
+      "round": "4-5"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-1"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-2"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-5"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-6"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-1"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-6"
+     }
+    ],
+    "by": "Strategist after game 53",
+    "when": "2026-11-03T05:15:35",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 4, 4-1 through 4-7: conversion/search budget, natural-copy buys/sells, Scuttlecrab Alpha and equipment before combat; Wisp searches in the player-fight planning phases.",
+     "expect": "Retain and buy offered Krug/Cinderling/Pebbles toward three-star while rebuilding; free space through obsolete/off-comp units. At seven Riftbeasts default Alpha to Scuttlecrab while fielded. Deliver a Wisp search when none is offered and no known win is established, with purchase money retained. Field owned upgrades with suitable carry items, tank health/sustain and available physical armor reduction. Buy a useful affordable eight with a calculated search/purchase budget; stabilize at seven only when its upgrade needs and that budget justify it.",
+     "risk": "Wisp searching or excessive stabilization rolls can consume the purchase reserve or delay an affordable useful level eight. Cheap-copy retention can crowd the bench. Repeated transfers can leave equipment idle if only removal completes. Stopping upgrade rolls too early can preserve an unequipped or weak frontline; confirm actual strength.",
+     "how": "Across the next three games, record whether stage-four text actually reached both relevant conversations, and reconcile model/effort, code and augments before comparing similar XP/gold/star states. Audit shown natural-copy offers, buy/sell/target changes and interest/level arithmetic; inspect actual Alpha and equipped holders at combat lock rather than board_after/items_after forecasts. Track Wisp offered/bought, free and paid refreshes requested versus delivered before lock, purchase reserves, and time/budget to eight. Separate reasoning changes from late plans, stale inventories, failed gives and absent prompt delivery; do not infer success from placement, HP or trait-tier totals.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "4",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-03T05:07:45",
+     "in_sample": {
+      "cases": 24,
+      "games": 4,
+      "base": [
+       26.67,
+       44
+      ],
+      "candidate": [
+       28.67,
+       44
+      ],
+      "better": 6,
+      "worse": 3,
+      "sign_p": 0.508
+     },
+     "held_out": {
+      "cases": 12,
+      "games": 2,
+      "base": [
+       17.0,
+       22
+      ],
+      "candidate": [
+       18.67,
+       22
+      ],
+      "better": 5,
+      "worse": 0,
+      "sign_p": 0.062
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 3,
+    "text": "Aim: Brambleback 2, equipped frontline. While Brambleback is unowned, buy 8 (4-cost odds 30% vs 10%) only with about 16+ gold left after the XP, and roll it that phase (strong players 4-1/4-2: 62->10, 54->9). Else hold 7 at interest until the bank covers both. No level in a next_round plan that leaves under 10 gold. If a loss could end the game, buy strength. Finish a missing 3-cost 7th Riftbeast at 7. FIRST RULES set exact XP.\n4-2 augment: carry unowned and gold short of 8 plus rolls: free-reroll augments (Max Build, Commerce Core) beat a lower-tier combat one.\nWisp, every player round: if the shop shows none, order rolls before banking (free rolls first): under 20 gold, floor about 4 until one shows; at 20+, 1-2 rolls keeping the interest step.\nKrug, Pebbles, Cinderling: buy copies (a 3-star-completing one first; 3-star = 9 copies); no reroll chase.\n8th slot at 8: keep seven Riftbeasts, never an 8th. Field a tier-adder (Diana: Ravager 2; Vanguard 2; Brawler 2) or the strongest body until Brambleback, Gnar or Taric takes it. Sell other off-comp.\nItems each phase from 4-1: two components that make an AD or tank item go together on a fielded unit (Belt+Gloves = Striker's Flail; Item Remover if apart); never hold one for a component you lack. Tanks: health/sustain, one armor reduction. Brambleback's items go on him as he enters. Alpha Mark on Scuttlecrab.\nOnce carry and frontline work, stop rolls and bank. Preset Dragon's hex. Hand stage 5 upgrades, copies, a level budget.",
+    "why": "Builds on the unjudged post-58 candidate (20261103-143833-stage-4: 8th-slot line, copy-counted 3-star buys, Wisp roll order with floors, items from 4-1 'never hold one for a component you lack'); this game, the fourth on v2, adds no evidence against them (Diana for Ravager 2 + Vanguard 2 at 4-3 graded good; every buys_sells grade good/ok; Wisps bought at 4-2 and 4-6 by one roll each). Three changes. (1) The level-8 line gets a number instead of a round. v2's 'normally 8 around 4-1/4-2' was read over its own 'if 8 leaves too little to buy hits' branch: at 4-2 (36 g) the player wrote a next_round plan of 9 XP buys that ran at 4-3 with 41 g -> 5, Diana -> 2, then 2-10 gold and 0-1 interest to 4-7, 2 rolls in the whole stage, Brambleback unowned until 5-5 (levelling bad, reasoning; the Reviewer's better: hold 41, the state showed 53 at 4-5, level then with ~17 for 8 rolls). Strong players level at 4-1/4-2 with the roll money in hand and spend it the same phase (Wasian 62->10, Robin 54->9); games 57 and 58 held 7 and banked until the level was affordable (ok/good), game 56 levelled 63->3 with 5 rolls (good). The next_round clause is added because the plan runs before that phase's gold is seen. The 'loss could end the game' exception stays (88 HP here, it did not apply). (2) New 4-2 augment line: Clockwork Accelerator (B) over Max Build (A, 10 free rerolls) with the carry unowned and 36 g against 40 of XP (augment bad); game 58's Commerce Core free rolls carried its stage-4 search (Pebbles 3-star 4-5, Brambleback 2-star 4-6 while gold went 9->39). (3) The item line names this game's case: Giant's Belt on Krug 'for a second Belt' while Scuttlecrab held lone Sparring Gloves and the state printed the Striker's Flail combine, 6 Remover uses, 4-5 and 4-6 (items bad twice), as game 56's Bow pair; the owner's FIRST RULE on component pairs already says so, the example makes it concrete. Trimmed to fit: 'outgoing slots' for Dragon, the explicit 'Brambleback 1-star still fielded' (a code rule does it). Not for the text: the comp notes list Clockwork Accelerator among 'augments that worked in our first place', which the player may read as a 4-2 preference (comp coach). Editor: 4-7 Scuttlecrab's items read 'unknown' at combat start; 4-2 item-bench slot 0 read '迎'.",
+    "sources": [
+     {
+      "game": "20261103-233832",
+      "round": "4-2"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "4-3"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "4-5"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "4-6"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "4-1"
+     },
+     {
+      "game": "20261103-143833",
+      "round": "4-2"
+     },
+     {
+      "game": "20261103-143833",
+      "round": "4-5"
+     },
+     {
+      "game": "20261103-143833",
+      "round": "4-1"
+     },
+     {
+      "game": "20261103-131835",
+      "round": "4-6"
+     },
+     {
+      "game": "20261103-120119",
+      "round": "4-3"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-2"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-3"
+     }
+    ],
+    "by": "Strategist after game 59",
+    "when": "2026-11-04T01:10:31",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 4, 4-1 to 4-7 planning phases: the round level 8 is bought and the gold left after the XP; next_round plans carrying XP; the 4-2 augment pick; Wisp rolls when none shows; component pairs on separate units.",
+     "expect": "Level 8 is bought with about 16+ gold left and rolled the same phase, or the player holds 7 at interest until it can; no next_round plan leaves under 10 gold after XP. More rolls in stage 4 than this game's 2 while Brambleback is unowned, and he is found earlier than 5-5. With the carry unowned and gold short, a free-reroll augment is taken over a lower-tier combat one. No two components that make an AD/tank item stay on different units for a phase.",
+     "risk": "Holding 7 longer can lose fights and HP on a weaker board and delay the 4-cost odds (watch level-8 round against games 56-58 and HP at 5-1); a free-reroll augment over a combat augment can leave a weaker late board; rolling right after the level can leave too little to buy a shown Brambleback/Sentinel next phase.",
+     "how": "Diff reports: per stage-4 round the level, gold before/after, XP bought and from which plan (planning or next_round), rolls run, Brambleback owned/fielded round; the 4-2 cards offered, the pick and its tier; idle component pairs and Remover uses; HP per round. Compare against games 56-59 on v2.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "4",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-04T00:57:12",
+     "in_sample": {
+      "cases": 36,
+      "games": 6,
+      "base": [
+       37.33,
+       66
+      ],
+      "candidate": [
+       40.0,
+       66
+      ],
+      "better": 7,
+      "worse": 3,
+      "sign_p": 0.344
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       28.33,
+       33
+      ],
+      "candidate": [
+       29.67,
+       33
+      ],
+      "better": 3,
+      "worse": 1,
+      "sign_p": 0.625
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 4,
+    "text": "Aim: Brambleback 2, equipped frontline. While Brambleback is unowned, buy 8 only with about 16+ gold left after the XP, and roll it that phase. Else hold 7 at interest until the bank covers both. No level in a next_round plan that leaves under 10 gold. If a loss could end the game, buy strength. Finish a missing 3-cost 7th Riftbeast at 7. FIRST RULES set exact XP.\n4-2 augment: carry unowned and gold short of 8 plus rolls: free-reroll augments (Max Build, Commerce Core) beat a lower-tier combat one.\nWisp, every player round: if none shows, roll before banking (free rolls first): under 20 gold about 4 rolls; at 20+, 1-2. At an interest step, sell a spare unit to pay a roll, never skip it. A roll the first reply planned stays in the rewrite.\nKrug, Pebbles, Cinderling: buy copies (3-star-completing first); no reroll chase.\n8th slot at 8: keep seven Riftbeasts, never an 8th. Field a tier-adder (Diana; Vanguard 2; Brawler 2) or the strongest body until Brambleback, Gnar or Taric takes it. Sell other off-comp.\nItems (FIRST RULES): until 4-7 a single component may wait for its partner; no forcing from 4-1. From 4-5, two held components that make an AD or tank item go on a fielded unit with a free slot that phase (tanks first), unless one waits for a named plan item. After the 4-7 loot, combine all. Brambleback's items go on him as he enters. Alpha Mark on Scuttlecrab.\nCarry and frontline working: stop rolls, bank. Preset Dragon's hex. Hand stage 5 upgrades, copies, a level budget.",
+    "why": "Keeps v3's level-8 line, the next_round floor and the 4-2 augment line as they are (the meta review 55-59 and the diff report ask to keep them). Game 60 on v3: held 7 at the 50 cap at 4-1/4-2, levelled 4-3 63->19 with exact XP and rolled 3 (levelling/rolling good), Brambleback 2* at 4-6 against game 59's 5-5; augment line untested (carry owned, no free-reroll card). Two lines change. (1) Items: v3's 'each phase from 4-1 ... never hold one for a component you lack' contradicts the owner's FIRST RULE owner-no-two-components (x11.1: a single component may wait for its partner until 4-7, items are not forced from 4-1; after 4-7 combine everything); in game 60 the player followed the owner over the text. Removed and replaced by the owner's line, plus one thing the owner rule does not forbid: from 4-5 (after the 4-4 carousel, only the 4-7 loot still to come) a pair the bench already completes goes on a fielded holder with a free slot, tanks first, unless a component is kept for a named plan item (e.g. a Bow for a Rageblade). Game 60: Bow+Bow and B.F.+Cloak sat on the item bench 4-1 to 4-7 while Krug 2*, Sentinel 2* and Gnar fought bare from 4-5, and Gnar and Murkwolf had free slots at 4-6/4-7 (items bad twice), built only at 5-1; strong players had tank items before the carry's third (Wasianiverson Visage 4-2) and a third front-line item on Krug by 5-1 (Borislavs). (2) Wisp: 'keeping the interest step' read as leave to skip: 4-2 at exactly 50 g, no Wisp, no roll while a benched spare Scuttlecrab* sold for 2 (rolling bad); 4-5 the first reply planned a roll and the rewrite dropped it (rolling bad). Owner rule owner-wisps: roll for one unless sure to win. Now: sell a spare unit to pay one roll at an interest step, and a planned roll stays in the rewrite. Stage-3 ask of the meta review is the stage-3 Strategist's.",
+    "sources": [
+     {
+      "game": "20261104-102852",
+      "round": "4-1"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "4-2"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "4-3"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "4-5"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "4-6"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "4-7"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "4-3"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "4-5"
+     }
+    ],
+    "by": "Strategist after game 60",
+    "when": "2026-11-04T12:32:48",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 4, 4-1 to 4-7 planning phases: the item step (pairs complete on the item bench, holders fielded, which round each item is built), Wisp rolls when the shop shows none at 50/30 gold, the first reply's rolls versus the rewrite's; the level-8 round and gold after XP as in v3.",
+     "expect": "No forced items at 4-1 to 4-3 (single components wait, as the owner rule says); from 4-5 a pair already complete on the bench is built that phase on a fielded tank or holder with a free slot, so the front line does not fight 4-5 to 4-7 bare; after the 4-7 loot no two components held. At least one roll (or a sale to pay it) in each player round with no Wisp shown; no planned roll dropped in a rewrite. Level 8 still bought with 16+ left or held at interest.",
+     "risk": "Building a pair at 4-5/4-6 can spend a component the 4-7 loot would have made into a better plan item (a Bow into Red Buff instead of a Rageblade for Elder Dragon) - see whether a named plan item went unmade at 5-1 because its component was used; extra Wisp rolls and sales at an interest step can cost interest or sell a copy toward a 3-star.",
+     "how": "Diff reports and the stage-4 audit: per round the item bench components, fielded units with free slots, items built and on whom, items grades; Wisp shown/bought, rolls and gold before/after at 4-2 and 4-5, sells made for a roll; the first reply against the rewrite in the round's conversation. Compare with game 60 (pairs idle 4-1 to 4-7, rolls skipped at 4-2 and 4-5).",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "4",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-04T12:19:29",
+     "in_sample": {
+      "cases": 36,
+      "games": 6,
+      "base": [
+       41.33,
+       66
+      ],
+      "candidate": [
+       40.0,
+       66
+      ],
+      "better": 3,
+      "worse": 8,
+      "sign_p": 0.227
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       30.0,
+       33
+      ],
+      "candidate": [
+       30.67,
+       33
+      ],
+      "better": 2,
+      "worse": 1,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 5,
+    "text": "FIRST RULES on exact XP override these budgets. Aim for Brambleback 2 and an equipped frontline. While he is unowned, buy 8 with about 16+ gold after XP and roll that phase. Else bank at 7. A next_round level leaves 10+ gold. If a loss could end the game, buy strength. Find a missing 3-cost seventh at 7.\nAt 4-2 with carry unowned and too little for 8 plus rolls, Max Build/Commerce Core beat lower-tier combat augments.\nEach player-round planning opening, check the natural shop for a Wisp. If none, roll unless sure to win, free rolls first. Below 20 gold, up to 4 affordable rolls, else 1-2. Reserve gold and time to buy a hit before lock. Retain unfinished searches in planning rewrites. At combat lock stop the search and resume next planning opening after its natural shop. Interest never excuses skipping. Sell a dispensable spare to fund a roll.\nBuy offered Krug, Pebbles and Cinderling toward 3-star, completing first. Keep their buy targets. Avoid a reroll chase.\nAt 8 keep seven Riftbeasts, fill the extra slot with a useful Brawler/Vanguard/Ravager or strongest body. Sell unused off-comp.\nUntil 4-7 a single component may wait. From 4-5 build available AD/tank pairs on fielded holders with room, tanks first, unless reserved for a named item. After 4-7 loot combine pairs. Equip completed items each phase. Equip Brambleback on entry. Alpha on Scuttlecrab.\nOnce carry/frontline work, bank after the Wisp search. Preset Dragon's hex. Hand stage 5 upgrades, copies and level budget.",
+    "why": "I qualify v4's unconditional retention of the first reply's roll with the planning window and an explicit next-planning obligation. Game 63 renewed two searches during combat at 4-1 and 4-5, costing 8 gold with wisps=false. Those rolling decisions are bad reasoning. At 4-6 a sensible request made with seven seconds left arrived after lock and spent another 2 gold, an execution failure. At 4-2 Borrowed Gear passed unanswered, and at 4-3 Wrapped In Thorns received buy=true for 2 gold but was never purchased. The revision reserves both purchase money and time, retains unfinished searches through planning rewrites and carries them to the next natural shop once combat locks. It retains v4's bounded search amounts and interest-step funding. Game 60's 4-2 interest hold and 4-5 dropped rewrite search were both reasoning-bad, while games 61 and 62 on v4 have no bad stage-4 rolling grades, so removing search retention altogether would discard its intended benefit. Borislavs' 4-6 and robinsongz's 4-4/4-5 words support searching for a Wisp each uncertain player fight, and robinsongz calls his 4-6 extra rolling excessive. These sources support the search purpose and budget discipline. Our game's combat renewals supply the evidence for the timing qualification. I retain funded level-eight conversion and v4's component timing, and place exact-XP FIRST RULE priority above all budgets. At 4-7, 16/56 XP and the sale to 40 gold funded the exact level intended for the next round, making deferral bad under the owner's rule. No new PvE exception is proposed. Krug, Pebbles and Cinderling purchase targets stay active, addressing the 4-7 Cinderling ban without weakening owner-three-stars. Brambleback was itemless through 4-5 despite appropriate transfer requests, so item timing is retained and completed-item deployment remains explicit. Borislavs had 54 gold at seven on 4-1 and reached eight at 4-2, while Vladdy reached eight by 4-5 from a much larger bank. Their round labels do not justify forcing eight from this game's 23/36-gold states. The revision abbreviates the existing extra-slot examples to fit 1,500 characters. Placement and HP are not the decision evidence. Sol medium/code 9c6d56a differs from the prior Opus medium/code states, most stage-4 measured target shops were near expectation and the repeated 4-3 luck lines are one search. The effect of v4 wording on the combat renewals is an inference. Identity, transfer, parser and latency faults still require Editor work, and a performance improvement remains untested.",
+    "sources": [
+     {
+      "game": "20261105-025940",
+      "round": "4-1"
+     },
+     {
+      "game": "20261105-025940",
+      "round": "4-2"
+     },
+     {
+      "game": "20261105-025940",
+      "round": "4-3"
+     },
+     {
+      "game": "20261105-025940",
+      "round": "4-5"
+     },
+     {
+      "game": "20261105-025940",
+      "round": "4-6"
+     },
+     {
+      "game": "20261105-025940",
+      "round": "4-7"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "4-2"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "4-5"
+     },
+     {
+      "game": "20261104-123556",
+      "round": "4-3"
+     },
+     {
+      "game": "20261104-153922",
+      "round": "4-6"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-1"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-2"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "4-6"
+     },
+     {
+      "game": "vod-yt-QBWbKpZVCPo",
+      "round": "4-5"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-4"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-5"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-6"
+     }
+    ],
+    "by": "Strategist after game 63",
+    "when": "2026-11-05T05:57:53",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 4 player rounds 4-1, 4-2, 4-3, 4-5 and 4-6, from planning opening through combat lock and the next planning opening. Also check exact-XP decisions and cheap-copy targets at 4-7.",
+     "expect": "When no Wisp shows and no certain win is established, a bounded search starts during planning with money and time to answer and buy a useful hit. Unfinished searches survive planning rewrites. Combat replies stop renewing the expired search and carry its obligation to the next player-round planning opening after the natural shop. At least the required search is still attempted every eligible player round. Exact-XP FIRST RULE takes priority over numeric reserves, and Krug/Pebbles/Cinderling purchase targets remain enabled.",
+     "risk": "The timing qualification could be read as permission to omit the search entirely, especially after a late reply, or to stop so early that a useful Wisp is missed. A fixed champion reserve could still block Wisp searches at low gold, while repeated refreshes or spare sales could exhaust purchase money, sell useful upgrade copies or delay a funded level eight. Extra search actions could consume carry-transfer time. Compression of the existing slot examples could affect extra-unit choices.",
+     "how": "For the next three games confirm delivery in both stage-4 conversations. Match each first reply, rewrite and combat reply to actual phase and timestamps in conversation.md and log.jsonl. Count refreshes delivered before lock separately from combat refreshes and their gold, recording Wisp shown, question time, answer, price and confirmed purchase. Check whether an unfinished search resumes after the next natural shop and whether a Wisp already bought prevents redundant searching. Record gold before/after searches and purchases, sale identities and copy counts, XP cost and intended level round, exact-XP compliance, and actual eighth-slot and equipped holders at lock. Compare with game 60's omitted searches and game 63's five paid combat refreshes costing 10 gold. Separate deliberate combat renewals from requests delayed by latency or controller faults. Reconcile model, effort, code, augments and entry budgets before claiming a benefit. Retain the item watch for allowed pre-4-7 waiting and post-loot combining.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "4",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-05T05:48:13",
+     "in_sample": {
+      "cases": 36,
+      "games": 6,
+      "base": [
+       41.0,
+       66
+      ],
+      "candidate": [
+       40.33,
+       66
+      ],
+      "better": 3,
+      "worse": 3,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       29.33,
+       33
+      ],
+      "candidate": [
+       28.0,
+       33
+      ],
+      "better": 1,
+      "worse": 3,
+      "sign_p": 0.625
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 6,
+    "text": "FIRST RULES on exact XP override these budgets. Aim for Brambleback 2 and an equipped frontline. While he is unowned, buy 8 with about 16+ gold after XP and roll that phase. Else bank at 7. A next_round level leaves 10+ gold. If a loss could end the game, buy strength. Find a missing 3-cost seventh at 7.\nAt 4-2 with carry unowned and too little for 8 plus rolls, Max Build/Commerce Core beat lower-tier combat augments.\nEach player-round planning opening, check the natural shop for a Wisp. If none, roll unless sure to win, free rolls first. Below 20 gold, up to 4 affordable rolls, else 1-2. Reserve gold and time to buy a hit before lock. Retain unfinished searches in planning rewrites. At combat lock stop the search and resume next planning opening after its natural shop. Interest never excuses skipping. Sell a dispensable spare to fund a roll.\nBuy offered Krug, Pebbles and Cinderling toward 3-star, completing first. Keep their buy targets. Avoid a reroll chase.\nAt 8 field distinct owned Riftbeasts first, then in-comp support. Sell off-comp early; loot at once.\nUntil 4-7 a component may wait. From 4-5 build AD/tank pairs unless for a named item. Combine split components now on a fielded unit (Remover). After 4-7 loot combine pairs. Make carry items on fielded holders; give on entry. Equip completed items each phase in free slots. Alpha on Scuttlecrab.\nOnce carry/frontline work, bank after the Wisp search. Preset Dragon's hex. Hand stage 5 upgrades, copies and level budget.",
+    "why": "Narrow owner-rule reconciliation of current stage 4 v5, not a new stage-4 policy from first place. The named diff-4.json, stage-4 diff packet and per-game summary do not exist. The available meta review 66-70.md explicitly explains that this batch omitted Jobs 2-4 and recommends keeping stage 4 v5; I used its stage-4 batch comparison, all five stage-4 audits, game 70's digest, played snapshot, stage history, current FIRST RULES and expert reasons, material and permitted training play-alongs instead. Only the extra-slot and item paragraphs change. owner-five-riftbeasts requires owned distinct Riftbeasts before optional support: v5's seven-plus-support wording could exclude an owned eighth species. Game 70 4-1 legitimately fields eight distinct Riftbeasts; its 4-2 six-unit packet is a perception error, not a reason to replace that actual full board. owner-sell-off-comp requires early cleanup and instant off-comp loot sales, so 'unused off-comp' cannot license an off-comp support hold. Game 67 4-1 has seven off-comp bench units, and game 70 4-3 has off-comp augment grants to liquidate. owner-combine-components has no 4-5 or named-item exception for singles split across units: that combine is now a separate unconditional instruction. The 4-5/named-item guidance remains for other available AD/tank pairs, with allowed single-component waiting before 4-7 and compulsory post-loot pairing retained under owner-no-two-components. owner-carry-items-ready requires making the carry package on fielded holders before arrival, not merely equipping on entry; that preparation is now explicit. owner-items-not-waiting is clarified with free slots on the fielded holders. owner-ad-comp remains respected by AD/tank builds; no AP item or AP penetration is proposed. Exact-XP priority is already explicit and remains verbatim (owner-xp-exact); there is no early-six instruction conflicting with owner-no-early-6. The level-eight budgets, augment condition, Wisp search and planning/combat timing, cheap-copy targets, Scuttlecrab Alpha and stage-5 handoff stay unchanged. Wasianiverson 4-1/4-2, Borislavs 4-1/4-2/4-5 and robinsongz 4-6 support the retained funded conversion, equipment, natural-copy collection and restraint after stabilization; they do not override the owner. Games 66-70 repeatedly request appropriate handoffs and searches that the controller blocks or delivers late. Game 70's accepted Regeneration expiring at 4-1, wrong-copy sales at 4-2 and Alpha overrides are Editor faults, not evidence that a wholesale strategy rewrite repairs execution. Its 4-6/4-7 Infinity Edge holder error also does not justify expanding this brief beyond the specified rule conflicts. Keep those faults and measured luck separate: game 70's favorable 4-1 shops (4 targets versus 1.6 expected) arrived in combat, not for that opening fight. The meta's requested stage-3 and stage-5 changes belong to their separate candidates. This candidate goes through the existing Judge path; I did not run the Judge or edit the installed strategy.",
+    "by": "Strategist after game 70",
+    "when": "2026-11-06T16:54:48",
+    "status": "rejected",
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "4",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-06T16:41:09",
+     "in_sample": {
+      "cases": 36,
+      "games": 6,
+      "base": [
+       42.67,
+       66
+      ],
+      "candidate": [
+       40.0,
+       66
+      ],
+      "better": 2,
+      "worse": 4,
+      "sign_p": 0.688
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       30.67,
+       33
+      ],
+      "candidate": [
+       28.67,
+       33
+      ],
+      "better": 0,
+      "worse": 3,
+      "sign_p": 0.25
+     },
+     "tested": true,
+     "accept": false,
+     "reason": "rejected: more than 5% fewer points than the current version on held_out"
+    }
+   },
+   {
+    "v": 7,
+    "text": "Aim: level 8, Brambleback 2, equipped tank. FIRST RULES set XP: price current XP, useful owned slot, hits/Wisp, free rolls and time. Buy 8 when the slot and search are funded; level and field together. Combat XP only leaving 50+; else next planning.\nBelow 8 no paid/free rolls, even for a missing seventh. At 7, no Wisp and 3+ comp units two copies short of next star: ONE refresh per phase. Verified last life: affordable next level first, then all-in upgrades, no floor.\nBuy shown hits; field owned upgrades now; never assume future hits. Keep seven; extra slot: Taric/Gnar/Sett/Rakan, name roll buys. Buy Krug/Pebbles/Cinderling copies. Sell unused units in first plan, off-comp loot at once.\nPreset strategy.wisp_flag (combat:buy; economy/names). At 8 search missing Wisp promptly, free rolls first; price actual offers/hits and reserve purchase money/time. Dependent rolls await Wisp purchase. Stop rolls at lock; resume next opening. Bank after Wisp and stabilization.\nItems: strongest suitable holder, stars then cost. Prepare carry items on fielded fighter; hand to Brambleback on entry. Aim 3 carry/3 tank: carry priority, then alternate; tank-only combine now; Evenshroud first, once/team. Verify equipped panels, Remover/sale and free slots. Completed items fight now; unite split parts. Singles may wait until 4-7; after loot combine pairs.\nMain tank outermost on fighters' side; Alpha on crab. Preset Dragon hex and two-slot exits. Hand stage 5 equipped upgrades, copies and budget.",
+    "why": "Replace current stage-4 v5's obsolete search-for-a-three-cost-seventh at seven, fixed 16g/10g conversion thresholds, unrestricted below-eight Wisp searches and tanks-first component advice. This is an owner-rule synchronization supported by decision states, not a placement-based claim. All five committed-comp snapshots in games 73-77 contain identical stage4v5 text despite initially empty flex strategy maps. The named diff-4.json, stage-4 diff packet and individual summary are absent; meta/73-77.md explicitly says Jobs 2-4 were omitted. I used its requested revision, batch/73-77/stage-4.json, the available game-77 stage reports, the five stage-4 audits, packets, selected raw conversation/log evidence, stage history, comp notes/FIRST RULES, expert reasons, material and permitted play-alongs. Rejected v6 is not a revert target: it retained the obsolete budgets/search and its Judge recorded 28.67/33 versus 30.67/33 on held-out scoring, failing the gate. No held-out game contents or split-test games were read.\n\nApply owner-roll-level-8 precisely: retain paid AND nonexpiring free refreshes below eight, including when a seventh species is missing. Allow exactly one refresh at seven in stage four when the shop has no Wisp and at least three comp units are two copies short of their next star; do not turn this into a multi-roll stabilization allowance. Game 73's 4-3 natural Mana Potion and two rolls, and 4-5 four-roll intent, do not qualify. Game 74's 4-2 is the owner's x26.14-labelled one-refresh exception; its otherwise sound plan to save for eight cannot erase that exception. In verified last life follow owner-last-life-all-in: buy an affordable next level before the no-floor upgrade search. Game 73 4-6 has 57g at 10/56, so twelve buys cost 48g and leave 9g; the shown 4g Sentinel can complete its pair. This is materially different from an ordinary small-bank search. Preserve owner-no-xp-in-combat's completed rule: XP leaving at least 50g may run in combat; a below-cap level too late for the fight waits for the next planning opening.\n\nPrice the actual useful slot, current XP, real upgrade/Wisp prices, available free rolls and delivery time. Game 73 4-1 starts level five at 18/20 with 65g and needs 40g just to reach seven and field its owned species. Game 75 4-1 instead has 99g at six, 18/36, and spends 76g catching up to eight; its level starts at timer 12 and search at timer 3. Game 76 4-1 is already eight with 11g, four free rolls and a visible 4g Brambleback: bench clearance and that guaranteed buy/entry precede speculative searching. Game 77 4-1's 52g XP cost from 55g is not a funded search; at 4-2, 16/56 with 63g makes eight exactly for 40g, leaves 23g, and can field identified Gnar for Brawler/Gilded Steel. Partial/carried orders defer the slot a fight. Game 74 4-3 is the decision/delivery control: 57g at 30/56 pays 28g and immediately fields owned Elise, leaving 29g. Its Explosive Growth+ grants 9 XP now and three more grants: 4-2's nonexact 40g level becomes 28g next phase. This augment-specific saving must not become a universal bank or delay rule. The later bought Sett is still wrongly delayed until 4-5. Drop the inherited categorical Max Build/Commerce Core preference; the state and actual augment resources must determine affordability.\n\nKeep preset strategy.wisp_flag acquisition, natural-shop inspection and timely level-eight Wisp searches with free rolls first, actual purchase reserves and time to use hits; dependent rolls require a bought Wisp. Stop searches at combat lock and resume next planning rather than renewing paid combat searches. Game 74's accepted-but-expired offers at 4-3/4-5/4-6 contrast with confirmed automatic purchases in games 75-77; game 77 4-6 also uses Stand Alone through its formation. Do not count duplicate narrative/structured Wisp rows as separate acquisitions or treat unread N-valued effects as known payouts. Do not impose v5's fixed four/two refresh cap when live resources justify a different level-eight search.\n\nReplace tanks-first allocation with owner-item-plan/item-holders: prepare a concentrated package on the strongest suitable fielded fighter, give Brambleback his suitable completed items on entry, prioritize carry then alternate with tank, build a tank-only available plan combine immediately and prioritize one team Evenshroud. Reassess holders by stars then cost, verify equipped panels/free slots and the actual available Remover or sale, not a forecast. Preserve completed-item deployment, split-component combining, permitted single-component waiting until 4-7 and the post-loot combine deadline. Game 74's 4-5 bare carry remains a failure; its 4-6 Rageblade/Bloodthirster/Hand of Justice on the fielded Brambleback is the successful handoff control. Game 76 still counts Mama Beak's Quicksilver toward the carry, and game 77's fielded carry stays itemless all stage while the item planner calls him benched. Those failed transfers/direct gives remain Editor faults; prose does not repair identity or delivery. Game 77's equal-star higher-cost Sentinel at 4-5 must also inherit tank priority and the outside fighter-side protection. Preserve immediate owned upgrades, seven plus a useful support instead of an eighth Riftbeast, named support buys, cheap-copy collection, first-plan cleanup, Scuttlecrab Alpha and preset legal two-slot Dragon entry. Game 77 4-1 should retain Scuttlecrab 2 over Mama Beak 1 when adding Sentinel, rather than selling the stronger frontline Alpha. Never justify a weak owned board with an imaginary future shop hit.\n\nPermitted strong-player material supports state-dependent conversion and restraint: Wasianiverson 4-1 starts 40/56 with 62g, so eight costs only 16g; Borislavs naturally fields Brambleback at seven on 4-1 then converts at 4-2, explicitly retains Krug copies at 4-5 and discusses Wisp searching at 4-6. Robin's 4-6 warning against overrolling supports banking after stabilization, not skipping the owner's Wisp priority or fixing a shared reserve. Play-along round-boundary discrepancies do not replace material's starting XP. Different augments, code, latency, owned boards and target luck confound outcome comparisons: game 75's 4-1 has 3 target hits against about 6.7 expected, and game 77's 4-3/4-5 each 1 against about 2.3. Those totals neither promise a specific carry nor excuse withheld owned power. Stage five's separate meta request is outside this candidate. Only this requested candidate is written; the Judge is not run and the installed strategy is not edited.",
+    "by": "Strategist after game 77",
+    "when": "2026-11-08T11:12:35",
+    "status": "rejected",
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "4",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-08T11:00:30",
+     "in_sample": {
+      "cases": 36,
+      "games": 6,
+      "base": [
+       44.67,
+       66
+      ],
+      "candidate": [
+       37.33,
+       66
+      ],
+      "better": 2,
+      "worse": 10,
+      "sign_p": 0.039
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       30.0,
+       33
+      ],
+      "candidate": [
+       31.33,
+       33
+      ],
+      "better": 1,
+      "worse": 1,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": false,
+     "reason": "rejected: more than 5% fewer points than the current version on in_sample"
+    }
+   },
+   {
+    "v": 8,
+    "text": "FIRST RULES on exact XP override these budgets. Aim for Brambleback 2 and an equipped frontline. While he is unowned, buy 8 with about 16+ gold after XP and roll that phase. Else bank at 7. Level 7 only with seven Riftbeasts owned, 50+ gold left or XP going on to 8. A next_round level leaves 10+ gold. If a loss could end the game, buy strength. No rolls below 8 but FIRST RULES' exception.\nAt 4-2 with carry unowned and too little for 8 plus rolls, Max Build/Commerce Core beat lower-tier combat augments.\nAt 8, each planning opening: no Wisp in the natural shop, roll unless sure to win, free rolls first. Below 20 gold up to 4 rolls, else 1-2. Reserve gold and time to buy a hit. Keep unfinished searches in rewrites; stop at lock, resume next opening. Interest never excuses skipping.\nBuy offered Krug, Pebbles, Cinderling toward 3-star.\nAt 8 keep seven Riftbeasts; the extra slot completes another trait step (Taric, Gnar, Sett, Rakan), never an off-comp body.\nItems: first six are Brambleback's three and the main tank's three, in turns; a pair that makes one combines now, even split across units. No component waits for a perfect item; no anti-heal yet: the next item is one. Shred items on an attacker beside Brambleback, never him; Crown/Cape/Shield never on him or the tank. Every item gets a holder this plan. Equip Brambleback on entry. Alpha on Scuttlecrab.\nOnce carry/frontline work, bank after the Wisp. Preset Dragon's hex. Hand stage 5 upgrades, copies and level budget.",
+    "why": "Checked v5 against the owner's rules added since it was last checked (owner-five-riftbeasts, owner-no-level-seven, owner-interest-early, owner-support-item, owner-first-six-items, owner-items-have-holders, owner-no-idle-components, owner-crown-no-stats) and the FIRST RULES around them. I kept every line that agrees and rewrote only the four places that disagree. (1) 'Find a missing 3-cost seventh at 7' and the unqualified 'If none, roll' Wisp search say to roll below level 8. The FIRST RULES forbid that ('no reroll below level 8 - none at level 7', except the one level-7 Wisp/pairs reroll and the last life), and owner-no-level-seven makes level 7 depend on seven owned Riftbeasts, 50+ gold left or XP going on to 8. The search is now 'at 8', and level 7 is stated as the owner's rule (this also follows the meta review 78-82's stage-3 ask: no hold of a level 7 that keeps 50g). The meta review notes the clause could not act because the executor refuses those rolls; game 82 made no roll below 8. (2) 'Fill the extra slot with ... or strongest body' contradicts owner-five-riftbeasts: past a step, the slot goes to a champion that completes another trait's step, and from level 8 an off-comp body is never a board candidate. It now names Taric/Gnar/Sett/Rakan. Game 82 4-1 was graded bad for leaving Caitlyn in where Hecarim made Vanguard 2. (3) 'Until 4-7 a single component may wait. From 4-5 build AD/tank pairs ... tanks first, unless reserved for a named item' contradicts owner-first-six-items (Brambleback's three and the tank's three in turns, combined at once even when split across units), owner-no-idle-components (no waiting for perfect items; anti-heal next when the team has none) and the FIRST RULE 'from stage 4 no item waits on the item bench'. Game 82 kept two components idle through stage 4 (meta 78-82). (4) Lines added because v5 never mentioned them: owner-support-item (shred items beside Brambleback, never on him), owner-crown-no-stats and owner-items-have-holders. owner-interest-early concerns stage 2 and does not touch this text. To fit 1,500 characters I cut wording only: the Krug/Pebbles/Cinderling buy-target clause (the comp notes and auto_buy hold it), 'sell a spare to fund a roll', and 'sell unused off-comp' (an owner rule the executor enforces). The level-8 conversion, the next_round floor, the 4-2 augment line, the Wisp-search budget and retention, and the handoff are v5's word for word or nearly. v6 and v7, broader rewrites, were rejected by the Judge, so this candidate stays close to v5.",
+    "by": "Strategist after game 82",
+    "when": "2026-11-09T14:23:43",
+    "status": "rejected",
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "4",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-09T14:08:16",
+     "in_sample": {
+      "cases": 36,
+      "games": 6,
+      "base": [
+       41.33,
+       66
+      ],
+      "candidate": [
+       42.0,
+       66
+      ],
+      "better": 3,
+      "worse": 3,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       30.0,
+       33
+      ],
+      "candidate": [
+       28.0,
+       33
+      ],
+      "better": 0,
+      "worse": 2,
+      "sign_p": 0.5
+     },
+     "tested": true,
+     "accept": false,
+     "reason": "rejected: more than 5% fewer points than the current version on held_out"
+    }
+   },
+   {
+    "v": 9,
+    "text": "FIRST RULES on exact XP override these budgets. Aim for Brambleback 2 and an equipped frontline. While he is unowned, buy 8 with about 16+ gold after XP and roll that phase. Else bank at 7. A next_round level leaves 10+ gold. If a loss could end the game, buy strength. Below 20 HP no roll limit: in the first seconds buy 8 if short, roll to 0-5 gold; gold kept at combat is wasted.\nAt 4-2 on a losing board, a combat augment over an economy one; else with carry unowned and too little for 8 plus rolls, Max Build/Commerce Core beat lower-tier combat augments.\nEach planning opening, check the shop for a Wisp. If none, roll unless sure to win, free rolls first. Below 20 gold up to 4 rolls, else 1-2. Reserve gold and time to buy a hit before lock. Keep unfinished searches in rewrites; stop at lock, resume next opening. Interest never excuses skipping. Sell a dispensable spare to fund a roll.\nBuy offered Krug, Pebbles and Cinderling toward 3-star, completing first. Avoid a reroll chase.\nAt 8 keep seven Riftbeasts, fill the extra slot with a useful Brawler/Vanguard/Ravager. Sell unused off-comp.\nUntil 4-7 a single component may wait. From 4-5 build available AD/tank pairs on fielded holders with room, tanks first, unless reserved for a named item. After 4-7 loot combine pairs. Equip completed items each phase, Brambleback on entry. Alpha on Scuttlecrab.\nOnce carry/frontline work, bank after the Wisp search. Preset Dragon's hex. Hand stage 5 upgrades, copies and level budget.",
+    "why": "Narrow revision of v5 as the meta review 83-87 asks (v6, v7, v8 were whole rewrites and the Judge rejected each); every other line of v5 stays, only shortened in wording to fit 1,500 characters. (1) Deleted 'Find a missing 3-cost seventh at 7': it contradicts the FIRST RULES (no reroll below level 8; no level 7 for a seventh slot at interest cost) and it acted - game 85 3-7 planned 'Search at level seven for the seventh Riftbeast before committing the bank to level eight' and 'Keep the bank for the planned level-seven search' (runs/20261109-172427/conversation.md:4637, :4719); the executor refused the rolls, so 4-1 fought at level 7 with 65 gold and fell 31 -> 19 HP, its level order landing at timer 1 of 4-2. (2) Added: below 20 HP no roll limit - buy 8 if short and roll to 0-5 gold in the phase's first seconds, since gold kept at combat is wasted. Game 86 held 26 gold at 19 HP (4-3), 30 at 19 (4-5) and 27 at 7 HP (4-6) on 'roll once before deciding' / 'keep the remaining gold through combat' and went out at 4-7; game 85 in the same state from 4-3 turned every gold into Krug 3* and Brambleback 2* and won five in a row on below-odds shops (0 of 1.7). Strong players convert the bank at 8 in one phase (Wasian 4-1 62 -> 10, Robin 4-1 54 -> 9). (3) 4-2 augment: on a losing board a combat augment beats an economy one - game 86 took Money Monsoon over Giant and Mighty after losing 4-1 and never spent its gold; the Max Build/Commerce Core line now applies only otherwise. Cuts for length: 'Keep their buy targets' (repeats the line before), 'or strongest body', 'affordable', 'after its natural shop', and the search-retention sentence put in fewer words.",
+    "sources": [
+     {
+      "game": "20261109-172427",
+      "round": "3-7"
+     },
+     {
+      "game": "20261109-172427",
+      "round": "4-1"
+     },
+     {
+      "game": "20261109-172427",
+      "round": "4-3"
+     },
+     {
+      "game": "20261109-180057",
+      "round": "4-2"
+     },
+     {
+      "game": "20261109-180057",
+      "round": "4-3"
+     },
+     {
+      "game": "20261109-180057",
+      "round": "4-5"
+     },
+     {
+      "game": "20261109-180057",
+      "round": "4-6"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "4-1"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "4-1"
+     }
+    ],
+    "by": "Strategist after game 87",
+    "when": "2026-11-09T20:03:18",
+    "status": "replaced",
+    "watch": {
+     "where": "Stage 4, every player round: 3-7/4-1 level plans, 4-2 augment pick, and every round fought below 20 HP (planning opening to combat lock).",
+     "expect": "No plan at 3-7/4-1 holds the bank for a level-7 search; level 8 is bought on the FIRST RULES' terms and a missing seventh comes from shops or the level-8 rolls. Below 20 HP the gold at combat is 0-5 (level 8 bought first if short), spent in the first seconds. At 4-2 after a 4-1 loss the pick is a combat augment.",
+     "risk": "Spending to 0-5 at 15-19 HP while the board already wins could cost the level-9 or stage-5 Wisp budget; an early roll-down could beat buying XP for 8, or roll before the shop's Wisp is decided; the combat-augment line could pass a strong economy card on a board that lost only to bad luck. The shortened search sentence could weaken search retention.",
+     "how": "games.jsonl and fight logs: gold and HP at each stage-4 combat lock (count rounds below 20 HP ending with >5 gold); conversation.md for 'level seven search' or 'keep the bank' at 3-7/4-1; the 4-2 augment choice vs 4-1 result; level at 4-1/4-2 combat; HP lost in stage 4 and the place, against games 85 and 86.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "4",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-09T19:54:03",
+     "in_sample": {
+      "cases": 36,
+      "games": 6,
+      "base": [
+       2.33,
+       66
+      ],
+      "candidate": [
+       0.0,
+       66
+      ],
+      "better": 0,
+      "worse": 4,
+      "sign_p": 0.125
+     },
+     "held_out": {
+      "cases": 18,
+      "games": 3,
+      "base": [
+       0.0,
+       33
+      ],
+      "candidate": [
+       0.0,
+       33
+      ],
+      "better": 0,
+      "worse": 0,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 10,
+    "text": "FIRST RULES on exact XP override these budgets. Aim for Brambleback 2 and an equipped frontline. Without Riftbeast 7 and Brambleback: level 8 at 4-1 and roll the gold left until both are complete. With Riftbeast 7 at level 7 and HP not low, level 8 can wait until about 4-5. A next_round level leaves 10+ gold. If a loss could end the game, buy strength. Below 20 HP no roll limit: in the first seconds buy 8 if short, roll to 0-5 gold; gold kept at combat is wasted.\nAt 4-2 on a losing board, a combat augment over an economy one; else with carry unowned and too little for 8 plus rolls, Max Build/Commerce Core beat lower-tier combat augments.\nEach planning opening, check the shop for a Wisp. If none, at level 8 roll unless sure to win, free rolls first. Below 20 gold up to 4 rolls, else 1-2. Reserve gold and time to buy a hit before lock. Keep unfinished searches in rewrites; stop at lock, resume next opening. Interest never excuses skipping. Sell a dispensable spare to fund a roll.\nBuy offered Krug, Pebbles and Cinderling toward 3-star, completing first. Avoid a reroll chase.\nAt 8 keep seven Riftbeasts; the extra slots take MetaTFT's level-8 units by their rank, each completing a tier. Sell unused off-comp.\nUntil 4-7 a single component may wait. From 4-5 build available AD/tank pairs on fielded holders with room, tanks first, unless reserved for a named item. After 4-7 loot combine pairs. Equip completed items each phase, Brambleback on entry. Alpha on Scuttlecrab.\nOnce carry/frontline work, bank after the Wisp search. Preset Dragon's hex. Hand stage 5 upgrades, copies and level budget.",
+    "why": "The owner, x31.3/x31.5: level 8 at 4-1 and roll until Riftbeast 7 with Brambleback is complete (no reroll at 7); with Riftbeast 7 at 7 and HP not low, 8 can wait to about 4-5; extras by MetaTFT's level-8 ranking. Only those sentences change.",
+    "by": "the owner (2026-11-10, game 81 points x31)",
+    "when": "2026-11-10T02:30:00",
+    "status": "current",
+    "watch": null,
+    "judge": null
+   }
+  ],
+  "5": [
+   {
+    "v": 1,
+    "text": "Finish the carry/frontline before buying luxury slots. If Brambleback is still 1-star, level-8 shops remain the natural four-cost search; level 9 changes four-cost odds only 30% -> 33%. With a working itemed carry and tank, save for a useful ninth unit and the five-cost search (3% -> 15%). Observed level-9 buys differ: Borislavs 5-2 (53 -> 1), Wasian 5-3 (70 -> 12), Robin 6-1 (47 -> 0). Maintain seven, Murkwolf/Ravager and Pebbles+Sentinel/Invoker; add Gnar/Brawler or Taric/Vanguard and a deliberate link. Dragon 2 is a valuable late upgrade when actually fielded. Keep close useful upgrade copies and space/gold to buy hits; sell obsolete filler. At a stable board with no pairs, Wasian stops around 10 for combat Wisps instead of emptying every round; with lethal pressure spend for current power. Carousel/anvil items must have a named fighting recipient: finish the real tank or useful secondary damage rather than an idle set. Scout Brambleback's weak-side approach and enemy CC before each duel. Level 10 only buys value with a useful unit: Borislavs adds a Brawler there; Wasian instead favors Dragon 2. Yolo reaches 8 at 6-1 after low-cost rerolling, a different branch. Equip neutral loot and hand each next fight its concrete remaining upgrades.",
+    "why": "The three standard games reach nine at different times and budgets. Wasian's 5-5/6-3 words favor a Wisp reserve with no pairs and Dragon 2 over an unnecessary tenth slot; Borislavs' 6-6 supplies the contrasting funded Brawler addition. Robin stays eight through stage 5. No reviewed games of ours are supplied, and these successful examples do not establish a compulsory level-9 deadline.",
+    "sources": [
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "5-2",
+      "evidence": "Level 8 -> 9, gold 53 -> 1; Dragon with TG already fighting."
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "5-3",
+      "evidence": "Level 8 -> 9, gold 70 -> 12."
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "5-5",
+      "evidence": "The player says no pairs, no point rolling to zero, stay above 10 for a good charm."
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "6-3",
+      "evidence": "The player prefers Dragon 2 to level 10 and retains money for a charm."
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "6-6",
+      "evidence": "Opened 001302: level 10, commentary describes the additional Brawler/Gnar."
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "6-1",
+      "evidence": "Opened 001180: level 9 after staying eight throughout stage 5."
+     },
+     {
+      "game": "vod-yt-0vjLekc60Mg",
+      "round": "6-1",
+      "evidence": "Opened 000618: level 8 only now; 25 observed shops, including banked free refreshes."
+     }
+    ],
+    "by": "comp coach",
+    "when": "2026-11-01T18:59:34",
+    "status": "replaced",
+    "watch": null,
+    "judge": null
+   },
+   {
+    "v": 2,
+    "text": "Levels: while Brambleback is 1-star, stay 8 and roll for him whatever your HP (4-cost odds 30% at 8, 33% at 9). Once he is 2-star and itemed, decide at 5-1: with HP 30+ and a board that wins, bank at 8 and buy 9 with exact XP buys once the gold covers it (about 56-64, by 6-1 at the latest), then roll at 9 for the 5-costs. With HP under 30, two losses in a row, or 9 out of reach by 6-1, level 8 is final: spend from 5-1 to the interest step you can hold on Krug/Pebbles 3-star copies, Gnar, Taric, Elder Dragon and Wisps. Level 10 only for a real tenth unit.\nBoard: Riftbeast 7 is enough. The next slot is Brawler 2 (Gnar), then Vanguard 2 (Taric); with Elder Dragon's two slots at level 8, Gnar fights before Taric, and the unit out is a Riftbeast past the seventh or an itemless 1-2 cost. Set the hex of any 5-cost you may buy in the plan before the roll, so he fights the round he is bought.\nItems: Brambleback holds three finished AD items. Carousel order: Sterak's, Gargoyle, Bramble Vest, Bloodthirster, Protector's Vow, Evenshroud; never an AP item. A carousel or anvil item goes to a named fielded unit; Krug's slots take tank items, never a lone Rod or Rabadon's.\nGold: at 15 HP or less the floor is 0 and the rolls go first. On a stable board keep about 10 for combat Wisps; when a roll shows a Wisp, buy it before rolling on.",
+    "why": "Revision of the unjudged game-58 candidate (candidates/20261103-143833-stage-5.json), which replaces v1, with game 59 added to its evidence. Kept: the 1-star-carry search goes first and is now explicitly 'whatever your HP'. Game 59 entered 5-1 at 68 HP with no Brambleback and rolled at 8 from 5-1 to 6-2 (5-1 17->8, 5-3 34->11, 5-5 21->4 found him). Economy, levelling and rolling were graded ok or good every round, so an HP-30 bank split must not come before the search. Kept: the reach check (level 9 needed 56 g at 5-1 against 17 held, so level 8 was final), the bank-and-9-by-6-1 branch (game 58, 1st), the 0 floor at 15 HP (game 57 6-2). Changed from the game-58 text: (1) the board line names the level-8 slot problem. Elder Dragon takes two slots, Gnar was owned from 5-3 and never fought, the board never had Brawler 2 (g59 5-3 to 6-2), and Taric fought instead. Strong players and MetaTFT's level-8 board field Gnar, so Gnar comes before Taric. (2) 'Elder Dragon fights from the round he is bought' becomes a plan step: set the 5-cost's hex before the roll, because at 5-1 Elder Dragon and at 5-3 Taric sat benched the round bought (board bad). The owner's rule already says field him, and the failure was timing. (3) Items: the carousel order is named, because the 5-4 list ranked Void Staff and Rabadon's first (carousel bad), and Krug's slots get tank items only (5-5: Rabadon's and a lone Rod filled them, items bad). This follows the owner's no-AP rule; the reviewer's 'Rabadon's on Krug at most' is not used, under that rule. Dropped the AP-Booster-on-Krug allowance for the same reason. (4) Wisp: buy a shown Wisp before rolling on (g59 5-2 Living Soil and 6-2 Aftershock/Barrier rolled past, graded bad; mostly the harness's, the line makes the plan say it). The 6-2 sale of the itemed Brambleback (very bad) was a harness identity loss, not the strategy's fault, so it goes to the Editor.",
+    "sources": [
+     {
+      "game": "20261103-233832",
+      "round": "5-1"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "5-2"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "5-3"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "5-4"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "5-5"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "6-1"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "6-2"
+     },
+     {
+      "game": "20261103-143833",
+      "round": "5-1"
+     },
+     {
+      "game": "20261103-143833",
+      "round": "6-1"
+     },
+     {
+      "game": "20261103-143833",
+      "round": "6-3"
+     },
+     {
+      "game": "20261103-131835",
+      "round": "5-1"
+     },
+     {
+      "game": "20261103-131835",
+      "round": "6-2"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "6-1"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "5-2"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "5-3"
+     }
+    ],
+    "by": "Strategist after game 59",
+    "when": "2026-11-04T01:28:49",
+    "status": "replaced",
+    "watch": {
+     "where": "stages 5-7 from 5-1: the level decision at 5-1, rolls while Brambleback is 1-star, the slot past Riftbeast 7 at level 8 with Elder Dragon, whether a 5-cost bought in a roll fights that round, carousel/anvil choices and Krug's items, and Wisps shown during rolls",
+     "expect": "with a 1-star carry: rolls at 8 regardless of HP. With a 2-star carry at HP 30+: a bank and level 9 by 6-1. Otherwise level 8 is named final at 5-1 and the gold is spent. Gnar fields the round he is owned, with Brawler 2 on the traits line. Elder Dragon, Gnar and Taric fight the round they are bought. The carousel picks from the AD/tank order. No AP item on any unit. A shown Wisp is bought.",
+     "risk": "Gnar over Taric can cost Vanguard 2's shield in a game where the frontline was the weak point. Rolling at 8 at high HP with a 1-star carry can drain a bank that a level 9 with better 5-cost odds would have used. Pre-setting a 5-cost hex can leave a slot planned for a unit that never shows, so the board runs one short.",
+     "how": "stage-5/6 reports' board, items, carousel, economy, levelling and rolling grades. The traits line for Brawler 2 / Vanguard 2 per round. The bench list in the round a 5-cost is bought. calls/*-sent.txt for the stated level plan at 5-1. Gold per round 5-1 to 6-2 against HP. Wisps grades (6.0 in g59, 7.0-7.6 in other v1 games).",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "5",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-04T01:10:31",
+     "in_sample": {
+      "cases": 60,
+      "games": 6,
+      "base": [
+       75.67,
+       113
+      ],
+      "candidate": [
+       74.33,
+       113
+      ],
+      "better": 1,
+      "worse": 3,
+      "sign_p": 0.625
+     },
+     "held_out": {
+      "cases": 27,
+      "games": 3,
+      "base": [
+       40.33,
+       51
+      ],
+      "candidate": [
+       41.67,
+       51
+      ],
+      "better": 3,
+      "worse": 1,
+      "sign_p": 0.625
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 3,
+    "text": "Levels: if 5-1 opens below level 8 with Brambleback 0-1 star, take 8 this phase if gold is left to roll, else next phase; never fight 5-3 at 7. While he is 0-1 star, stay 8 and roll for him, Sentinel and Krug/Pebbles copies whatever your HP; no Wisp reserve then, and after a loss the floor is 0. Once he is 2-star and itemed: with HP 30+ and a winning board, bank at 8 and buy 9 with exact XP buys when gold covers it (56-64, by 6-1), then roll at 9 for 5-costs. With HP under 30, two losses in a row or 9 out of reach by 6-1, level 8 is final: spend to the interest step you can hold on 3-star copies, Gnar, Taric, Elder Dragon, Wisps. Level 10 only for a real tenth unit.\nBoard: Riftbeast 7 is enough; next Gnar (Brawler 2), then Taric (Vanguard 2); with Elder Dragon at 8, Gnar before Taric, out goes a Riftbeast past the 7th or an itemless 1-2 cost. Set a 5-cost's hex before the roll. Every slot fights: when a merge frees one, field the best benched unit in the same plan, before new buys.\nItems: Brambleback holds three AD items. Carousel order: Sterak's, Gargoyle, Bramble Vest, Bloodthirster, Protector's Vow, Evenshroud; never list an AP item. Every completed item fights on a fielded unit: before benching a holder, Remover its items onto a fielded unit (AD to Murkwolf, tank items to the strongest fielded tank).\nGold: at 15 HP or less the floor is 0. Keep about 10 for combat Wisps only with Brambleback 2-star on a winning board. A Wisp a roll shows is bought before rolling on.",
+    "why": "Keeps v2's 2-star branch (game 60, 1st: bank at 8, level 9 at 5-3, 10 at 6-2), the slot order, the 5-cost hex step and the carousel order. Game 61 opened 5-1 at level 7, 44 g, Brambleback 0 of 3, a state v2 did not name; it reached 8 only at 5-2 with 11 g and had about 10 rolls at 8 in the stage (copies about as expected), out at 5-5. Changes: (1) a no-carry line: below 8 at 5-1 with the carry 0-1 star, take 8 this phase if gold is left to roll, else next, never fight 5-3 at 7; the roll line now names Sentinel and Krug/Pebbles copies and floor 0 after a loss (g61 5-2 floor 10 and 5-3 floor 8 at 28 HP after losses; game 59 5-1 to 6-2 rolled at 8 with the carry missing and found him). (2) The ~10 g Wisp reserve applies only with Brambleback 2-star on a winning board (g61 5-2 'keeping about 10 gold for Wisps' at 28 HP after a loss, carry 0 of 3); a shown Wisp is still bought first, so the owner's Wisp rule is unchanged. (3) Every completed item fights: Remover before benching a holder (g61 5-3 Quicksilver benched on Mama Beak 'for Brambleback', items bad, 7 Remover uses). Tank items go to the strongest fielded tank, not a fixed Krug, per the owner's game-59 note (Sentinel 2* with Vanguard over Krug). (4) A slot freed by a merge is filled from the bench in the same plan before new buys (g61 5-5: Krug 3* merge, Pebbles** benched, Elise bought at timer 0, 7 of 8 fought, board bad). (5) 'never list an AP item' for the carousel (g61 5-4 listed Ionic Spark 7th and dropped Gargoyle). The 5-5 rolled-past Wisps (All Fours, Training Yard) and the unbought 'hug' are harness faults for the Editor. The level-8-by-4-2 gap belongs to stage 4.",
+    "sources": [
+     {
+      "game": "20261104-123556",
+      "round": "5-1"
+     },
+     {
+      "game": "20261104-123556",
+      "round": "5-2"
+     },
+     {
+      "game": "20261104-123556",
+      "round": "5-3"
+     },
+     {
+      "game": "20261104-123556",
+      "round": "5-4"
+     },
+     {
+      "game": "20261104-123556",
+      "round": "5-5"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "5-1"
+     },
+     {
+      "game": "20261103-233832",
+      "round": "5-5"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "5-3"
+     },
+     {
+      "game": "20261104-102852",
+      "round": "6-2"
+     },
+     {
+      "game": "vod-yt-uGe9tKj0b_I",
+      "round": "5-2"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "5-5"
+     }
+    ],
+    "by": "Strategist after game 61",
+    "when": "2026-11-04T14:14:30",
+    "status": "replaced",
+    "watch": {
+     "where": "stages 5-7: the level at 5-1/5-2 when 5-1 opens below 8; roll floors while Brambleback is 0-1 star; the Wisp reserve; where completed items sit when a holder is benched; slots after a 3-star merge; the carousel list",
+     "expect": "level 8 taken by 5-2 at the latest when below 8 at 5-1; with the carry 0-1 star no ~10 g reserve and floor 0 after a loss; no completed item on a benched unit (items grades); 8 fielded at level 8 after a merge (board grades, 'fielded' count); the carousel list has Gargoyle when offered and no AP item.",
+     "risk": "floor 0 after a loss at 30+ HP can leave no gold to buy a 2nd copy or reach the 2-star bank-and-9 branch, and dropping the reserve can miss a combat Wisp (owner: Wisps ~70% of stage 4-5 focus); taking 8 at 5-1 with few gold left can give a weak 5-2 roll.",
+     "how": "stage-5/6 reports' economy, rolling, levelling, items, board and wisp grades; gold per round against HP and Brambleback stars in the packet; calls/*-sent.txt for the floor and reserve each plan states; Wisps score against 6.0-6.9 in games 59-61.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "5",
+     "model": "claude-opus-5-5 medium",
+     "samples": 3,
+     "when": "2026-11-04T13:54:49",
+     "in_sample": {
+      "cases": 60,
+      "games": 6,
+      "base": [
+       75.67,
+       113
+      ],
+      "candidate": [
+       74.0,
+       113
+      ],
+      "better": 0,
+      "worse": 2,
+      "sign_p": 0.5
+     },
+     "held_out": {
+      "cases": 27,
+      "games": 3,
+      "base": [
+       40.33,
+       51
+      ],
+      "candidate": [
+       39.33,
+       51
+      ],
+      "better": 1,
+      "worse": 3,
+      "sign_p": 0.625
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   },
+   {
+    "v": 4,
+    "text": "Each PvP round in 5-7, Wisp first at every carry star/HP: buy a useful offer; otherwise search until acquired or refresh+purchase is unaffordable. Budget 2g/refresh plus the Wisp price, not one roll or a blanket 5g reserve; wins/interest prove no certainty. Equip Wisp items before combat.\nReach 8 with search money; use exact XP. With Brambleback 0-1 star, search at 8 after the Wisp. With him equipped at 2 stars, fund a useful ninth slot plus Wisp/search/hits, else strengthen 8. After the Wisp, spend a large late bank on near-complete carry/tank/5-cost upgrades; keep hit costs. With no pairs, roll less after the Wisp. Buy 10 only for a useful addition.\nBefore rolling clear bench space and obsolete buys; buy visible upgrades first. Preset Dragon's hex and exits freeing his two slots; count +2 Riftbeast, retain seven and key pairs. Field him at 1 star immediately; retain the owned board until a hit. Fill merge vacancies. Keep fielded Crab the default Alpha at seven.\nReassess holders after upgrades: suitable AD to Brambleback now; prepared IE/LW/Flail to Dragon even at 1 star. Remover/sell departing holders, return all items to legal fielded slots and verify before rolling. Tank items to the strongest frontline; select AD/tank items for named recipients and combine post-4-7 components.\nPut LW on Brambleback's side and Evenshroud in range of his/Dragon's targets. Preserve augment rows: Solo Plate Krug alone in his row need not isolate Sunder on the opposite flank.",
+    "why": "Replace stage-5 v3's contradictory 'no Wisp reserve' for Brambleback 0-1 star and 'only ... winning board' reserve with owner-wisps in every carry/HP state, including low-bank or losing boards. Remove the automatic zero floor after a loss and fixed HP/round deadlines: fund the actual immediate resource, not a compulsory zero or interest floor. Game 70 5-2/5-5 deliberately stopped after one roll without a Wisp at 16/20g; the player's review answer confirms interest/five-cost caution while winning. Game 69 5-5 is a different cause: its funded search and spare-Pebbles sale were authorized but blocked by the mandatory 2+5g reserve and sale protection. At 6g, a 2g refresh can leave 4g for an affordable Wisp; a five-cost champion search instead needs its actual 5g hit price (at least 7g before a paid refresh). Do not presume any specific Wisp will appear or invent its probability. Once an appropriate combat Wisp is confirmed bought, stop the Wisp search, equip its temporary reward and reassess upgrades. Game 70 5-6's purchased 2g Phantom Vest is the positive control, not another round to exhaust needlessly.\nKeep the eight-versus-nine distinction: game 67 needs four-cost upgrades at eight; game 69 cannot afford nine; game 70 5-1 has Brambleback/Sentinel two-star and can pay 56g from 67g for nine with 11g left. Its later 71g at nine with Dragon missing and Gnar/Taric/Krug one-copy upgrades deserves a substantial funded search after the Wisp, unlike the small banks at eight. Do not copy a fixed spend floor or round. Wasian 5-5/6-3 has no pairs and retains charm money; Vladdy 5-5/6-1 spends about 24g on units/rolls. Those contrasting states support selective spending, not a blanket late all-in.\nPreset legal two-slot Dragon entry, bench capacity and final hexes while retaining an owned fallback until the hit. Game 67 5-7 fields natural Dragon immediately; game 69 5-6 and game 70 6-3 miss an owned Dragon despite intended entries. Dragon's two slots are capacity, not an empty-unit fault. Reassess holders when Brambleback upgrades (70 4-6 IE remains on wolf while carry has space), then give Dragon his prepared suitable items at one star rather than the unjustified two-star gate at 70 6-5. Game 67's completed 6-2 handoff is a positive contrast; game 69 6-1's strip without completed re-gives is an Editor fault, not proof the allocation was bad. Preserve the equipped main carry's suitable full package; Dragon's map is not an instruction to strip that package blindly. Align LW with Brambleback and Evenshroud with the physical target lane: 67 Sentinel (2,2) can move to the right in row 2 while Solo Plate Krug remains alone in row 3. Preserve the owner's fielded-Crab Alpha default. Confirmed acquisitions/holders before lock, not forecasts, later hits, wins or first place, decide whether power was delivered. The favorable second 70 6-5 shop group (4 versus about 2.3 expected, mostly after lock) does not validate the earlier delay.\nThe named per-game diff-5.json, diff packet and per-game summary are absent. The meta review explicitly says this batch used Job 6 comparisons and no separate Jobs 2-4; this proposal uses the existing stage-5/6/7 comparisons, audits, digest, played snapshot, player answers, owner rules, material and allowed play-alongs instead. All three stored stage versions were read; v2/v3 passed the existing Judge tolerance, which does not settle these Wisp/Dragon/item cases. Write only this candidate for the existing Judge path; do not run the Judge or edit stages.json. Correct authorized actions blocked by reserve, sale, identity, retry or scheduling guards remain Editor faults.",
+    "by": "Strategist after game 70",
+    "when": "2026-11-06T17:16:46",
+    "status": "rejected",
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "5",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-06T16:54:48",
+     "in_sample": {
+      "cases": 60,
+      "games": 6,
+      "base": [
+       73.67,
+       113
+      ],
+      "candidate": [
+       73.33,
+       113
+      ],
+      "better": 4,
+      "worse": 5,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 27,
+      "games": 3,
+      "base": [
+       38.33,
+       51
+      ],
+      "candidate": [
+       35.67,
+       51
+      ],
+      "better": 1,
+      "worse": 4,
+      "sign_p": 0.375
+     },
+     "tested": true,
+     "accept": false,
+     "reason": "rejected: more than 5% fewer points than the current version on held_out"
+    }
+   },
+   {
+    "v": 5,
+    "text": "PvP in stages 5-7: preset combat Wisps buy at every carry star. No Wisp: search now; finished board or stage 6: refresh first. Budget actual offer price plus refreshes; use rewards now. Wisp-dependent rolls need confirmed purchase.\nFirst plan: sell unused units, clear obsolete buys, buy shown upgrades, fund XP/Wisp/hits; name hit hexes. Reach 8 under FIRST RULES. At 8 seek Brambleback 2 and tank/cheap upgrades. Use free rolls for live upgrades; no two-roll cap with a last-copy tank and money. Outside verified last life keep hit money: paid refresh plus 4g carry/5g target; price Wisp searches separately. Verified last life: affordable next level first, then roll with no floor.\nEquipped Brambleback 2: bank for 9 only with priced XP, useful owned slot and Wisp/hits funded; otherwise finish near-complete upgrades at 8. Core finished, no pairs: save after Wisp. Buy 10 for real value.\nPreset Dragon's hex/two exits: two slots, +2 Riftbeast, keep 7 and stronger same-role owned units. Keep fallback until bought; field at 1 star; fill merge gaps. Gnar/Taric over Rakan; Alpha on fielded Crab.\nFinish primary items before banking/secondary sets: three AD on Brambleback (no AP), three tank on strongest tank, stars then cost. Favor carry when either fits, then alternate; tank-only combines now. Evenshroud first. Remover/sell actual holders; verify equipped slots, not forecasts. Open containers in plan; combine post-4-7 components. Main tank outermost on fighters' side; LW same side.",
+    "why": "Replace current stage-5 v3's explicit 'no Wisp reserve' with a preset, funded combat-Wisp policy at every carry star. Remove reserve-only-on-a-winning-two-star-board, zero-floor-after-any-loss, fixed 15-HP all-in, fixed nine-by-6-1 and fixed carousel-order advice. These subordinate clauses conflict with newer owner rules or ignore the actual purchase and recipient. Preserve v3's level-eight carry search, immediate offered cheap upgrades, useful final-board supports and merge-vacancy filling. This is a candidate for the existing Judge path, not a shipped change.\n\nThe meta 66-70 request already produced v4, which was rejected: in-sample 73.33 versus 73.67, held-out aggregate 35.67 versus 38.33, beyond the Judge tolerance. All four version records and their recorded verdicts were read. Those aggregate results do not identify a failed decision or authorize inspecting held-out games. This rewrite retains the owner-required Wisp correction but adds concrete hit reserves, verified-last-life level-first ordering, first-plan financing and the strongest same-role retention missing from that proposal. It does not claim to have repaired the rejected score.\n\nFor Wisp priority, game 70 (20261106-141909) 5-2/5-5 deliberately capped the missing-Wisp search while retaining money; 5-6's confirmed 2g Phantom Vest is the positive control for stopping further Wisp searching once acquired. Game 69 (20261106-133856) 5-5 had 6g and an authorized spare sale, but a mandatory 2+5g champion reserve blocked even a cheaper Wisp search. Budget the live offer and the current objective: paid refresh 2g, free refresh 0g, actual Wisp purchase price; do not impose a five-cost reserve on every Wisp attempt. Set strategy.wisp_flag before rolling and use bought consumables/items before the fight. A shop-changing Wisp must actually be bought before its dependent roll. The owner's finished-board/stage-six instant refresh remains explicit. Game 74 (20261107-213309) 6-2 first paid 28g from 29g for nine and the owned Cinderling slot, but postponed financing/search to another reply. Put expendable sales and Wisp financing in the first executable plan alongside urgent XP; 6-3's immediate 2g preset purchase is a delivery control.\n\nGame 76 (20261108-082600) 5-1 has eight Krug copies and free refreshes while nine costs 56g against 42g. Its 5-2 opening prompt actually reads 16/68 XP, 52g for nine and 48g held; the meta's 54g is not substituted for that prompt. Only two of five free refreshes run; after Gnar/Blaze it retains 40g and three free refreshes. Further funded free and paid searches have present value for Krug's final copy and deployable upgrades; they are not spent because of expiry, and no hit is guaranteed. Contrast game 77's 5-1/5-2 appropriate level-eight carry search: nine is unfunded, but side buys and the regular fast search breach the promised hit money. At 5-3, selling unused 5g Ivern funds the shown 4g Brambleback and two 1g Cinderlings, immediately completing two stars. Preserve such deterministic upgrades before further gambling. Outside verified last life, a paid refresh seeking a four-cost needs 6g before it and a five-cost needs 7g; a free refresh needs only the actual purchase money. These are resource costs, not a universal residual floor. Game 74/77 holding a small 5g hit bank is different from game 76's large unused bank. Reassess affordable named alternatives rather than letting one target's reserve veto every other hit.\n\nThe level branch compares real XP, the useful owned extra slot and remaining Wisp/search/purchase funds with current near-complete upgrades. An equipped two-star carry can bank toward funded nine; no-pair saving applies only to a finished core after the Wisp. Wasianiverson (vod-yt-nA0DbvL9XNg) 5-3 buys nine from 70g and retains about 12g; 5-5/6-3 explicitly favors charm money without pairs and Dragon two-star over a useless tenth slot. Robinsongz (vod-yt-n22_elVXTyk) 5-3 instead spends heavily at eight; material ends at 1g while the play-along's annotated endpoint is 4g, so neither is an exact prescribed floor. Vladdy (vod-yt-QBWbKpZVCPo) 5-1 has a funded nine and 5-5/6-1 spends for upgrades at nine. Different banks, augments and completion states do not establish a mandatory round or identical spending. In verified last life the owner overrides ordinary reserves: buy an affordable next level first, then roll without a floor. Game 77 5-5 cannot afford nine, so its no-floor search is sound. Game 74 5-6's false one-HP latch and 22 automatic rolls are harness faults; its 60g/36-of-68 state funds 32g nine plus 28g, and is not evidence for universal all-in at eight.\n\nRetain game 74 5-5's completed two-slot Dragon entry as the legal deployment control, but correct the outgoing-unit choice using owner-item-holders: retain Cinderling three-star over a lower/equal-cost two-star of the same role while retaining seven and the essential unit jobs. The 6-1 owned Cinderling/Pebbles comparison supports this; do not turn the reviewer's later Cinderling liquidation suggestion into an unconditional rule. Dragon counts as two Riftbeasts total and two champion slots; a Training Dummy costs no champion capacity. Preset the actual two exits, bench room and hexes, keep an owned fallback until a purchase is confirmed and field Dragon at one star immediately. Gnar/Taric replace extra Rakan; compare their actual control, Brawler health and Vanguard/shields rather than demanding Gnar in every state.\n\nPrimary equipment is a completion condition before ordinary banking or secondary sets, not a rigid carry-three-then-tank-three build sequence. Follow the owner's flexible carry/tank alternation, immediate tank-only combines and Evenshroud priority. Reassess strongest tank by stars then cost after upgrades and protect the fighter side. Game 74 5-1's already completed Brambleback package and its 4-6 handoff are delivery controls; 76 5-1 and 77 5-1/5-2 instead count remote or forecast items. At 77 5-5 Rageblade belongs in Brambleback's genuinely open third slot, not on Gnar because undelivered Titan's is forecast there. Open the paid anvil in the action JSON, equip its result, recover the actual holders' items and verify recipients. Keep Last Whisper on the carry side, fielded Crab as Alpha and post-4-7 combines under FIRST RULES. Correct requests suppressed by the item planner, stale dependencies, reserves, identity or scheduling remain Editor faults; this prose does not claim to fix them.\n\nThe named per-game diff-5.json, diff packet and individual summary do not exist. The 73-77 meta explicitly documents the absence of individual Jobs 2-4. Evidence comes from the existing Job 6 stage-5/6 comparisons, per-stage audits, digest, raw prompt/action sections, current owner rules, comp notes, material and allowed play-alongs. Games 73/75 have no stage-five decisions, 76 has no playable 5-3, and only 74 reaches six; terminal artifacts and placement are not evidence of a better decision. No study request is needed for this correction.",
+    "sources": [
+     {
+      "game": "20261108-082600",
+      "round": "5-1"
+     },
+     {
+      "game": "20261108-082600",
+      "round": "5-2"
+     },
+     {
+      "game": "20261108-085843",
+      "round": "5-1"
+     },
+     {
+      "game": "20261108-085843",
+      "round": "5-2"
+     },
+     {
+      "game": "20261108-085843",
+      "round": "5-3"
+     },
+     {
+      "game": "20261108-085843",
+      "round": "5-5"
+     },
+     {
+      "game": "20261107-213309",
+      "round": "4-6"
+     },
+     {
+      "game": "20261107-213309",
+      "round": "5-1"
+     },
+     {
+      "game": "20261107-213309",
+      "round": "5-5"
+     },
+     {
+      "game": "20261107-213309",
+      "round": "5-6"
+     },
+     {
+      "game": "20261107-213309",
+      "round": "6-1"
+     },
+     {
+      "game": "20261107-213309",
+      "round": "6-2"
+     },
+     {
+      "game": "20261107-213309",
+      "round": "6-3"
+     },
+     {
+      "game": "20261106-141909",
+      "round": "5-2"
+     },
+     {
+      "game": "20261106-141909",
+      "round": "5-5"
+     },
+     {
+      "game": "20261106-141909",
+      "round": "5-6"
+     },
+     {
+      "game": "20261106-133856",
+      "round": "5-5"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "5-3"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "5-5"
+     },
+     {
+      "game": "vod-yt-nA0DbvL9XNg",
+      "round": "6-3"
+     },
+     {
+      "game": "vod-yt-n22_elVXTyk",
+      "round": "5-3"
+     },
+     {
+      "game": "vod-yt-QBWbKpZVCPo",
+      "round": "5-1"
+     },
+     {
+      "game": "vod-yt-QBWbKpZVCPo",
+      "round": "5-5"
+     },
+     {
+      "game": "vod-yt-QBWbKpZVCPo",
+      "round": "6-1"
+     }
+    ],
+    "by": "Strategist after game 77",
+    "when": "2026-11-08T11:31:32",
+    "status": "current",
+    "watch": {
+     "where": "Stages 5-7 PvP planning: Wisp funding and first refresh, eight-versus-nine decisions, free/paid searches with near-complete upgrades, verified-last-life level-first spending, first-plan sales, Dragon arrival and primary-item delivery.",
+     "expect": "Preset combat Wisp acquisition is funded at every carry star; no-Wisp finished-board/stage-six refresh starts immediately with financing already in the first executable plan. Shown completing copies buy before gambling. Unfunded nine does not protect a large bank and unused free refreshes when important upgrades remain; searches stop for actual upgrade completion and leave real hit money outside verified last life. Verified last life buys an affordable level first, then spends without a floor. A purchased Dragon enters legally in two slots with seven retained and stronger same-role units kept. Available primary items actually equip before secondary allocations/banking.",
+     "risk": "Wisp searches can consume the purchase bank or delay an affordable useful level; excessive upgrade searches can postpone funded nine when no meaningful pairs remain. A broad cleanup can sell a necessary stronger unit or live upgrade copies. Two-slot swaps or item transfers can lose essential traits, misplace the main tank, exhaust Remover uses or consume the phase. Treating stale HP as verified last life could repeat game 74's false emergency.",
+     "how": "For the next three games reaching these states, record delivered strategy version, model/code, live HP evidence, XP, bank, free rolls, owned copies/slots and augment income before comparing decisions. Match opening execution_plan sells/buys/XP/rolls and wisp_flag to log timestamps: first search, offer price, confirmed payment/reward use, actual refresh costs, purchase reserves after incidental buys, and bank/free rolls at combat lock. Distinguish 76's 40g/three-free/last-Krug case from 74/77's 5g hit bank and from a finished no-pair board. Compare requested versus executed actions separately, with measured shop luck and unread rows. Check raw affordable-level arithmetic before any true emergency spend; exclude false HP latches and terminal artifacts. For Dragon use occupied team slots rather than champion/dummy count, verify retained same-role stars and seven Riftbeasts, arrival before lock and fallback until ownership. Check actual three primary carry/tank items, holder changes after upgrades, anvil opening, components, tank-side protection and Last Whisper coverage; remote/forecast items do not count. Use 74's 5-5 Dragon/6-3 preset Wisp and 77's 5-3 funded shown upgrades as delivery controls. Report unavailable triggers without fabricating outcomes; placement or fight result alone proves neither improvement nor failure.",
+     "games": 3
+    },
+    "judge": {
+     "comp": "Riftbeast Brambleback",
+     "stage": "5",
+     "model": "gpt-6.1-terra high",
+     "samples": 3,
+     "when": "2026-11-08T11:12:36",
+     "in_sample": {
+      "cases": 60,
+      "games": 6,
+      "base": [
+       75.0,
+       113
+      ],
+      "candidate": [
+       73.33,
+       113
+      ],
+      "better": 10,
+      "worse": 9,
+      "sign_p": 1.0
+     },
+     "held_out": {
+      "cases": 27,
+      "games": 3,
+      "base": [
+       39.33,
+       51
+      ],
+      "candidate": [
+       40.67,
+       51
+      ],
+      "better": 6,
+      "worse": 5,
+      "sign_p": 1.0
+     },
+     "tested": true,
+     "accept": true,
+     "reason": "accepted: no more than 5% fewer points (sampling noise) than the current version on in_sample and held_out"
+    }
+   }
+  ]
+ }
+}

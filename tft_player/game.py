@@ -113,7 +113,8 @@ def _kill_switch():
 import os as _os  # noqa: E402
 import threading as _threading  # noqa: E402
 
-_threading.Thread(target=_kill_switch, daemon=True, name='f8-kill-switch').start()
+if not _os.environ.get('TFT_NO_KILL_SWITCH'):
+    _threading.Thread(target=_kill_switch, daemon=True, name='f8-kill-switch').start()
 
 
 def bring_to_front(hwnd) -> bool:
@@ -704,42 +705,84 @@ class Input:
 
 class ScreenRecorder:
     """A full video of the game (the user, 2026-10-10: every game recorded, a real video, not frames): ffmpeg in
-    its own process grabs the display by Desktop Duplication and encodes on the GPU (Intel Quick Sync), so the
-    player's loop pays little. 15 fps (30 took capture from ~25 to 15 fps in run 20261010-235723, with the
-    profiler also on), scaled to 1080 high. Fragmented mp4: the file plays even if the process
-    is killed mid-game. ffmpeg comes from the imageio-ffmpeg package."""
+    its own process grabs the display by Desktop Duplication and encodes on the GPU, so the player's loop pays
+    little. 15 fps (30 took capture from ~25 to 15 fps in run 20261010-235723, with the profiler also on), scaled to
+    1080 high. Fragmented mp4: the file plays even if the process is killed mid-game. ffmpeg comes from the
+    imageio-ffmpeg package.
 
-    def __init__(self, path, output_idx=0, fps=15):
+    The encoder is the first of ENCODERS this machine runs: Intel Quick Sync, NVIDIA, AMD, then the CPU - one that
+    exits within START_S is replaced by the next (a PC without Intel graphics recorded nothing with Quick Sync only).
+    Frames keep the times Desktop Duplication gives them: a constant frame rate filled the gaps with copies the
+    encoder could not keep up with, and the video stopped 9-12 minutes in (games 80-88, "More than 10000 frames
+    duplicated"; game 79, on the source's times, was whole)."""
+    ENCODERS = ('qsv', 'nvenc', 'amf', 'x264')
+    START_S = 3
+
+    def __init__(self, path, output_idx=0, fps=15, encoders=ENCODERS):
         import os
-        import subprocess
-        import imageio_ffmpeg
+        import threading
         self.path = path
-        hq = os.environ.get('TFT_VIDEO_HQ') == '1'      # --video-hq: 30 fps, native size, quality 20
-        fps = 30 if hq else fps
-        size = 'format=nv12' if hq else 'w=-1:h=1080:format=nv12'
-        quality = '20' if hq else '28'
+        self.hq = os.environ.get('TFT_VIDEO_HQ') == '1'      # --video-hq: 30 fps, native size, quality 20
+        self.fps = 30 if self.hq else fps
+        self.output_idx = output_idx
         self.log = open(str(path) + '.ffmpeg.log', 'w', encoding='utf-8')
-        self.proc = subprocess.Popen(
-            [imageio_ffmpeg.get_ffmpeg_exe(), '-hide_banner', '-loglevel', 'warning', '-y',
-             '-init_hw_device', 'd3d11va', '-filter_complex',
-             f'ddagrab=output_idx={output_idx}:framerate={fps},hwmap=derive_device=qsv,'
-             f'vpp_qsv={size}',
-             '-c:v', 'h264_qsv', '-global_quality', quality]
-            # high quality: a constant 30 fps and no B-frames (game 79: Desktop Duplication gives a frame only when the
-            # screen changes - 6.5 fps on average, "Non-monotonic DTS" all game; a 10 s test with these: 300 frames, none)
-            + (['-bf', '0', '-fps_mode', 'cfr', '-r', str(fps)] if hq else [])
-            + ['-movflags', '+frag_keyframe+empty_moov', str(path)],
-            stdin=subprocess.PIPE, stdout=self.log, stderr=self.log,
-            creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
+        self.lock = threading.Lock()
+        self.stopped = False
+        self.encoder = None
+        self.proc = self._start(encoders[0])
+        if len(encoders) > 1:
+            threading.Thread(target=self._fallback, args=(encoders[1:],), daemon=True).start()
+
+    def _cmd(self, enc):
+        import imageio_ffmpeg
+        quality = '20' if self.hq else '28'
+        grab = f'ddagrab=output_idx={self.output_idx}:framerate={self.fps}'
+        if enc == 'qsv':
+            pre = ['-init_hw_device', 'd3d11va']
+            graph = grab + ',hwmap=derive_device=qsv,vpp_qsv=' + ('format=nv12' if self.hq else 'w=-1:h=1080:format=nv12')
+            codec = ['-c:v', 'h264_qsv', '-global_quality', quality]
+        else:
+            pre = []
+            graph = grab + ',hwdownload,format=bgra' + ('' if self.hq else ',scale=-2:1080') + ',format=nv12'
+            codec = {'nvenc': ['-c:v', 'h264_nvenc', '-preset', 'p4', '-rc', 'vbr', '-cq', quality],
+                     'amf': ['-c:v', 'h264_amf', '-rc', 'cqp', '-qp_i', quality, '-qp_p', quality],
+                     'x264': ['-c:v', 'libx264', '-preset', 'ultrafast', '-crf', quality]}[enc]
+        # no B-frames at high quality (game 79: "Non-monotonic DTS" all game with them)
+        return ([imageio_ffmpeg.get_ffmpeg_exe(), '-hide_banner', '-loglevel', 'warning', '-y'] + pre
+                + ['-filter_complex', graph] + codec + (['-bf', '0'] if self.hq else [])
+                + ['-movflags', '+frag_keyframe+empty_moov', str(self.path)])
+
+    def _start(self, enc):
+        import subprocess
+        self.encoder = enc
+        self.log.write(f'--- encoder {enc}\n')
+        self.log.flush()
+        return subprocess.Popen(self._cmd(enc), stdin=subprocess.PIPE, stdout=self.log, stderr=self.log,
+                                creationflags=getattr(subprocess, 'CREATE_NO_WINDOW', 0))
+
+    def _fallback(self, rest):
+        import time
+        for enc in rest:
+            t0 = time.time()
+            while time.time() - t0 < self.START_S:
+                if self.proc.poll() is not None:
+                    break
+                time.sleep(0.2)
+            with self.lock:
+                if self.stopped or self.proc.poll() is None:
+                    return
+                self.proc = self._start(enc)
 
     def stop(self):
         """'q' lets ffmpeg finish the file; killed if it does not within 10 s."""
-        if self.proc.poll() is None:
-            try:
-                self.proc.communicate(b'q', timeout=10)
-            except Exception:
-                self.proc.kill()
-        self.log.close()
+        with self.lock:
+            self.stopped = True
+            if self.proc.poll() is None:
+                try:
+                    self.proc.communicate(b'q', timeout=10)
+                except Exception:
+                    self.proc.kill()
+            self.log.close()
 
 
 _PROFILER = []

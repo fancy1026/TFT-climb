@@ -42,9 +42,9 @@ Each part as a diagram: [docs/framework.md](docs/framework.md).
 
 ## Running it
 
-Windows 10 or 11, TFT and the League client in English, Python 3.11, and Claude Code logged in (the agents run as
-Claude Code sessions; Codex as well for a GPT player). Before each match the harness sets TFT to borderless
-fullscreen (your settings are backed up).
+Windows 10 or 11, the TFT client in English and signed in, Python 3.11, Git, Claude Code signed in (the agents run as
+Claude Code sessions) and the Codex app signed in for a GPT player (when its usage runs out the player falls back to
+Claude). Before each match the harness sets TFT to borderless fullscreen (your settings are backed up).
 
 ```powershell
 git clone https://github.com/fancy1026/tft-climb C:\tft-climb
@@ -53,14 +53,21 @@ cd C:\tft-climb
 .venv\Scripts\python agent\climb.py --games 5
 ```
 
-`agent/config.json` sets the comp, the player's model and effort, and the agents' model. Each game is followed by its
-review, fixes and strategy changes before the next one starts. Options: `--until 23:00` starts no game after that
-time; `--roles runs\<game>` runs the review and the fixes on a recorded game. Your own rules for a comp go in
-`agent/expert/rules/<comp>.json`. **F7** pauses, **F8** stops all input, and an `agent/STOP` file stops the loop.
-Every game is saved in `runs/` with each prompt, answer and screenshot, and its report page.
+It starts from the strategy our climb has learned so far (in `agent/`: the expert's rules, the comp's notes and
+stage strategies, its code rules and the playbook), with a history of your own: your games, reviews and logs. To
+start from nothing instead, so that the first climb learns the comp itself, run
+`.venv\Scripts\python tools\start_empty.py` before it (`git checkout -- agent` brings the strategy back).
+
+`agent/config.json` sets the comp, the player's model and effort, the agents' model and the video. After every five
+games the agents review the five together, fix the harness and change the strategies before the next game. Options:
+`--until 23:00` starts no game after that time; `--roles runs\<game>` runs the review and the fixes on a recorded
+game. Your own rules for a comp go in `agent/expert/rules/<comp>.json`. **F7** pauses, **F8** stops all input, and an
+`agent/STOP` file stops the loop. Every game is saved in `runs/` with each prompt, answer and screenshot, its video
+and its report page.
 
 ## License
 
 The code is under the [MIT license](LICENSE). Game data and icons are downloaded from CommunityDragon at install;
 reference pictures cut from the game ship only as numeric fingerprints, except the four loot orb images in
-`data/loot`. Those and the downloaded files belong to Riot Games and are not covered by the license.
+`data/loot`. Those and the downloaded files belong to Riot Games and are not covered by the license. Other players'
+names in the game records are replaced with Player1, Player2 and so on.

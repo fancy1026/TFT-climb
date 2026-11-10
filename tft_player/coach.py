@@ -874,7 +874,11 @@ the planning phase (you need ~9 s to choose from its offer), otherwise last.""")
 def auto_open_anvil():
     """Choice containers (anvils) on the bench: True = the controller opens them itself the moment it sees
     one and no question is running (default when the comp is fixed: the model only chooses among the
-    offered options); False = the model is told and decides when to open (execution_plan.open_container)."""
+    offered options); False = the model is told and decides when to open (execution_plan.open_container).
+    TFT_AUTO_OPEN_ANVIL=1/0 overrides."""
+    v = os.environ.get('TFT_AUTO_OPEN_ANVIL')
+    if v in ('0', '1'):
+        return v == '1'
     return forced_comp() is not None
 
 
@@ -969,7 +973,11 @@ GAME_STRATEGY_FLEX = ('', '\nUntil you commit, the panel shows your comp probabi
 
 def opening_prompt():
     """The model's standing brief for the whole game (the user's design).
-    Fixed comp: no comp probabilities or target to choose, and one line naming the comp."""
+    Fixed comp: no comp probabilities or target to choose, and one line naming the comp.
+    Pilot mode (TFT_PILOT): the brief for its judgement calls."""
+    if os.environ.get('TFT_PILOT'):
+        from tft_player.pilot import pilot_from_env
+        return pilot_opening(pilot_from_env())
     text = OPENING
     if not auto_open_anvil():
         for k in ('order', 'open'):
