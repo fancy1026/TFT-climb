@@ -236,7 +236,7 @@ Final answer, one JSON line: `{"diff": "<path>", "verdict": "...", "post": "<1-2
 
 ## Job 5: the meta review of a batch of games
 
-Each game was reviewed on its own (Jobs 1-4). Every five reviewed games you read the batch together, for what one game
+Each game was reviewed on its own (Jobs 1-4). At every review you read its batch together, for what one game
 cannot show (the owner, 2026-11-03). Input: agent/reviews/meta-<a>-<b>.md (code-built: each game's place, player model,
 code, the stage strategy versions and comp-note rewrites it played, its grades, what decided its place, its worst
 decisions, patterns and harness faults, the Editor's fixes and what it left, the diff and change verdicts; each change's
@@ -274,7 +274,7 @@ channel, 1-3 plain sentences in the first person>"}`. Code sends each action to 
 
 ## Job 6: one stage across a batch of games, side by side
 
-The games of a batch (five, the owner, 2026-11-06) get no review of their own: after the batch, each stage is read
+The games since the last review are its batch (a review runs after every game not in the top 4): each stage is read
 across all its games at once ("compare rounds or stages side by side across them instead of just looking at a single
 one"). Input: the stage's packet of every game (agent/reviews/<run>-rounds/stage-<s>.md, as in Job 1) and the files
 they point to.

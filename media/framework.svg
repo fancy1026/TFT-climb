@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif">
 <title>TFT Climb framework</title>
-<desc>During a game, a player model plans each round and the harness carries the plan out on TFT and records everything. Every five games, a Reviewer grades the records; an Editor fixes harness faults, each fix landing only when its round case passes; a Strategist rewrites stage strategies, which ship only when a Judge in code scores them no lower; strong players' games, read from video, give the Judge their decisions, the Strategist a play-along and the Reviewer a comparison; a domain expert's feedback becomes rules that come first in what the player reads.</desc>
+<desc>During a game, a player model plans each round and the harness carries the plan out on TFT and records everything. After every game not in the top 4, a Reviewer grades the records; an Editor fixes harness faults, each fix landing only when its round case passes; a Strategist rewrites stage strategies, which ship only when a Judge in code scores them no lower; strong players' games, read from video, give the Judge their decisions, the Strategist a play-along and the Reviewer a comparison; a domain expert's feedback becomes rules that come first in what the player reads.</desc>
 <style>
   .lane { font-size: 16px; font-weight: 700; fill: #1f2328; }
   .bt { font-size: 15px; font-weight: 700; fill: #1f2328; }
@@ -77,12 +77,13 @@
 
 <!-- record -> reviewer -->
 <line x1="1037" y1="236" x2="1037" y2="334" stroke="#2a8550" stroke-width="2" marker-end="url(#ag)"/>
-<text x="1047" y="292" class="labg">every five games</text>
+<text x="1047" y="284" class="labg">after each game</text>
+<text x="1047" y="300" class="labg">not in the top 4</text>
 
 <rect x="918" y="338" width="238" height="426" rx="10" fill="#eaf2fc" stroke="#2f6fbf" stroke-width="1.6"/>
 <text x="936" y="366" class="bt">Reviewer</text>
 <text x="936" y="390" class="b">One session per stage, the</text>
-<text x="936" y="409" class="b">five games side by side.</text>
+<text x="936" y="409" class="b">games side by side.</text>
 <text x="936" y="433" class="b">Grades every decision against</text>
 <text x="936" y="452" class="b">the best one the state</text>
 <text x="936" y="471" class="b">allowed, never by the fight</text>

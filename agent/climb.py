@@ -1669,10 +1669,10 @@ def batch_start(cfg=None):
 
 
 def full_review_due(row, rows=None):
-    """Whether game `row` ends a batch: the batch review runs on it."""
-    rows = rows if rows is not None else records()
-    last = max([r['n'] for r in full_rows(rows) if r['n'] < row['n']] + [batch_start() - 1])
-    return row['n'] - last >= BATCH
+    """Whether the review runs after game `row`: after every game that is not in the top 4, over the games since the
+    last review (the owner, 2026-11-11). A top-4 game, or one whose place was not read, waits for the next review."""
+    p = row.get('placement')
+    return isinstance(p, int) and p > 4
 
 
 def batch_rows(row, rows=None):
@@ -1782,11 +1782,11 @@ def game_packets(row):
 def in_batch(row, cfg):
     """A game inside a batch: its packets (code), nothing else - the owner's feedback is what changes the play."""
     game_packets(row)
-    nxt = max([r['n'] for r in full_rows()] + [batch_start(cfg) - 1]) + BATCH
     git('add', '-A', 'agent/reviews', 'agent/metrics')
-    git('commit', '-q', '-m', f"Packets of {row['run']} for the batch review (committed by agent/climb.py)")
-    update(row['run'], review_mode='none', batch_review_after=nxt)
-    say(f"game {row['n']}: inside the batch, no review; the batch review after game {nxt}")
+    git('commit', '-q', '-m', f"Packets of {row['run']} for the next review (committed by agent/climb.py)")
+    update(row['run'], review_mode='none')
+    say(f"game {row['n']}: place {row.get('placement')}, no review; the next one runs after a game that is not in "
+        f"the top 4")
 
 
 def batch_after(row, cfg):
@@ -1928,7 +1928,7 @@ def after_game(rec, cfg, n, before, use_coach=True):
         say(f'execution grade: game {n} failed ({e.__class__.__name__}: {e})')
     if use_coach and not str(rec.get('result', '')).startswith('stopped'):
         if full_review_due(row):
-            say(f"game {n} ends a batch of {BATCH}: the batch review")
+            say(f"game {n}: place {row.get('placement')}, not in the top 4: the review of the games since the last one")
             batch_after(row, cfg)
         else:
             in_batch(row, cfg)

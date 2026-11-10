@@ -76,13 +76,13 @@ flowchart LR
   class T,O1 hand
 ```
 
-### Review, every five games
+### Review, after every game not in the top 4
 
 ```mermaid
 flowchart LR
-  I0(["Five game records"])
+  I0(["The games since<br/>the last review"])
   V0["Packets · code<br/>stage by stage,<br/>luck measured"]
-  V1["Stage comparison · model<br/>five games side by side,<br/>every decision graded"]
+  V1["Stage comparison · model<br/>the games side by side,<br/>every decision graded"]
   V5["Meta review · model<br/>what recurs,<br/>what was luck"]
   O4(["To the Strategist"])
   O5(["To Harness fixes"])

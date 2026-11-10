@@ -33,13 +33,13 @@ players' games are kept out of it for the Judge (agent/comps/<comp>/heldout.json
 notes, the comp's code rules (each new one goes to the Editor, after the owner's yes) and version 1 of each stage
 strategy, every point with a source code checks.
 
-**Review**, once per batch of five games, never between them (the owner, 2026-11-06; agent/climb.py BATCH and
-batch_after, agent/roles/reviewer.md). Inside a batch a game gets only code's packets and measures (agent/digest.py,
-agent/metrics.py, the execution grade agent/smoke.py); the stage strategies and comp notes stay as they are, so the
-batch measures them. At the batch's end:
+**Review**, after every game that is not in the top 4, over the games since the last review (agent/climb.py
+full_review_due and batch_after, agent/roles/reviewer.md). A top-4 game gets only code's packets and measures
+(agent/digest.py, agent/metrics.py, the execution grade agent/smoke.py) and waits for the next review; the stage
+strategies and comp notes stay as they are until then. At each review:
 1. code builds each game's stage packets: every round of the stage, the whole game in numbers and the luck measured
    (agent/stage_review.py), strong players' rounds beside ours;
-2. the stage comparison, one session per stage (Job 6): that stage of all five games side by side, each game's
+2. the stage comparison, one session per stage (Job 6): that stage of every game since the last review side by side, each game's
    decisions graded in Job 1's format - very good to very bad against the best one the state allowed, or uncertain
    when the record cannot tell - never by the fight result, HP or the place, nor by whether a strategy was followed;
    what the side-by-side view shows (the same round played differently, the same fault again). The Reviewer may ask
@@ -50,7 +50,7 @@ batch measures them. At the batch's end:
 4. then the Editor on the open requests, the decision cases asked again on the notes as they are, and the
    Strategist.
 
-**Strategist** (agent/roles/strategist.md): after a batch review, one session per stage that is due - a stage the
+**Strategist** (agent/roles/strategist.md): after each review, one session per stage that is due - a stage the
 meta review names, a stage whose decision cases fail with its current text, and every stage after an owner rule
 was added or changed. It reads the review and decides: rewrite (with a watch: where, expect, risk, how, games),
 revert, or keep. The Judge (agent/judge.py stage_gate) decides a rewrite on the stage's round cases first (below);
@@ -59,8 +59,8 @@ three times each, graded by code against the strong player's level and gold, and
 scores no lower on the games the Strategist may read and on the held-out ones. Code writes the version
 (agent/stages.py).
 
-**Harness fixes** (agent/roles/harness_fixer.md): inside a batch the Editor works only the owner's requests; after
-the batch review it works every open request, and again while its last session made round cases pass. It takes the
+**Harness fixes** (agent/roles/harness_fixer.md): after a top-4 game the Editor works only the owner's requests;
+after a review it works every open request, and again while its last session made round cases pass. It takes the
 review's fault list as leads, confirms each fault in the game's log and screenshots, fixes it at its cause, and
 writes its watch in the commit. agent/check.py must pass. Anything new - a rule, a prompt line, a new behaviour -
 waits for the owner's yes.
@@ -95,11 +95,11 @@ game's answer through the game's code), else it does not catch the problem.
 - A fix lands only when its case flips: the climb runs every case before and after an Editor session; a case that
   passed before and fails after takes the change back, and a request with cases closes only when they pass.
 - Failing cases stay on one list until they pass (agent/round_cases/results.json): a failing harness case is an Editor
-  request, costliest first, and the Editor works the list again after a batch while its last session made cases pass;
+  request, costliest first, and the Editor works the list again after a review while its last session made cases pass;
   a failing decision case makes its stage due for the Strategist.
 - The Judge decides a stage text on the stage's cases first: rejected if it breaks a passing case, accepted if it makes
   a failing one pass and breaks none; the strong players' decisions decide only when the cases do not.
-- After each batch the decision cases are asked again on the notes as they are, and the owner gets the pass count.
+- After each review the decision cases are asked again on the notes as they are, and the owner gets the pass count.
 
 ## Roles and what they may write
 
