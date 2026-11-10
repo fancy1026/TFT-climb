@@ -1,6 +1,6 @@
 # TFT Climb
 
-A team of language-model agents that plays Teamfight Tactics Ranked and learns from its own games and from strong
+A multi-agent framework that plays Teamfight Tactics Ranked and learns from its own games and from strong
 players' games. Built on [TFT Harness](https://github.com/fancy1026/tft-harness).
 
 - **Learns from its own games.** After each game a Reviewer grades every decision, a Strategist rewrites the stage
